@@ -1,0 +1,15 @@
+{
+  "name" : "rpg-awesome",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nagoshiashumari/Rpg-Awesome.git"
+  },  
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass" : "~0.8.1",
+    "grunt-contrib-cssmin" : "~0.11.0"
+  },
+  "scripts" : {
+    "test": "grunt"
+  }
+}
