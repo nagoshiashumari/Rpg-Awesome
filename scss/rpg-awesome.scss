@@ -4,6 +4,17 @@
  * (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-@import 'variables';
 
+
+@import 'variables';
+@import 'mixins';
+@import 'path';
+@import 'core';
+@import 'larger';
+@import 'fixed-width';
+@import 'list';
+@import 'bordered-pulled';
+@import 'spinning';
+@import 'rotated_flipped';
+@import 'stacked';
 @import 'icons';

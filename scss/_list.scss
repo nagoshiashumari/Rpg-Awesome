@@ -1,0 +1,19 @@
+// List Icons
+// -------------------------
+
+.#{$ra-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: $ra-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.#{$ra-css-prefix}-li {
+  position: absolute;
+  left: -$ra-li-width;
+  width: $ra-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$ra-css-prefix}-lg {
+    left: -$ra-li-width + (4em / 14);
+  }
+}

@@ -1,0 +1,20 @@
+// Stacked Icons
+// -------------------------
+
+.#{$ra-css-prefix}-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.#{$ra-css-prefix}-stack-1x, .#{$ra-css-prefix}-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.#{$ra-css-prefix}-stack-1x { line-height: inherit; }
+.#{$ra-css-prefix}-stack-2x { font-size: 2em; }
+.#{$ra-css-prefix}-inverse { color: $ra-inverse; }

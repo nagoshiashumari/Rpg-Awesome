@@ -6,19 +6,19 @@
  */
 
 @font-face {
-  font-family: "rpg-awesome";
+  font-family: "RPGAwesome";
   src:url("../fonts/rpgawesome-webfont.eot");
   src:url("../fonts/rpgawesome-webfont.eot?#iefix") format("embedded-opentype"),
     url("../fonts/rpgawesome-webfont.woff") format("woff"),
     url("../fonts/rpgawesome-webfont.ttf") format("truetype"),
-    url("../fonts/rpgawesome-webfont.svg#rpg-awesome") format("svg");
+    url("../fonts/rpgawesome-webfont.svg#RPGAwesome") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "rpg-awesome" !important;
+  font-family: "RPGAwesome" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -32,7 +32,7 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "rpg-awesome" !important;
+  font-family: "RPGAwesome" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -2023,4 +2023,4 @@
   content: "";
 }
 
-/*# sourceMappingURL=rpg-awesome.css.map */
+/*# sourceMappingURL=RPGAwesome.css.map */
