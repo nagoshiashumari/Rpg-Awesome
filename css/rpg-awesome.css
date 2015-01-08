@@ -4,2023 +4,2167 @@
  * License - https://github.com/nagoshiashumari/Rpg-Awesome/blob/master/LICENSE.md
  * (Font: SIL OFL 1.1, CSS: MIT License)
  */
-
+/* FONT PATH
+ * -------------------------- */
 @font-face {
-  font-family: "RPGAwesome";
-  src:url("../fonts/rpgawesome-webfont.eot");
-  src:url("../fonts/rpgawesome-webfont.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/rpgawesome-webfont.woff") format("woff"),
-    url("../fonts/rpgawesome-webfont.ttf") format("truetype"),
-    url("../fonts/rpgawesome-webfont.svg#RPGAwesome") format("svg");
+  font-family: 'RPGAwesome';
+  src: url("../fonts/rpgawesome-webfont.eot?v=0.0.1");
+  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.1") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.1") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.1") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.1#rpg-awesome") format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
-
-[data-icon]:before {
-  font-family: "RPGAwesome" !important;
-  content: attr(data-icon);
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
+.ra {
+  display: inline-block;
+  font: normal normal normal 14px/1 RPGAwesome;
+  font-size: inherit;
   -moz-osx-font-smoothing: grayscale;
-}
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "RPGAwesome" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-rendering: auto;
 }
 
-.icon-acid:before {
+/* makes the font 33% larger relative to the icon container */
+.ra-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.ra-2x {
+  font-size: 2em;
+}
+
+.ra-3x {
+  font-size: 3em;
+}
+
+.ra-4x {
+  font-size: 4em;
+}
+
+.ra-5x {
+  font-size: 5em;
+}
+
+.ra-fw {
+  text-align: center;
+  width: 1.28571em;
+}
+
+.ra-ul {
+  list-style-type: none;
+  margin-left: 2.14286em;
+  padding-left: 0;
+}
+.ra-ul > li {
+  position: relative;
+}
+
+.ra-li {
+  left: -2.14286em;
+  position: absolute;
+  text-align: center;
+  top: 0.14286em;
+  width: 2.14286em;
+}
+.ra-li.ra-lg {
+  left: -1.85714em;
+}
+
+.ra-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.ra.pull-left {
+  margin-right: .3em;
+}
+.ra.pull-right {
+  margin-left: .3em;
+}
+
+.ra-spin {
+  -webkit-animation: ra-spin 2s infinite linear;
+  animation: ra-spin 2s infinite linear;
+}
+
+@-webkit-keyframes ra-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes ra-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.ra-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.ra-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.ra-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.ra-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.ra-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+:root .ra-rotate-90,
+:root .ra-rotate-180,
+:root .ra-rotate-270,
+:root .ra-flip-horizontal,
+:root .ra-flip-vertical {
+  filter: none;
+}
+
+.ra-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2em;
+}
+
+.ra-stack-1x, .ra-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.ra-stack-1x {
+  line-height: inherit;
+}
+
+.ra-stack-2x {
+  font-size: 2em;
+}
+
+.ra-inverse {
+  color: #fff;
+}
+
+.ra-acid:before {
   content: "a";
 }
 
-.icon-zigzag-leaf:before {
+.ra-zigzag-leaf:before {
   content: "b";
 }
 
-.icon-archer:before {
+.ra-archer:before {
   content: "c";
 }
 
-.icon-archery-target:before {
+.ra-archery-target:before {
   content: "d";
 }
 
-.icon-arena:before {
+.ra-arena:before {
   content: "e";
 }
 
-.icon-aries:before {
+.ra-aries:before {
   content: "f";
 }
 
-.icon-arrow-cluster:before {
+.ra-arrow-cluster:before {
   content: "g";
 }
 
-.icon-arrow-flights:before {
+.ra-arrow-flights:before {
   content: "h";
 }
 
-.icon-arson:before {
+.ra-arson:before {
   content: "i";
 }
 
-.icon-aura:before {
+.ra-aura:before {
   content: "j";
 }
 
-.icon-aware:before {
+.ra-aware:before {
   content: "k";
 }
 
-.icon-axe:before {
+.ra-axe:before {
   content: "l";
 }
 
-.icon-axe-swing:before {
+.ra-axe-swing:before {
   content: "m";
 }
 
-.icon-ball:before {
+.ra-ball:before {
   content: "n";
 }
 
-.icon-barbed-arrow:before {
+.ra-barbed-arrow:before {
   content: "o";
 }
 
-.icon-barrier:before {
+.ra-barrier:before {
   content: "p";
 }
 
-.icon-bat-sword:before {
+.ra-bat-sword:before {
   content: "q";
 }
 
-.icon-battered-axe:before {
+.ra-battered-axe:before {
   content: "r";
 }
 
-.icon-batteries:before {
+.ra-batteries:before {
   content: "s";
 }
 
-.icon-battery-0:before {
+.ra-battery-0:before {
   content: "t";
 }
 
-.icon-battery-25:before {
+.ra-battery-25:before {
   content: "u";
 }
 
-.icon-battery-50:before {
+.ra-battery-50:before {
   content: "v";
 }
 
-.icon-battery-75:before {
+.ra-battery-75:before {
   content: "w";
 }
 
-.icon-battery-100:before {
+.ra-battery-100:before {
   content: "x";
 }
 
-.icon-battery-black:before {
+.ra-battery-black:before {
   content: "y";
 }
 
-.icon-battery-negative:before {
+.ra-battery-negative:before {
   content: "z";
 }
 
-.icon-battery-positive:before {
+.ra-battery-positive:before {
   content: "A";
 }
 
-.icon-battery-white:before {
+.ra-battery-white:before {
   content: "B";
 }
 
-.icon-batwings:before {
+.ra-batwings:before {
   content: "C";
 }
 
-.icon-beam-wake:before {
+.ra-beam-wake:before {
   content: "D";
 }
 
-.icon-bear-trap:before {
+.ra-bear-trap:before {
   content: "E";
 }
 
-.icon-beer:before {
+.ra-beer:before {
   content: "F";
 }
 
-.icon-beetle:before {
+.ra-beetle:before {
   content: "G";
 }
 
-.icon-bell:before {
+.ra-bell:before {
   content: "H";
 }
 
-.icon-biohazard:before {
+.ra-biohazard:before {
   content: "I";
 }
 
-.icon-bird-claw:before {
+.ra-bird-claw:before {
   content: "J";
 }
 
-.icon-bird-mask:before {
+.ra-bird-mask:before {
   content: "K";
 }
 
-.icon-blade-bite:before {
+.ra-blade-bite:before {
   content: "L";
 }
 
-.icon-blast:before {
+.ra-blast:before {
   content: "M";
 }
 
-.icon-blaster:before {
+.ra-blaster:before {
   content: "N";
 }
 
-.icon-bleeding-eye:before {
+.ra-bleeding-eye:before {
   content: "O";
 }
 
-.icon-bleeding-hearts:before {
+.ra-bleeding-hearts:before {
   content: "P";
 }
 
-.icon-bolt-shield:before {
+.ra-bolt-shield:before {
   content: "Q";
 }
 
-.icon-bomb-explosion:before {
+.ra-bomb-explosion:before {
   content: "R";
 }
 
-.icon-bombs:before {
+.ra-bombs:before {
   content: "S";
 }
 
-.icon-bone-bite:before {
+.ra-bone-bite:before {
   content: "T";
 }
 
-.icon-bone-knife:before {
+.ra-bone-knife:before {
   content: "U";
 }
 
-.icon-book:before {
+.ra-book:before {
   content: "V";
 }
 
-.icon-boomerang:before {
+.ra-boomerang:before {
   content: "W";
 }
 
-.icon-boot-stomp:before {
+.ra-boot-stomp:before {
   content: "X";
 }
 
-.icon-bottle-vapors:before {
+.ra-bottle-vapors:before {
   content: "Y";
 }
 
-.icon-bottled-bolt:before {
+.ra-bottled-bolt:before {
   content: "Z";
 }
 
-.icon-bottom-right:before {
+.ra-bottom-right:before {
   content: "0";
 }
 
-.icon-bowie-knife:before {
+.ra-bowie-knife:before {
   content: "1";
 }
 
-.icon-bowling-pin:before {
+.ra-bowling-pin:before {
   content: "2";
 }
 
-.icon-brain-freeze:before {
+.ra-brain-freeze:before {
   content: "3";
 }
 
-.icon-brandy-bottle:before {
+.ra-brandy-bottle:before {
   content: "4";
 }
 
-.icon-bridge:before {
+.ra-bridge:before {
   content: "5";
 }
 
-.icon-broadhead-arrow:before {
+.ra-broadhead-arrow:before {
   content: "6";
 }
 
-.icon-broadsword:before {
+.ra-broadsword:before {
   content: "7";
 }
 
-.icon-broken-bone:before {
+.ra-broken-bone:before {
   content: "8";
 }
 
-.icon-broken-bottle:before {
+.ra-broken-bottle:before {
   content: "!";
 }
 
-.icon-broken-heart:before {
+.ra-broken-heart:before {
   content: "!";
 }
 
-.icon-broken-shield:before {
+.ra-broken-shield:before {
   content: "\\";
 }
 
-.icon-broken-skull:before {
+.ra-broken-skull:before {
   content: "#";
 }
 
-.icon-bubbling-potion:before {
+.ra-bubbling-potion:before {
   content: "$";
 }
 
-.icon-bullets:before {
+.ra-bullets:before {
   content: "%";
 }
 
-.icon-burning-book:before {
+.ra-burning-book:before {
   content: "&";
 }
 
-.icon-burning-embers:before {
+.ra-burning-embers:before {
   content: "'";
 }
 
-.icon-burning-eye:before {
+.ra-burning-eye:before {
   content: "(";
 }
 
-.icon-burning-meteor:before {
+.ra-burning-meteor:before {
   content: ")";
 }
 
-.icon-burst-blob:before {
+.ra-burst-blob:before {
   content: "*";
 }
 
-.icon-butterfly:before {
+.ra-butterfly:before {
   content: "+";
 }
 
-.icon-campfire:before {
+.ra-campfire:before {
   content: ",";
 }
 
-.icon-cancel:before {
+.ra-cancel:before {
   content: "-";
 }
 
-.icon-cancer:before {
+.ra-cancer:before {
   content: ".";
 }
 
-.icon-candle:before {
+.ra-candle:before {
   content: "/";
 }
 
-.icon-candle-fire:before {
+.ra-candle-fire:before {
   content: ":";
 }
 
-.icon-cannon-shot:before {
+.ra-cannon-shot:before {
   content: ";";
 }
 
-.icon-capitol:before {
+.ra-capitol:before {
   content: "<";
 }
 
-.icon-capricorn:before {
+.ra-capricorn:before {
   content: "=";
 }
 
-.icon-carrot:before {
+.ra-carrot:before {
   content: ">";
 }
 
-.icon-castle-emblem:before {
+.ra-castle-emblem:before {
   content: "?";
 }
 
-.icon-castle-flag:before {
+.ra-castle-flag:before {
   content: "@";
 }
 
-.icon-cat:before {
+.ra-cat:before {
   content: "[";
 }
 
-.icon-chain:before {
+.ra-chain:before {
   content: "]";
 }
 
-.icon-cheese:before {
+.ra-cheese:before {
   content: "^";
 }
 
-.icon-chemical-arrow:before {
+.ra-chemical-arrow:before {
   content: "_";
 }
 
-.icon-chessboard:before {
+.ra-chessboard:before {
   content: "`";
 }
 
-.icon-chicken-leg:before {
+.ra-chicken-leg:before {
   content: "{";
 }
 
-.icon-circle-of-circles:before {
+.ra-circle-of-circles:before {
   content: "|";
 }
 
-.icon-circular-saw:before {
+.ra-circular-saw:before {
   content: "}";
 }
 
-.icon-circular-shield:before {
+.ra-circular-shield:before {
   content: "~";
 }
 
-.icon-cloak-and-dagger:before {
+.ra-cloak-and-dagger:before {
   content: "\\";
 }
 
-.icon-clockwork:before {
+.ra-clockwork:before {
   content: "";
 }
 
-.icon-clover:before {
+.ra-clover:before {
   content: "";
 }
 
-.icon-clovers:before {
+.ra-clovers:before {
   content: "";
 }
 
-.icon-clovers-card:before {
+.ra-clovers-card:before {
   content: "";
 }
 
-.icon-cluster-bomb:before {
+.ra-cluster-bomb:before {
   content: "";
 }
 
-.icon-coffee-mug:before {
+.ra-coffee-mug:before {
   content: "";
 }
 
-.icon-cog:before {
+.ra-cog:before {
   content: "";
 }
 
-.icon-cog-wheel:before {
+.ra-cog-wheel:before {
   content: "";
 }
 
-.icon-cold-heart:before {
+.ra-cold-heart:before {
   content: "";
 }
 
-.icon-compass:before {
+.ra-compass:before {
   content: "";
 }
 
-.icon-corked-tube:before {
+.ra-corked-tube:before {
   content: "";
 }
 
-.icon-crab-claw:before {
+.ra-crab-claw:before {
   content: "";
 }
 
-.icon-cracked-helm:before {
+.ra-cracked-helm:before {
   content: "";
 }
 
-.icon-cracked-shield:before {
+.ra-cracked-shield:before {
   content: "";
 }
 
-.icon-croc-sword:before {
+.ra-croc-sword:before {
   content: "";
 }
 
-.icon-crossbow:before {
+.ra-crossbow:before {
   content: "";
 }
 
-.icon-crossed-axes:before {
+.ra-crossed-axes:before {
   content: "";
 }
 
-.icon-crossed-bones:before {
+.ra-crossed-bones:before {
   content: "";
 }
 
-.icon-crossed-pistols:before {
+.ra-crossed-pistols:before {
   content: "";
 }
 
-.icon-crossed-sabres:before {
+.ra-crossed-sabres:before {
   content: "";
 }
 
-.icon-crossed-swords:before {
+.ra-crossed-swords:before {
   content: "";
 }
 
-.icon-crown:before {
+.ra-crown:before {
   content: "";
 }
 
-.icon-crown-of-thorns:before {
+.ra-crown-of-thorns:before {
   content: "";
 }
 
-.icon-crowned-heart:before {
+.ra-crowned-heart:before {
   content: "";
 }
 
-.icon-crush:before {
+.ra-crush:before {
   content: "";
 }
 
-.icon-crystal-ball:before {
+.ra-crystal-ball:before {
   content: "";
 }
 
-.icon-crystal-cluster:before {
+.ra-crystal-cluster:before {
   content: "";
 }
 
-.icon-crystal-wand:before {
+.ra-crystal-wand:before {
   content: "";
 }
 
-.icon-crystals:before {
+.ra-crystals:before {
   content: "";
 }
 
-.icon-cubes:before {
+.ra-cubes:before {
   content: "";
 }
 
-.icon-cut-palm:before {
+.ra-cut-palm:before {
   content: "";
 }
 
-.icon-cycle:before {
+.ra-cycle:before {
   content: "";
 }
 
-.icon-daggers:before {
+.ra-daggers:before {
   content: "";
 }
 
-.icon-daisy:before {
+.ra-daisy:before {
   content: "";
 }
 
-.icon-dead-tree:before {
+.ra-dead-tree:before {
   content: "";
 }
 
-.icon-death-skull:before {
+.ra-death-skull:before {
   content: "";
 }
 
-.icon-decapitation:before {
+.ra-decapitation:before {
   content: "";
 }
 
-.icon-defibrilate:before {
+.ra-defibrilate:before {
   content: "";
 }
 
-.icon-demolish:before {
+.ra-demolish:before {
   content: "";
 }
 
-.icon-dervish-swords:before {
+.ra-dervish-swords:before {
   content: "";
 }
 
-.icon-desert-skull:before {
+.ra-desert-skull:before {
   content: "";
 }
 
-.icon-diamond:before {
+.ra-diamond:before {
   content: "";
 }
 
-.icon-diamonds:before {
+.ra-diamonds:before {
   content: "";
 }
 
-.icon-diamonds-card:before {
+.ra-diamonds-card:before {
   content: "";
 }
 
-.icon-dice-five:before {
+.ra-dice-five:before {
   content: "";
 }
 
-.icon-dice-four:before {
+.ra-dice-four:before {
   content: "";
 }
 
-.icon-dice-one:before {
+.ra-dice-one:before {
   content: "";
 }
 
-.icon-dice-six:before {
+.ra-dice-six:before {
   content: "";
 }
 
-.icon-dice-three:before {
+.ra-dice-three:before {
   content: "";
 }
 
-.icon-dice-two:before {
+.ra-dice-two:before {
   content: "";
 }
 
-.icon-dinosaur:before {
+.ra-dinosaur:before {
   content: "";
 }
 
-.icon-divert:before {
+.ra-divert:before {
   content: "";
 }
 
-.icon-diving-dagger:before {
+.ra-diving-dagger:before {
   content: "";
 }
 
-.icon-double-team:before {
+.ra-double-team:before {
   content: "";
 }
 
-.icon-doubled:before {
+.ra-doubled:before {
   content: "";
 }
 
-.icon-dragon:before {
+.ra-dragon:before {
   content: "";
 }
 
-.icon-dragon-breath:before {
+.ra-dragon-breath:before {
   content: "";
 }
 
-.icon-dragon-wing:before {
+.ra-dragon-wing:before {
   content: "";
 }
 
-.icon-dragonfly:before {
+.ra-dragonfly:before {
   content: "";
 }
 
-.icon-drill:before {
+.ra-drill:before {
   content: "";
 }
 
-.icon-dripping-blade:before {
+.ra-dripping-blade:before {
   content: "";
 }
 
-.icon-dripping-knife:before {
+.ra-dripping-knife:before {
   content: "";
 }
 
-.icon-dripping-sword:before {
+.ra-dripping-sword:before {
   content: "";
 }
 
-.icon-droplet:before {
+.ra-droplet:before {
   content: "";
 }
 
-.icon-droplet-splash:before {
+.ra-droplet-splash:before {
   content: "";
 }
 
-.icon-droplets:before {
+.ra-droplets:before {
   content: "";
 }
 
-.icon-duel:before {
+.ra-duel:before {
   content: "";
 }
 
-.icon-egg:before {
+.ra-egg:before {
   content: "";
 }
 
-.icon-egg-pod:before {
+.ra-egg-pod:before {
   content: "";
 }
 
-.icon-eggplant:before {
+.ra-eggplant:before {
   content: "";
 }
 
-.icon-emerald:before {
+.ra-emerald:before {
   content: "";
 }
 
-.icon-energise:before {
+.ra-energise:before {
   content: "";
 }
 
-.icon-explosion:before {
+.ra-explosion:before {
   content: "";
 }
 
-.icon-explosive-materials:before {
+.ra-explosive-materials:before {
   content: "";
 }
 
-.icon-eye-monster:before {
+.ra-eye-monster:before {
   content: "";
 }
 
-.icon-eye-shield:before {
+.ra-eye-shield:before {
   content: "";
 }
 
-.icon-eyeball:before {
+.ra-eyeball:before {
   content: "";
 }
 
-.icon-fairy:before {
+.ra-fairy:before {
   content: "";
 }
 
-.icon-fairy-wand:before {
+.ra-fairy-wand:before {
   content: "";
 }
 
-.icon-fall-down:before {
+.ra-fall-down:before {
   content: "";
 }
 
-.icon-falling:before {
+.ra-falling:before {
   content: "";
 }
 
-.icon-fast-ship:before {
+.ra-fast-ship:before {
   content: "";
 }
 
-.icon-feather-wing:before {
+.ra-feather-wing:before {
   content: "";
 }
 
-.icon-feathered-wing:before {
+.ra-feathered-wing:before {
   content: "";
 }
 
-.icon-fedora:before {
+.ra-fedora:before {
   content: "";
 }
 
-.icon-fire:before {
+.ra-fire:before {
   content: "";
 }
 
-.icon-fire-bomb:before {
+.ra-fire-bomb:before {
   content: "";
 }
 
-.icon-fire-breath:before {
+.ra-fire-breath:before {
   content: "";
 }
 
-.icon-fire-ring:before {
+.ra-fire-ring:before {
   content: "";
 }
 
-.icon-fire-shield:before {
+.ra-fire-shield:before {
   content: "";
 }
 
-.icon-fire-symbol:before {
+.ra-fire-symbol:before {
   content: "";
 }
 
-.icon-fireball-sword:before {
+.ra-fireball-sword:before {
   content: "";
 }
 
-.icon-fish:before {
+.ra-fish:before {
   content: "";
 }
 
-.icon-fizzing-flask:before {
+.ra-fizzing-flask:before {
   content: "";
 }
 
-.icon-flame-symbol:before {
+.ra-flame-symbol:before {
   content: "";
 }
 
-.icon-flaming-arrow:before {
+.ra-flaming-arrow:before {
   content: "";
 }
 
-.icon-flaming-claw:before {
+.ra-flaming-claw:before {
   content: "";
 }
 
-.icon-flaming-trident:before {
+.ra-flaming-trident:before {
   content: "";
 }
 
-.icon-flask:before {
+.ra-flask:before {
   content: "";
 }
 
-.icon-flat-hammer:before {
+.ra-flat-hammer:before {
   content: "";
 }
 
-.icon-flower:before {
+.ra-flower:before {
   content: "";
 }
 
-.icon-flowers:before {
+.ra-flowers:before {
   content: "";
 }
 
-.icon-fluffy-swirl:before {
+.ra-fluffy-swirl:before {
   content: "";
 }
 
-.icon-focused-lightning:before {
+.ra-focused-lightning:before {
   content: "";
 }
 
-.icon-food-chain:before {
+.ra-food-chain:before {
   content: "";
 }
 
-.icon-footprint:before {
+.ra-footprint:before {
   content: "";
 }
 
-.icon-forging:before {
+.ra-forging:before {
   content: "";
 }
 
-.icon-forward:before {
+.ra-forward:before {
   content: "";
 }
 
-.icon-fox:before {
+.ra-fox:before {
   content: "";
 }
 
-.icon-frost-emblem:before {
+.ra-frost-emblem:before {
   content: "";
 }
 
-.icon-frostfire:before {
+.ra-frostfire:before {
   content: "";
 }
 
-.icon-frozen-arrow:before {
+.ra-frozen-arrow:before {
   content: "";
 }
 
-.icon-gamepad-cross:before {
+.ra-gamepad-cross:before {
   content: "";
 }
 
-.icon-gavel:before {
+.ra-gavel:before {
   content: "";
 }
 
-.icon-gear-hammer:before {
+.ra-gear-hammer:before {
   content: "";
 }
 
-.icon-gear-heart:before {
+.ra-gear-heart:before {
   content: "";
 }
 
-.icon-gears:before {
+.ra-gears:before {
   content: "";
 }
 
-.icon-gecko:before {
+.ra-gecko:before {
   content: "";
 }
 
-.icon-gem:before {
+.ra-gem:before {
   content: "";
 }
 
-.icon-gem-pendant:before {
+.ra-gem-pendant:before {
   content: "";
 }
 
-.icon-gemini:before {
+.ra-gemini:before {
   content: "";
 }
 
-.icon-glass-heart:before {
+.ra-glass-heart:before {
   content: "";
 }
 
-.icon-gloop:before {
+.ra-gloop:before {
   content: "";
 }
 
-.icon-gold-bar:before {
+.ra-gold-bar:before {
   content: "";
 }
 
-.icon-grappling-hook:before {
+.ra-grappling-hook:before {
   content: "";
 }
 
-.icon-grass:before {
+.ra-grass:before {
   content: "";
 }
 
-.icon-grass-patch:before {
+.ra-grass-patch:before {
   content: "";
 }
 
-.icon-grenade:before {
+.ra-grenade:before {
   content: "";
 }
 
-.icon-groundbreaker:before {
+.ra-groundbreaker:before {
   content: "";
 }
 
-.icon-guarded-tower:before {
+.ra-guarded-tower:before {
   content: "";
 }
 
-.icon-guillotine:before {
+.ra-guillotine:before {
   content: "";
 }
 
-.icon-halberd:before {
+.ra-halberd:before {
   content: "";
 }
 
-.icon-hammer:before {
+.ra-hammer:before {
   content: "";
 }
 
-.icon-hammer-drop:before {
+.ra-hammer-drop:before {
   content: "";
 }
 
-.icon-hand:before {
+.ra-hand:before {
   content: "";
 }
 
-.icon-hand-emblem:before {
+.ra-hand-emblem:before {
   content: "";
 }
 
-.icon-hand-saw:before {
+.ra-hand-saw:before {
   content: "";
 }
 
-.icon-harpoon-trident:before {
+.ra-harpoon-trident:before {
   content: "";
 }
 
-.icon-health:before {
+.ra-health:before {
   content: "";
 }
 
-.icon-health-decrease:before {
+.ra-health-decrease:before {
   content: "";
 }
 
-.icon-health-increase:before {
+.ra-health-increase:before {
   content: "";
 }
 
-.icon-heart-bottle:before {
+.ra-heart-bottle:before {
   content: "";
 }
 
-.icon-heart-tower:before {
+.ra-heart-tower:before {
   content: "";
 }
 
-.icon-heartburn:before {
+.ra-heartburn:before {
   content: "";
 }
 
-.icon-hearts:before {
+.ra-hearts:before {
   content: "";
 }
 
-.icon-hearts-card:before {
+.ra-hearts-card:before {
   content: "";
 }
 
-.icon-heat-haze:before {
+.ra-heat-haze:before {
   content: "";
 }
 
-.icon-heavy-fall:before {
+.ra-heavy-fall:before {
   content: "";
 }
 
-.icon-heavy-shield:before {
+.ra-heavy-shield:before {
   content: "";
 }
 
-.icon-helmet:before {
+.ra-helmet:before {
   content: "";
 }
 
-.icon-help:before {
+.ra-help:before {
   content: "";
 }
 
-.icon-hive-emblem:before {
+.ra-hive-emblem:before {
   content: "";
 }
 
-.icon-hole-ladder:before {
+.ra-hole-ladder:before {
   content: "";
 }
 
-.icon-honeycomb:before {
+.ra-honeycomb:before {
   content: "";
 }
 
-.icon-hood:before {
+.ra-hood:before {
   content: "";
 }
 
-.icon-horn-call:before {
+.ra-horn-call:before {
   content: "";
 }
 
-.icon-horns:before {
+.ra-horns:before {
   content: "";
 }
 
-.icon-horseshoe:before {
+.ra-horseshoe:before {
   content: "";
 }
 
-.icon-hospital-cross:before {
+.ra-hospital-cross:before {
   content: "";
 }
 
-.icon-hot-surface:before {
+.ra-hot-surface:before {
   content: "";
 }
 
-.icon-hourglass:before {
+.ra-hourglass:before {
   content: "";
 }
 
-.icon-hydra:before {
+.ra-hydra:before {
   content: "";
 }
 
-.icon-hydra-shot:before {
+.ra-hydra-shot:before {
   content: "";
 }
 
-.icon-ice-cube:before {
+.ra-ice-cube:before {
   content: "";
 }
 
-.icon-implosion:before {
+.ra-implosion:before {
   content: "";
 }
 
-.icon-incense:before {
+.ra-incense:before {
   content: "";
 }
 
-.icon-insect-jaws:before {
+.ra-insect-jaws:before {
   content: "";
 }
 
-.icon-interdiction:before {
+.ra-interdiction:before {
   content: "";
 }
 
-.icon-jetpack:before {
+.ra-jetpack:before {
   content: "";
 }
 
-.icon-jigsaw-piece:before {
+.ra-jigsaw-piece:before {
   content: "";
 }
 
-.icon-kaleidoscope:before {
+.ra-kaleidoscope:before {
   content: "";
 }
 
-.icon-kettlebell:before {
+.ra-kettlebell:before {
   content: "";
 }
 
-.icon-key:before {
+.ra-key:before {
   content: "";
 }
 
-.icon-key-basic:before {
+.ra-key-basic:before {
   content: "";
 }
 
-.icon-kitchen-knives:before {
+.ra-kitchen-knives:before {
   content: "";
 }
 
-.icon-knife:before {
+.ra-knife:before {
   content: "";
 }
 
-.icon-knife-fork:before {
+.ra-knife-fork:before {
   content: "";
 }
 
-.icon-knight-helmet:before {
+.ra-knight-helmet:before {
   content: "";
 }
 
-.icon-kunai:before {
+.ra-kunai:before {
   content: "";
 }
 
-.icon-lantern-flame:before {
+.ra-lantern-flame:before {
   content: "";
 }
 
-.icon-large-hammer:before {
+.ra-large-hammer:before {
   content: "";
 }
 
-.icon-laser-blast:before {
+.ra-laser-blast:before {
   content: "";
 }
 
-.icon-laser-site:before {
+.ra-laser-site:before {
   content: "";
 }
 
-.icon-lava:before {
+.ra-lava:before {
   content: "";
 }
 
-.icon-leaf:before {
+.ra-leaf:before {
   content: "";
 }
 
-.icon-leo:before {
+.ra-leo:before {
   content: "";
 }
 
-.icon-level-four:before {
+.ra-level-four:before {
   content: "";
 }
 
-.icon-level-four-advanced:before {
+.ra-level-four-advanced:before {
   content: "";
 }
 
-.icon-level-three:before {
+.ra-level-three:before {
   content: "";
 }
 
-.icon-level-three-advanced:before {
+.ra-level-three-advanced:before {
   content: "";
 }
 
-.icon-level-two:before {
+.ra-level-two:before {
   content: "";
 }
 
-.icon-level-two-advanced:before {
+.ra-level-two-advanced:before {
   content: "";
 }
 
-.icon-lever:before {
+.ra-lever:before {
   content: "";
 }
 
-.icon-libra:before {
+.ra-libra:before {
   content: "";
 }
 
-.icon-light-bulb:before {
+.ra-light-bulb:before {
   content: "";
 }
 
-.icon-lighthouse:before {
+.ra-lighthouse:before {
   content: "";
 }
 
-.icon-lightning:before {
+.ra-lightning:before {
   content: "";
 }
 
-.icon-lightning-bolt:before {
+.ra-lightning-bolt:before {
   content: "";
 }
 
-.icon-lightning-storm:before {
+.ra-lightning-storm:before {
   content: "";
 }
 
-.icon-lightning-sword:before {
+.ra-lightning-sword:before {
   content: "";
 }
 
-.icon-lightning-trio:before {
+.ra-lightning-trio:before {
   content: "";
 }
 
-.icon-lion:before {
+.ra-lion:before {
   content: "";
 }
 
-.icon-lit-candelabra:before {
+.ra-lit-candelabra:before {
   content: "";
 }
 
-.icon-load:before {
+.ra-load:before {
   content: "";
 }
 
-.icon-locked-fortress:before {
+.ra-locked-fortress:before {
   content: "";
 }
 
-.icon-love-howl:before {
+.ra-love-howl:before {
   content: "";
 }
 
-.icon-maggot:before {
+.ra-maggot:before {
   content: "";
 }
 
-.icon-magnet:before {
+.ra-magnet:before {
   content: "";
 }
 
-.icon-mass-driver:before {
+.ra-mass-driver:before {
   content: "";
 }
 
-.icon-match:before {
+.ra-match:before {
   content: "";
 }
 
-.icon-meat:before {
+.ra-meat:before {
   content: "";
 }
 
-.icon-meat-hook:before {
+.ra-meat-hook:before {
   content: "";
 }
 
-.icon-medical-pack:before {
+.ra-medical-pack:before {
   content: "";
 }
 
-.icon-metal-gate:before {
+.ra-metal-gate:before {
   content: "";
 }
 
-.icon-microphone:before {
+.ra-microphone:before {
   content: "";
 }
 
-.icon-mine-wagon:before {
+.ra-mine-wagon:before {
   content: "໗";
 }
 
-.icon-mining-diamonds:before {
+.ra-mining-diamonds:before {
   content: "";
 }
 
-.icon-mirror:before {
+.ra-mirror:before {
   content: "";
 }
 
-.icon-monster-skull:before {
+.ra-monster-skull:before {
   content: "";
 }
 
-.icon-montains:before {
+.ra-montains:before {
   content: "";
 }
 
-.icon-moon-sun:before {
+.ra-moon-sun:before {
   content: "";
 }
 
-.icon-mp5:before {
+.ra-mp5:before {
   content: "";
 }
 
-.icon-muscle-fat:before {
+.ra-muscle-fat:before {
   content: "";
 }
 
-.icon-muscle-up:before {
+.ra-muscle-up:before {
   content: "";
 }
 
-.icon-musket:before {
+.ra-musket:before {
   content: "";
 }
 
-.icon-nails:before {
+.ra-nails:before {
   content: "";
 }
 
-.icon-nodular:before {
+.ra-nodular:before {
   content: "";
 }
 
-.icon-noose:before {
+.ra-noose:before {
   content: "";
 }
 
-.icon-nuclear:before {
+.ra-nuclear:before {
   content: "";
 }
 
-.icon-ocarina:before {
+.ra-ocarina:before {
   content: "";
 }
 
-.icon-ocean-emblem:before {
+.ra-ocean-emblem:before {
   content: "";
 }
 
-.icon-octopus:before {
+.ra-octopus:before {
   content: "";
 }
 
-.icon-omega:before {
+.ra-omega:before {
   content: "";
 }
 
-.icon-on-target:before {
+.ra-on-target:before {
   content: "";
 }
 
-.icon-ophiuchus:before {
+.ra-ophiuchus:before {
   content: "";
 }
 
-.icon-overhead:before {
+.ra-overhead:before {
   content: "";
 }
 
-.icon-overmind:before {
+.ra-overmind:before {
   content: "";
 }
 
-.icon-palm-tree:before {
+.ra-palm-tree:before {
   content: "";
 }
 
-.icon-pawn:before {
+.ra-pawn:before {
   content: "";
 }
 
-.icon-pawprint:before {
+.ra-pawprint:before {
   content: "";
 }
 
-.icon-perspective-dice-five:before {
+.ra-perspective-dice-five:before {
   content: "";
 }
 
-.icon-perspective-dice-four:before {
+.ra-perspective-dice-four:before {
   content: "";
 }
 
-.icon-perspective-dice-one:before {
+.ra-perspective-dice-one:before {
   content: "";
 }
 
-.icon-perspective-dice-random:before {
+.ra-perspective-dice-random:before {
   content: "";
 }
 
-.icon-perspective-dice-six:before {
+.ra-perspective-dice-six:before {
   content: "";
 }
 
-.icon-perspective-dice-six-two:before {
+.ra-perspective-dice-six-two:before {
   content: "";
 }
 
-.icon-perspective-dice-three:before {
+.ra-perspective-dice-three:before {
   content: "";
 }
 
-.icon-pill:before {
+.ra-pill:before {
   content: "";
 }
 
-.icon-pills:before {
+.ra-pills:before {
   content: "";
 }
 
-.icon-pine-tree:before {
+.ra-pine-tree:before {
   content: "";
 }
 
-.icon-ping-pong:before {
+.ra-ping-pong:before {
   content: "";
 }
 
-.icon-pisces:before {
+.ra-pisces:before {
   content: "";
 }
 
-.icon-plain-dagger:before {
+.ra-plain-dagger:before {
   content: "";
 }
 
-.icon-player:before {
+.ra-player:before {
   content: "";
 }
 
-.icon-player-despair:before {
+.ra-player-despair:before {
   content: "";
 }
 
-.icon-player-dodge:before {
+.ra-player-dodge:before {
   content: "";
 }
 
-.icon-player-king:before {
+.ra-player-king:before {
   content: "";
 }
 
-.icon-player-lift:before {
+.ra-player-lift:before {
   content: "eā";
 }
 
-.icon-player-pain:before {
+.ra-player-pain:before {
   content: "";
 }
 
-.icon-player-pyromaniac:before {
+.ra-player-pyromaniac:before {
   content: "";
 }
 
-.icon-player-shot:before {
+.ra-player-shot:before {
   content: "";
 }
 
-.icon-player-teleport:before {
+.ra-player-teleport:before {
   content: "";
 }
 
-.icon-player-thunder-struck:before {
+.ra-player-thunder-struck:before {
   content: "";
 }
 
-.icon-podium:before {
+.ra-podium:before {
   content: "";
 }
 
-.icon-poison-cloud:before {
+.ra-poison-cloud:before {
   content: "";
 }
 
-.icon-potion:before {
+.ra-potion:before {
   content: "";
 }
 
-.icon-pyramids:before {
+.ra-pyramids:before {
   content: "";
 }
 
-.icon-queen-crown:before {
+.ra-queen-crown:before {
   content: "";
 }
 
-.icon-quill-ink:before {
+.ra-quill-ink:before {
   content: "";
 }
 
-.icon-rabbit:before {
+.ra-rabbit:before {
   content: "";
 }
 
-.icon-radar-dish:before {
+.ra-radar-dish:before {
   content: "";
 }
 
-.icon-radial-balance:before {
+.ra-radial-balance:before {
   content: "";
 }
 
-.icon-radioactive:before {
+.ra-radioactive:before {
   content: "";
 }
 
-.icon-raven:before {
+.ra-raven:before {
   content: "";
 }
 
-.icon-reactor:before {
+.ra-reactor:before {
   content: "";
 }
 
-.icon-recycle:before {
+.ra-recycle:before {
   content: "";
 }
 
-.icon-regeneration:before {
+.ra-regeneration:before {
   content: "";
 }
 
-.icon-relic-blade:before {
+.ra-relic-blade:before {
   content: "";
 }
 
-.icon-repair:before {
+.ra-repair:before {
   content: "";
 }
 
-.icon-reverse:before {
+.ra-reverse:before {
   content: "";
 }
 
-.icon-revolver:before {
+.ra-revolver:before {
   content: "";
 }
 
-.icon-rifle:before {
+.ra-rifle:before {
   content: "";
 }
 
-.icon-ringing-bell:before {
+.ra-ringing-bell:before {
   content: "";
 }
 
-.icon-roast-chicken:before {
+.ra-roast-chicken:before {
   content: "";
 }
 
-.icon-robot-arm:before {
+.ra-robot-arm:before {
   content: "";
 }
 
-.icon-round-bottom-flask:before {
+.ra-round-bottom-flask:before {
   content: "";
 }
 
-.icon-round-shield:before {
+.ra-round-shield:before {
   content: "";
 }
 
-.icon-rss:before {
+.ra-rss:before {
   content: "";
 }
 
-.icon-rune-stone:before {
+.ra-rune-stone:before {
   content: "";
 }
 
-.icon-sagittarius:before {
+.ra-sagittarius:before {
   content: "";
 }
 
-.icon-sapphire:before {
+.ra-sapphire:before {
   content: "";
 }
 
-.icon-sattelite:before {
+.ra-sattelite:before {
   content: "";
 }
 
-.icon-save:before {
+.ra-save:before {
   content: "";
 }
 
-.icon-scorpio:before {
+.ra-scorpio:before {
   content: "";
 }
 
-.icon-scroll-unfurled:before {
+.ra-scroll-unfurled:before {
   content: "";
 }
 
-.icon-scythe:before {
+.ra-scythe:before {
   content: "";
 }
 
-.icon-sea-serpent:before {
+.ra-sea-serpent:before {
   content: "";
 }
 
-.icon-seagull:before {
+.ra-seagull:before {
   content: "";
 }
 
-.icon-shark:before {
+.ra-shark:before {
   content: "";
 }
 
-.icon-sheep:before {
+.ra-sheep:before {
   content: "";
 }
 
-.icon-sherif:before {
+.ra-sherif:before {
   content: "";
 }
 
-.icon-shield:before {
+.ra-shield:before {
   content: "";
 }
 
-.icon-ship-emblem:before {
+.ra-ship-emblem:before {
   content: "";
 }
 
-.icon-shoe-prints:before {
+.ra-shoe-prints:before {
   content: "";
 }
 
-.icon-shot-through-the-heart:before {
+.ra-shot-through-the-heart:before {
   content: "";
 }
 
-.icon-shotgun-shell:before {
+.ra-shotgun-shell:before {
   content: "";
 }
 
-.icon-shovel:before {
+.ra-shovel:before {
   content: "";
 }
 
-.icon-shuriken:before {
+.ra-shuriken:before {
   content: "";
 }
 
-.icon-sickle:before {
+.ra-sickle:before {
   content: "";
 }
 
-.icon-sideswipe:before {
+.ra-sideswipe:before {
   content: "";
 }
 
-.icon-site:before {
+.ra-site:before {
   content: "";
 }
 
-.icon-skull:before {
+.ra-skull:before {
   content: "";
 }
 
-.icon-skull-trophy:before {
+.ra-skull-trophy:before {
   content: "";
 }
 
-.icon-slash-ring:before {
+.ra-slash-ring:before {
   content: "";
 }
 
-.icon-small-fire:before {
+.ra-small-fire:before {
   content: "";
 }
 
-.icon-snail:before {
+.ra-snail:before {
   content: "";
 }
 
-.icon-snake:before {
+.ra-snake:before {
   content: "";
 }
 
-.icon-snorkel:before {
+.ra-snorkel:before {
   content: "";
 }
 
-.icon-snowflake:before {
+.ra-snowflake:before {
   content: "";
 }
 
-.icon-soccer-ball:before {
+.ra-soccer-ball:before {
   content: "";
 }
 
-.icon-spades:before {
+.ra-spades:before {
   content: "";
 }
 
-.icon-spades-card:before {
+.ra-spades-card:before {
   content: "";
 }
 
-.icon-spawn-node:before {
+.ra-spawn-node:before {
   content: "";
 }
 
-.icon-spear-head:before {
+.ra-spear-head:before {
   content: "";
 }
 
-.icon-speech-bubble:before {
+.ra-speech-bubble:before {
   content: "";
 }
 
-.icon-speech-bubbles:before {
+.ra-speech-bubbles:before {
   content: "";
 }
 
-.icon-spider-face:before {
+.ra-spider-face:before {
   content: "";
 }
 
-.icon-spikeball:before {
+.ra-spikeball:before {
   content: "";
 }
 
-.icon-spiked-mace:before {
+.ra-spiked-mace:before {
   content: "";
 }
 
-.icon-spiked-tentacle:before {
+.ra-spiked-tentacle:before {
   content: "";
 }
 
-.icon-spinning-sword:before {
+.ra-spinning-sword:before {
   content: "";
 }
 
-.icon-spiral-shell:before {
+.ra-spiral-shell:before {
   content: "";
 }
 
-.icon-splash:before {
+.ra-splash:before {
   content: "";
 }
 
-.icon-spray-can:before {
+.ra-spray-can:before {
   content: "";
 }
 
-.icon-sprout:before {
+.ra-sprout:before {
   content: "";
 }
 
-.icon-sprout-emblem:before {
+.ra-sprout-emblem:before {
   content: "";
 }
 
-.icon-stopwatch:before {
+.ra-stopwatch:before {
   content: "";
 }
 
-.icon-suckered-tentacle:before {
+.ra-suckered-tentacle:before {
   content: "";
 }
 
-.icon-suits:before {
+.ra-suits:before {
   content: "";
 }
 
-.icon-sun:before {
+.ra-sun:before {
   content: "";
 }
 
-.icon-sun-symbol:before {
+.ra-sun-symbol:before {
   content: "";
 }
 
-.icon-sunbeams:before {
+.ra-sunbeams:before {
   content: "";
 }
 
-.icon-super-mushroom:before {
+.ra-super-mushroom:before {
   content: "";
 }
 
-.icon-supersonic-arrow:before {
+.ra-supersonic-arrow:before {
   content: "";
 }
 
-.icon-surveillance-camera:before {
+.ra-surveillance-camera:before {
   content: "";
 }
 
-.icon-syringe:before {
+.ra-syringe:before {
   content: "";
 }
 
-.icon-target-arrows:before {
+.ra-target-arrows:before {
   content: "";
 }
 
-.icon-target-laser:before {
+.ra-target-laser:before {
   content: "";
 }
 
-.icon-targeted:before {
+.ra-targeted:before {
   content: "";
 }
 
-.icon-taurus:before {
+.ra-taurus:before {
   content: "";
 }
 
-.icon-telescope:before {
+.ra-telescope:before {
   content: "";
 }
 
-.icon-tentacle:before {
+.ra-tentacle:before {
   content: "";
 }
 
-.icon-tesla:before {
+.ra-tesla:before {
   content: "";
 }
 
-.icon-thorn-arrow:before {
+.ra-thorn-arrow:before {
   content: "";
 }
 
-.icon-thorny-vine:before {
+.ra-thorny-vine:before {
   content: "";
 }
 
-.icon-three-keys:before {
+.ra-three-keys:before {
   content: "";
 }
 
-.icon-tic-tac-toe:before {
+.ra-tic-tac-toe:before {
   content: "";
 }
 
-.icon-toast:before {
+.ra-toast:before {
   content: "";
 }
 
-.icon-tombstone:before {
+.ra-tombstone:before {
   content: "";
 }
 
-.icon-tooth:before {
+.ra-tooth:before {
   content: "";
 }
 
-.icon-torch:before {
+.ra-torch:before {
   content: "";
 }
 
-.icon-tower:before {
+.ra-tower:before {
   content: "";
 }
 
-.icon-trail:before {
+.ra-trail:before {
   content: "";
 }
 
-.icon-trefoil-lily:before {
+.ra-trefoil-lily:before {
   content: "";
 }
 
-.icon-trident:before {
+.ra-trident:before {
   content: "";
 }
 
-.icon-triforce:before {
+.ra-triforce:before {
   content: "";
 }
 
-.icon-trophy:before {
+.ra-trophy:before {
   content: "";
 }
 
-.icon-turd:before {
+.ra-turd:before {
   content: "";
 }
 
-.icon-two-dragons:before {
+.ra-two-dragons:before {
   content: "";
 }
 
-.icon-two-hearts:before {
+.ra-two-hearts:before {
   content: "";
 }
 
-.icon-uncertainty:before {
+.ra-uncertainty:before {
   content: "";
 }
 
-.icon-underhand:before {
+.ra-underhand:before {
   content: "";
 }
 
-.icon-unplugged:before {
+.ra-unplugged:before {
   content: "";
 }
 
-.icon-vase:before {
+.ra-vase:before {
   content: "";
 }
 
-.icon-venomous-snake:before {
+.ra-venomous-snake:before {
   content: "";
 }
 
-.icon-vest:before {
+.ra-vest:before {
   content: "";
 }
 
-.icon-vial:before {
+.ra-vial:before {
   content: "";
 }
 
-.icon-vine-whip:before {
+.ra-vine-whip:before {
   content: "";
 }
 
-.icon-virgo:before {
+.ra-virgo:before {
   content: "";
 }
 
-.icon-water-drop:before {
+.ra-water-drop:before {
   content: "";
 }
 
-.icon-wifi:before {
+.ra-wifi:before {
   content: "";
 }
 
-.icon-wireless-signal:before {
+.ra-wireless-signal:before {
   content: "";
 }
 
-.icon-wolf-head:before {
+.ra-wolf-head:before {
   content: "";
 }
 
-.icon-wolf-howl:before {
+.ra-wolf-howl:before {
   content: "";
 }
 
-.icon-wooden-sign:before {
+.ra-wooden-sign:before {
   content: "";
 }
 
-.icon-wrench:before {
+.ra-wrench:before {
   content: "";
 }
 
-.icon-wyvern:before {
+.ra-wyvern:before {
   content: "";
 }
 
-.icon-x-mark:before {
+.ra-x-mark:before {
   content: "";
 }
 
-.icon-zebra-shield:before {
+.ra-zebra-shield:before {
   content: "";
 }
 
-.icon-arcane-mask:before {
+.ra-arcane-mask:before {
   content: "";
 }
 
-.icon-aquarius:before {
+.ra-aquarius:before {
   content: "";
 }
 
-.icon-apple:before {
+.ra-apple:before {
   content: "";
 }
 
-.icon-anvil:before {
+.ra-anvil:before {
   content: "";
 }
 
-.icon-ankh:before {
+.ra-ankh:before {
   content: "";
 }
 
-.icon-angel-wings:before {
+.ra-angel-wings:before {
   content: "";
 }
 
-.icon-anchor:before {
+.ra-anchor:before {
   content: "";
 }
 
-.icon-ammo-bag:before {
+.ra-ammo-bag:before {
   content: "";
 }
 
-.icon-alligator-clip:before {
+.ra-alligator-clip:before {
   content: "";
 }
 
-.icon-all-for-one:before {
+.ra-all-for-one:before {
   content: "";
 }
 
-.icon-alien-fire:before {
+.ra-alien-fire:before {
   content: "";
 }
 
-.icon-acorn:before {
+.ra-acorn:before {
   content: "";
 }
 
-/*# sourceMappingURL=RPGAwesome.css.map */
+/*# sourceMappingURL=rpg-awesome.css.map */

@@ -2,9 +2,9 @@
 // -------------------------
 
 .#{$ra-css-prefix}-border {
-  padding: .2em .25em .15em;
   border: solid .08em $ra-border-color;
   border-radius: .1em;
+  padding: .2em .25em .15em;
 }
 
 .pull-right { float: right; }

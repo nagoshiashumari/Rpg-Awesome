@@ -2,18 +2,21 @@
 // -------------------------
 
 .#{$ra-css-prefix}-ul {
-  padding-left: 0;
-  margin-left: $ra-li-width;
   list-style-type: none;
+  margin-left: $ra-li-width;
+  padding-left: 0;
   > li { position: relative; }
 }
+
 .#{$ra-css-prefix}-li {
-  position: absolute;
   left: -$ra-li-width;
-  width: $ra-li-width;
-  top: (2em / 14);
+  position: absolute;
   text-align: center;
+  top: (2em / 14);
+  width: $ra-li-width;
+
   &.#{$ra-css-prefix}-lg {
     left: -$ra-li-width + (4em / 14);
   }
+
 }
