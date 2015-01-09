@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Slate is a responsive theme for GitHub Pages" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/rpg-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.min.css">
+
 
     <title>Slate : A responsive theme for GitHub Pages</title>
   </head>
@@ -33,6 +37,31 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>A simple, legible layout.</h1>
+
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            Dropdown
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+          </ul>
+        </div>
+
+        <div class="row fontawesome-icon-list">
+              <div class="presentation col-md-3 col-sm-4"><i class="ra ra-broadsword"></i> fa-angellist</a></div>
+              <div class="presentation col-md-3 col-sm-4"><i class="ra ra-broadsword"></i> fa-area-chart</a></div>
+              <div class="presentation col-md-3 col-sm-4"><i class="ra ra-broadsword"></i> fa-at</a></div>
+              <div class="presentation col-md-3 col-sm-4"><i class="ra ra-broadsword"></i> fa-at</a></div>
+              <div class="presentation col-md-3 col-sm-4"><i class="ra ra-broadsword"></i> fa-angellist</a></div>
+              <div class="presentation col-md-3 col-sm-4"><i class="ra ra-broadsword"></i> fa-area-chart</a></div>
+              <div class="presentation col-md-3 col-sm-4"><i class="ra ra-broadsword"></i> fa-at</a></div>
+              <div class="presentation col-md-3 col-sm-4"><i class="ra ra-broadsword"></i> fa-at</a></div>
+          </div>
+
         <p>Slate is a simple theme that I created for the <a href="http://pages.github.com">GitHub Pages automatic generator</a>. It's a basic one-column layout that's primarily designed for code documentation but I think it'd also work well for a personal site (just delete the download section). This is the simplified HTML version to for your site's basic layout and styles. Clone these files and replace this content to get the ball rolling.</p>
 
         <h1>Headline 1</h1>
@@ -178,6 +207,7 @@ end
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
