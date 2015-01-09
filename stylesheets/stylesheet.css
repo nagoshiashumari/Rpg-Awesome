@@ -77,6 +77,30 @@ a {
 
 a:hover, a:focus {text-decoration: underline;}
 
+.ra-icon-list {
+  margin-top: 5px;
+}
+
+.ra-icon-list .ra-hover {
+  display: block;
+  color: #222222;
+  line-height: 32px;
+  height: 32px;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+
+.ra-hover:hover {
+  background-color: #1d9d74;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ra-icon-list .ra-hover:hover .ra {
+  font-size: 28px;
+  vertical-align: -9px;
+}
+
 footer a {
   color: #F2F2F2;
   text-decoration: underline;

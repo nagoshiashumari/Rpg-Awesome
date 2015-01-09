@@ -223,10 +223,12 @@
   content: "i";
 }
 
+.ra-player-aura:before,
 .ra-aura:before {
   content: "j";
 }
 
+.ra-player-aware:before,
 .ra-aware:before {
   content: "k";
 }
