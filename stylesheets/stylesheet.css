@@ -82,23 +82,28 @@ a:hover, a:focus {text-decoration: underline;}
 }
 
 .ra-icon-list .ra-hover {
-  display: block;
-  color: #222222;
-  line-height: 32px;
-  height: 32px;
-  padding-left: 10px;
   border-radius: 4px;
+  color: #222222;
+  display: block;
+  font-size: 22px;
+  height: 52px;
+  line-height: 40px;
+  padding: 10px;
 }
 
-.ra-hover:hover {
+.ra-icon-list .ra-hover:hover {
   background-color: #1d9d74;
   color: #ffffff;
   text-decoration: none;
 }
 
 .ra-icon-list .ra-hover:hover .ra {
-  font-size: 28px;
+  font-size: 32px;
   vertical-align: -9px;
+}
+
+.ra-icon-list .ra-hover .ra {
+  vertical-align: sub;
 }
 
 footer a {
@@ -267,17 +272,19 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-size: 72px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: 4px 3px 0px #212121, 9px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 30px;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 #downloads {
