@@ -423,6 +423,7 @@
   content: "6";
 }
 
+.ra-sword:before,
 .ra-broadsword:before {
   content: "7";
 }
