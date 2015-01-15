@@ -196,8 +196,8 @@ p img {
 
 pre, code {
   width: 100%;
-  color: #222;
   background-color: #fff;
+  color: #D74E62;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
@@ -205,8 +205,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 pre {
@@ -362,6 +360,7 @@ Full-Width Styles
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border: none;
+  margin-left: 40px;
 }
 
 #forkme_banner:hover{
@@ -370,6 +369,7 @@ Full-Width Styles
 
 #header_wrap {
   background: url('../images/footer_lodyas.png');
+  background-attachment: fixed;
 }
 
 #header_wrap .inner {
@@ -381,7 +381,7 @@ Full-Width Styles
   color: #fff;
   font-size: 64px;
   font-weight: 700;
-  text-shadow: 4px 3px 0px #212121, 9px 8px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: 4px 3px 0px rgb(53, 53, 53), 9px 8px 0px rgba(0, 0, 0, 0.22);
   text-align: center;
 }
 
@@ -448,6 +448,7 @@ Full-Width Styles
 
 #footer_wrap {
   background: url('../images/footer_lodyas.png');
+  background-attachment: fixed;
 }
 
 /*******************************************************************************
