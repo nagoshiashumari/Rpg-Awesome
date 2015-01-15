@@ -279,6 +279,58 @@ form {
   padding: 20px;
 }
 
+.players{
+  margin: 40px;
+}
+
+.potions{
+  margin: 40px;
+}
+
+.inventory{
+  margin: 40px;
+}
+
+.creatures-and-animals{
+  margin: 40px;
+}
+
+.electronics{
+  margin: 40px;
+}
+
+.cards-and-dice{
+  margin: 40px;
+}
+
+.food{
+  margin: 40px;
+}
+
+.plants{
+  margin: 40px;
+}
+
+.astrology{
+  margin: 40px;
+}
+
+.dangers{
+  margin: 40px;
+}
+
+.magic{
+  margin: 40px;
+}
+
+.weapons-and-armor{
+  margin: 40px;
+}
+
+.rpg-icons{
+  margin: 40px;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
