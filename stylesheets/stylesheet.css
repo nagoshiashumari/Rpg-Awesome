@@ -66,16 +66,41 @@ p {
 }
 
 footer p {
-  color: #f2f2f2;
+  color: rgba(242, 242, 242, .5);
+  text-align: center;
 }
 
 a {
   text-decoration: none;
+  border-bottom: 1px dashed #999;
   color: #007edf;
   text-shadow: none;
 }
 
-a:hover, a:focus {text-decoration: underline;}
+a:hover, a:focus {
+  text-decoration: none;
+  border-bottom: 1px dashed #999;
+  color: #007edf;
+}
+
+footer a:hover, a:focus {
+  text-decoration: none;
+  border:none;
+  border-bottom: 1px dashed #999;
+  color: rgb(242, 242, 242);
+}
+
+header a{
+  text-decoration: none;
+  border-radius: none;
+}
+
+header a:hover, a:focus {
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+  border: 2px solid;
+  border-radius: 10px;
+}
 
 .ra-icon-list {
   margin-top: 5px;
@@ -130,8 +155,8 @@ a:hover, a:focus {text-decoration: underline;}
 }
 
 footer a {
-  color: #F2F2F2;
-  text-decoration: underline;
+  color: rgb(242, 242, 242);
+  text-decoration: none;
 }
 
 em {
@@ -281,8 +306,7 @@ Full-Width Styles
   background: url('../images/blacktocat_black.png') #ffffff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border: none;
 }
 
 #forkme_banner:hover{
@@ -290,7 +314,7 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
+  background: url('../images/footer_lodyas.png');
 }
 
 #header_wrap .inner {
@@ -366,7 +390,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: url('../images/footer_lodyas.png');
 }
 
 /*******************************************************************************
