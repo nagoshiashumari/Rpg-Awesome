@@ -3,3 +3,7 @@
 .sass-cache/
 node_modules/*
 temp/*
+upstream
+node_modules
+phantom_runner.js
+start_test.js
