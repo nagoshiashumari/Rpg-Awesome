@@ -115,7 +115,7 @@ header a:hover, a:focus {
   font-size: 17px;
   height: 52px;
   line-height: 40px;
-  padding: 10px;
+  padding: 2px 10px;
 }
 
 .ra-icon-list .ra-hover:hover {
@@ -127,10 +127,6 @@ header a:hover, a:focus {
 .ra-icon-list .ra-hover:hover .ra {
   font-size: 45px;
   vertical-align: -13px;
-}
-
-.ra-icon-list .ra-hover .ra {
-  vertical-align: sub;
 }
 
 .ra-top-link {
