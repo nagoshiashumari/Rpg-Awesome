@@ -2,10 +2,13 @@
 // -------------------------
 
 .#{$ra-css-prefix} {
-  display: inline-block;
-  font: normal normal normal 14px/1 RPGAwesome; // shortening font declaration
-  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  font-family: RPGAwesome;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  text-rendering: auto; // optimizelegibility throws things off #1094
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
 }
