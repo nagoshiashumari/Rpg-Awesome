@@ -1,4 +1,4 @@
-#[RPG Awesome](TODO)
+#[RPG Awesome](http://nagoshiashumari.github.io/Rpg-Awesome/)
 ###A fantasy themed font and CSS toolkit.
 
 RPG Awesome is a suite of 495 pictographic, rpg and fantasy themes icons for easy scalable vector graphics on websites, created and maintained by [Daniela Howe](http://github.com/nagoshiasumary) and [Ivan Montiel](http://github.com/idmontie).
@@ -10,5 +10,5 @@ RPG Awesome is a suite of 495 pictographic, rpg and fantasy themes icons for eas
   - http://opensource.org/licenses/mit-license.html
 - The Rpg Awesome documentation is licensed under the CC BY 3.0 License:
   - http://creativecommons.org/licenses/by/3.0/
-- Attribution is not required
+- Attribution is appreciated but not required
 - Full details: https://github.com/nagoshiashumari/Rpg-Awesome/blob/master/LICENSE.md
