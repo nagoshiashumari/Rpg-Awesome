@@ -1,0 +1,34 @@
+{
+  "name": "rpg-awesome",
+  "description": "A fantasy themed font and CSS toolkit.",
+  "main": [
+    "scss/rpg-awesome.scss",
+    "css/rpg-awesome.css",
+    "css/rpg-awesome.min.css"
+  ],
+  "authors": [
+    "Daniela Howe",
+    "Ivan Montiel <idmontie@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "rpg",
+    "font",
+    "awesome",
+    "css",
+    "toolkit"
+  ],
+  "homepage": "https://github.com/nagoshiashumari/Rpg-Awesome",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "rpg-awesome-tests.js",
+    "CONTRIBUTING.md",
+    "README.md",
+    "demo/*"
+  ]
+}
