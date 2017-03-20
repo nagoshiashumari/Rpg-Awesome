@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
-   api.addAssets([
+  api.addAssets([
     // we bundle all font files, but the client will request only one of them via the CSS @font-face rule
     'fonts/rpgawesome-webfont.eot',   // IE8 or older only understands EOT. IE9+ will read it too because it loads the first occurrence of `src`
     'fonts/rpgawesome-webfont.svg',   // SVG fallback for iOS < 5 - http://caniuse.com/#feat=svg-fonts, http://stackoverflow.com/a/11002874/1269037
