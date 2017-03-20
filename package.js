@@ -1,6 +1,6 @@
 Package.describe({
   name: 'nagoshiashumari:rpg-awesome',
-  version: '0.0.1',
+  version: '0.1.0',
   // Brief, one-line summary of the package.
   summary: 'A fantasy themed font and CSS toolkit.',
   // URL to the Git repository containing the source code for this package.
@@ -12,13 +12,12 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
-   api.addAssets([
+  api.addAssets([
     // we bundle all font files, but the client will request only one of them via the CSS @font-face rule
     'fonts/rpgawesome-webfont.eot',   // IE8 or older only understands EOT. IE9+ will read it too because it loads the first occurrence of `src`
     'fonts/rpgawesome-webfont.svg',   // SVG fallback for iOS < 5 - http://caniuse.com/#feat=svg-fonts, http://stackoverflow.com/a/11002874/1269037
     'fonts/rpgawesome-webfont.ttf',   // Android Browers 4.1, 4.3 - http://caniuse.com/#feat=ttf
-    'fonts/rpgawesome-webfont.woff',  // Most modern browsers
-    'fonts/RpgAwesome.otf',
+    'fonts/rpgawesome-webfont.woff'  // Most modern browsers
   ], 'client');
 
   api.addFiles([
