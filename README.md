@@ -3,6 +3,8 @@
 
 RPG Awesome is a suite of 495 pictographic, rpg and fantasy themes icons for easy scalable vector graphics on websites, created and maintained by [Daniela Howe](https://github.com/nagoshiashumari) and [Ivan Montiel](http://github.com/idmontie).
 
+Super shoutout to [Game Icons](https://game-icons.net/) for providing a library of SVG icons that we used to create this project 🎉.
+
 ## Installation
 
 ### Bower
