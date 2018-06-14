@@ -17,6 +17,18 @@ bower install rpg-awesome
 npm add --save rpg-awesome
 ```
 
+Then in your code, you can use rpg-awesome by pathing to it:
+
+```
+./node_modules/rpg-awesome/css/rpg-awesome.min.css
+```
+
+If you are using Sass, you can import it directly:
+
+```
+@import "node_modules/rpg-awesome/scss/rpg-awesome";
+```
+
 ### Meteor
 
 ```
