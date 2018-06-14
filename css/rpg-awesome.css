@@ -27,7 +27,7 @@
 
 /* makes the font 33% larger relative to the icon container */
 .ra-lg {
-  font-size: 1.33333em;
+  font-size: 1.3333333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
@@ -50,12 +50,12 @@
 
 .ra-fw {
   text-align: center;
-  width: 1.28571em;
+  width: 1.2857142857em;
 }
 
 .ra-ul {
   list-style-type: none;
-  margin-left: 2.14286em;
+  margin-left: 2.1428571429em;
   padding-left: 0;
 }
 .ra-ul > li {
@@ -63,14 +63,14 @@
 }
 
 .ra-li {
-  left: -2.14286em;
+  left: -2.1428571429em;
   position: absolute;
   text-align: center;
-  top: 0.14286em;
-  width: 2.14286em;
+  top: 0.1428571429em;
+  width: 2.1428571429em;
 }
 .ra-li.ra-lg {
-  left: -1.85714em;
+  left: -1.8571428571em;
 }
 
 .ra-border {
@@ -715,7 +715,7 @@
   content: "";
 }
 
-.ra-defibrilate:before {
+.ra-defibrillate:before {
   content: "";
 }
 
@@ -1731,7 +1731,7 @@
   content: "";
 }
 
-.ra-sattelite:before {
+.ra-satellite:before {
   content: "";
 }
 
@@ -1767,7 +1767,7 @@
   content: "";
 }
 
-.ra-sherif:before {
+.ra-sheriff:before {
   content: "";
 }
 
