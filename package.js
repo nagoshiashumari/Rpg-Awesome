@@ -1,6 +1,6 @@
 Package.describe({
-  name: 'nagoshiashumari:rpg-awesome',
-  version: '0.1.0',
+  name: 'nagoshi:rpg-awesome',
+  version: '0.1.1',
   // Brief, one-line summary of the package.
   summary: 'A fantasy themed font and CSS toolkit.',
   // URL to the Git repository containing the source code for this package.
@@ -29,7 +29,7 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('nagoshiashumari:rpg-awesome');
+  api.use('nagoshi:rpg-awesome');
 
   api.use([
     'http',

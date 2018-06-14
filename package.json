@@ -1,17 +1,19 @@
 {
-  "name" : "rpg-awesome",
-  "version": "0.1.0",
+  "name": "rpg-awesome",
+  "style": "css/rpg-awesome.css",
+  "sass": "scss/rpg-awesome.scss",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/nagoshiashumari/Rpg-Awesome.git"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-contrib-sass" : "~0.8.1",
-    "grunt-scss-lint" : "~0.3.4",
-    "grunt-contrib-cssmin" : "~0.11.0"
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-scss-lint": "~0.3.4",
+    "grunt-contrib-cssmin": "~0.11.0"
   },
-  "scripts" : {
+  "scripts": {
     "build": "grunt",
     "test": "grunt scsslint"
   }
