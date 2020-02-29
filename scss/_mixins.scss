@@ -23,3 +23,7 @@
   -ms-transform: scale($horiz, $vert);
   transform: scale($horiz, $vert);
 }
+
+@function unicode($str) {
+  @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"");
+}
