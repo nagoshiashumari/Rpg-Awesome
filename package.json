@@ -1,11 +1,11 @@
 {
-  "name": "rpg-awesome",
+  "name": "@opendominion/rpg-awesome",
   "style": "css/rpg-awesome.css",
   "sass": "scss/rpg-awesome.scss",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nagoshiashumari/Rpg-Awesome.git"
+    "url": "git://github.com/OpenDominion/Rpg-Awesome.git"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -16,5 +16,14 @@
   "scripts": {
     "build": "grunt",
     "test": "grunt scsslint"
-  }
+  },
+  "description": "RPG Awesome is a suite of 495 pictographic, rpg and fantasy themes icons for easy scalable vector graphics on websites, created and maintained by [Daniela Howe](https://github.com/nagoshiashumari) and [Ivan Montiel](http://github.com/idmontie).",
+  "bugs": {
+    "url": "https://github.com/OpenDominion/Rpg-Awesome/issues"
+  },
+  "homepage": "https://github.com/OpenDominion/Rpg-Awesome#readme",
+  "main": "Gruntfile.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
 }
