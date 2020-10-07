@@ -506,10 +506,6 @@
   content: "";
 }
 
-.ra-broadsword:before {
-  content: "";
-}
-
 .ra-broken-arrow:before {
   content: "";
 }
@@ -532,6 +528,10 @@
 
 .ra-broken-skull:before {
   content: "";
+}
+
+.ra-brutal-helm:before {
+  content: "";
 }
 
 .ra-bubbling-potion:before {
@@ -2174,6 +2174,10 @@
   content: "";
 }
 
+.ra-sword:before {
+  content: "";
+}
+
 .ra-syringe:before {
   content: "";
 }
@@ -2348,6 +2352,10 @@
 
 .ra-wolf-howl:before {
   content: "";
+}
+
+.ra-wood-beam:before {
+  content: "";
 }
 
 .ra-wooden-sign:before {
