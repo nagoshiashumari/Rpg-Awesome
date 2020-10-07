@@ -24,6 +24,6 @@
   "homepage": "https://github.com/OpenDominion/Rpg-Awesome#readme",
   "main": "Gruntfile.js",
   "author": "",
-  "license": "MIT",
+  "license": "BSD",
   "dependencies": {}
 }
