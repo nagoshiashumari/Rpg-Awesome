@@ -2,1983 +2,3284 @@
 // --------------------------
 
 
-.#{$ra-css-prefix}-acid:before {
-  content: $ra-var-icon-acid;
+.ra-var-icon-achievement {
+  &:before {
+    content: $ra-var-icon-achievement; 
+  }
 }
 
-.#{$ra-css-prefix}-zigzag-leaf:before {
-  content: $ra-var-icon-zigzag-leaf;
+.ra-var-icon-acid {
+  &:before {
+    content: $ra-var-icon-acid; 
+  }
 }
 
-.#{$ra-css-prefix}-archer:before {
-  content: $ra-var-icon-archer;
+.ra-var-icon-acorn {
+  &:before {
+    content: $ra-var-icon-acorn; 
+  }
 }
 
-.#{$ra-css-prefix}-archery-target:before {
-  content: $ra-var-icon-archery-target;
+.ra-var-icon-alien-fire {
+  &:before {
+    content: $ra-var-icon-alien-fire; 
+  }
 }
 
-.#{$ra-css-prefix}-arena:before {
-  content: $ra-var-icon-arena;
+.ra-var-icon-all-for-one {
+  &:before {
+    content: $ra-var-icon-all-for-one; 
+  }
 }
 
-.#{$ra-css-prefix}-aries:before {
-  content: $ra-var-icon-aries;
+.ra-var-icon-alligator-clip {
+  &:before {
+    content: $ra-var-icon-alligator-clip; 
+  }
 }
 
-.#{$ra-css-prefix}-arrow-cluster:before {
-  content: $ra-var-icon-arrow-cluster;
+.ra-var-icon-amethyst {
+  &:before {
+    content: $ra-var-icon-amethyst; 
+  }
 }
 
-.#{$ra-css-prefix}-arrow-flights:before {
-  content: $ra-var-icon-arrow-flights;
+.ra-var-icon-ammo-bag {
+  &:before {
+    content: $ra-var-icon-ammo-bag; 
+  }
 }
 
-.#{$ra-css-prefix}-arson:before {
-  content: $ra-var-icon-arson;
+.ra-var-icon-amphora {
+  &:before {
+    content: $ra-var-icon-amphora; 
+  }
 }
 
-.#{$ra-css-prefix}-aura:before {
-  content: $ra-var-icon-aura;
+.ra-var-icon-amputation {
+  &:before {
+    content: $ra-var-icon-amputation; 
+  }
 }
 
-.#{$ra-css-prefix}-aware:before {
-  content: $ra-var-icon-aware;
+.ra-var-icon-anchor {
+  &:before {
+    content: $ra-var-icon-anchor; 
+  }
 }
 
-.#{$ra-css-prefix}-axe:before {
-  content: $ra-var-icon-axe;
+.ra-var-icon-angel-wings {
+  &:before {
+    content: $ra-var-icon-angel-wings; 
+  }
 }
 
-.#{$ra-css-prefix}-axe-swing:before {
-  content: $ra-var-icon-axe-swing;
+.ra-var-icon-ankh {
+  &:before {
+    content: $ra-var-icon-ankh; 
+  }
 }
 
-.#{$ra-css-prefix}-ball:before {
-  content: $ra-var-icon-ball;
+.ra-var-icon-anvil {
+  &:before {
+    content: $ra-var-icon-anvil; 
+  }
 }
 
-.#{$ra-css-prefix}-barbed-arrow:before {
-  content: $ra-var-icon-barbed-arrow;
+.ra-var-icon-apothecary {
+  &:before {
+    content: $ra-var-icon-apothecary; 
+  }
 }
 
-.#{$ra-css-prefix}-barrier:before {
-  content: $ra-var-icon-barrier;
+.ra-var-icon-apple {
+  &:before {
+    content: $ra-var-icon-apple; 
+  }
 }
 
-.#{$ra-css-prefix}-bat-sword:before {
-  content: $ra-var-icon-bat-sword;
+.ra-var-icon-aquarius {
+  &:before {
+    content: $ra-var-icon-aquarius; 
+  }
 }
 
-.#{$ra-css-prefix}-battered-axe:before {
-  content: $ra-var-icon-battered-axe;
+.ra-var-icon-arcane-mask {
+  &:before {
+    content: $ra-var-icon-arcane-mask; 
+  }
 }
 
-.#{$ra-css-prefix}-batteries:before {
-  content: $ra-var-icon-batteries;
+.ra-var-icon-archer {
+  &:before {
+    content: $ra-var-icon-archer; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-0:before {
-  content: $ra-var-icon-battery-0;
+.ra-var-icon-archery-target {
+  &:before {
+    content: $ra-var-icon-archery-target; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-25:before {
-  content: $ra-var-icon-battery-25;
+.ra-var-icon-arena {
+  &:before {
+    content: $ra-var-icon-arena; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-50:before {
-  content: $ra-var-icon-battery-50;
+.ra-var-icon-aries {
+  &:before {
+    content: $ra-var-icon-aries; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-75:before {
-  content: $ra-var-icon-battery-75;
+.ra-var-icon-arrow-cluster {
+  &:before {
+    content: $ra-var-icon-arrow-cluster; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-100:before {
-  content: $ra-var-icon-battery-100;
+.ra-var-icon-arrow-flights {
+  &:before {
+    content: $ra-var-icon-arrow-flights; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-black:before {
-  content: $ra-var-icon-battery-black;
+.ra-var-icon-arson {
+  &:before {
+    content: $ra-var-icon-arson; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-negative:before {
-  content: $ra-var-icon-battery-negative;
+.ra-var-icon-aura {
+  &:before {
+    content: $ra-var-icon-aura; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-positive:before {
-  content: $ra-var-icon-battery-positive;
+.ra-var-icon-aware {
+  &:before {
+    content: $ra-var-icon-aware; 
+  }
 }
 
-.#{$ra-css-prefix}-battery-white:before {
-  content: $ra-var-icon-battery-white;
+.ra-var-icon-axe-in-log {
+  &:before {
+    content: $ra-var-icon-axe-in-log; 
+  }
 }
 
-.#{$ra-css-prefix}-batwings:before {
-  content: $ra-var-icon-batwings;
+.ra-var-icon-axe-swing {
+  &:before {
+    content: $ra-var-icon-axe-swing; 
+  }
 }
 
-.#{$ra-css-prefix}-beam-wake:before {
-  content: $ra-var-icon-beam-wake;
+.ra-var-icon-axe-sword {
+  &:before {
+    content: $ra-var-icon-axe-sword; 
+  }
 }
 
-.#{$ra-css-prefix}-bear-trap:before {
-  content: $ra-var-icon-bear-trap;
+.ra-var-icon-axe {
+  &:before {
+    content: $ra-var-icon-axe; 
+  }
 }
 
-.#{$ra-css-prefix}-beer:before {
-  content: $ra-var-icon-beer;
+.ra-var-icon-ball {
+  &:before {
+    content: $ra-var-icon-ball; 
+  }
 }
 
-.#{$ra-css-prefix}-beetle:before {
-  content: $ra-var-icon-beetle;
+.ra-var-icon-banknote {
+  &:before {
+    content: $ra-var-icon-banknote; 
+  }
 }
 
-.#{$ra-css-prefix}-bell:before {
-  content: $ra-var-icon-bell;
+.ra-var-icon-barbed-arrow {
+  &:before {
+    content: $ra-var-icon-barbed-arrow; 
+  }
 }
 
-.#{$ra-css-prefix}-biohazard:before {
-  content: $ra-var-icon-biohazard;
+.ra-var-icon-barrier {
+  &:before {
+    content: $ra-var-icon-barrier; 
+  }
 }
 
-.#{$ra-css-prefix}-bird-claw:before {
-  content: $ra-var-icon-bird-claw;
+.ra-var-icon-basketball-ball {
+  &:before {
+    content: $ra-var-icon-basketball-ball; 
+  }
 }
 
-.#{$ra-css-prefix}-bird-mask:before {
-  content: $ra-var-icon-bird-mask;
+.ra-var-icon-bat-sword {
+  &:before {
+    content: $ra-var-icon-bat-sword; 
+  }
 }
 
-.#{$ra-css-prefix}-blade-bite:before {
-  content: $ra-var-icon-blade-bite;
+.ra-var-icon-battered-axe {
+  &:before {
+    content: $ra-var-icon-battered-axe; 
+  }
 }
 
-.#{$ra-css-prefix}-blast:before {
-  content: $ra-var-icon-blast;
+.ra-var-icon-batteries {
+  &:before {
+    content: $ra-var-icon-batteries; 
+  }
 }
 
-.#{$ra-css-prefix}-blaster:before {
-  content: $ra-var-icon-blaster;
+.ra-var-icon-battery-0 {
+  &:before {
+    content: $ra-var-icon-battery-0; 
+  }
 }
 
-.#{$ra-css-prefix}-bleeding-eye:before {
-  content: $ra-var-icon-bleeding-eye;
+.ra-var-icon-battery-25 {
+  &:before {
+    content: $ra-var-icon-battery-25; 
+  }
 }
 
-.#{$ra-css-prefix}-bleeding-hearts:before {
-  content: $ra-var-icon-bleeding-hearts;
+.ra-var-icon-battery-50 {
+  &:before {
+    content: $ra-var-icon-battery-50; 
+  }
 }
 
-.#{$ra-css-prefix}-bolt-shield:before {
-  content: $ra-var-icon-bolt-shield;
+.ra-var-icon-battery-75 {
+  &:before {
+    content: $ra-var-icon-battery-75; 
+  }
 }
 
-.#{$ra-css-prefix}-bomb-explosion:before {
-  content: $ra-var-icon-bomb-explosion;
+.ra-var-icon-battery-100 {
+  &:before {
+    content: $ra-var-icon-battery-100; 
+  }
 }
 
-.#{$ra-css-prefix}-bombs:before {
-  content: $ra-var-icon-bombs;
+.ra-var-icon-battery-black {
+  &:before {
+    content: $ra-var-icon-battery-black; 
+  }
 }
 
-.#{$ra-css-prefix}-bone-bite:before {
-  content: $ra-var-icon-bone-bite;
+.ra-var-icon-battery-negative {
+  &:before {
+    content: $ra-var-icon-battery-negative; 
+  }
 }
 
-.#{$ra-css-prefix}-bone-knife:before {
-  content: $ra-var-icon-bone-knife;
+.ra-var-icon-battery-positive {
+  &:before {
+    content: $ra-var-icon-battery-positive; 
+  }
 }
 
-.#{$ra-css-prefix}-book:before {
-  content: $ra-var-icon-book;
+.ra-var-icon-battery-white {
+  &:before {
+    content: $ra-var-icon-battery-white; 
+  }
 }
 
-.#{$ra-css-prefix}-boomerang:before {
-  content: $ra-var-icon-boomerang;
+.ra-var-icon-batwings {
+  &:before {
+    content: $ra-var-icon-batwings; 
+  }
 }
 
-.#{$ra-css-prefix}-boot-stomp:before {
-  content: $ra-var-icon-boot-stomp;
+.ra-var-icon-beam-wake {
+  &:before {
+    content: $ra-var-icon-beam-wake; 
+  }
 }
 
-.#{$ra-css-prefix}-bottle-vapors:before {
-  content: $ra-var-icon-bottle-vapors;
+.ra-var-icon-bear-trap {
+  &:before {
+    content: $ra-var-icon-bear-trap; 
+  }
 }
 
-.#{$ra-css-prefix}-bottled-bolt:before {
-  content: $ra-var-icon-bottled-bolt;
+.ra-var-icon-beer {
+  &:before {
+    content: $ra-var-icon-beer; 
+  }
 }
 
-.#{$ra-css-prefix}-bottom-right:before {
-  content: $ra-var-icon-bottom-right;
+.ra-var-icon-beetle {
+  &:before {
+    content: $ra-var-icon-beetle; 
+  }
 }
 
-.#{$ra-css-prefix}-bowie-knife:before {
-  content: $ra-var-icon-bowie-knife;
+.ra-var-icon-bell {
+  &:before {
+    content: $ra-var-icon-bell; 
+  }
 }
 
-.#{$ra-css-prefix}-bowling-pin:before {
-  content: $ra-var-icon-bowling-pin;
+.ra-var-icon-biohazard {
+  &:before {
+    content: $ra-var-icon-biohazard; 
+  }
 }
 
-.#{$ra-css-prefix}-brain-freeze:before {
-  content: $ra-var-icon-brain-freeze;
+.ra-var-icon-bird-claw {
+  &:before {
+    content: $ra-var-icon-bird-claw; 
+  }
 }
 
-.#{$ra-css-prefix}-brandy-bottle:before {
-  content: $ra-var-icon-brandy-bottle;
+.ra-var-icon-bird-mask {
+  &:before {
+    content: $ra-var-icon-bird-mask; 
+  }
 }
 
-.#{$ra-css-prefix}-bridge:before {
-  content: $ra-var-icon-bridge;
+.ra-var-icon-blade-bite {
+  &:before {
+    content: $ra-var-icon-blade-bite; 
+  }
 }
 
-.#{$ra-css-prefix}-broadhead-arrow:before {
-  content: $ra-var-icon-broadhead-arrow;
+.ra-var-icon-blast {
+  &:before {
+    content: $ra-var-icon-blast; 
+  }
 }
 
-.#{$ra-css-prefix}-sword:before,
-.#{$ra-css-prefix}-broadsword:before {
-  content: $ra-var-icon-broadsword;
+.ra-var-icon-blaster {
+  &:before {
+    content: $ra-var-icon-blaster; 
+  }
 }
 
-.#{$ra-css-prefix}-broken-bone:before {
-  content: $ra-var-icon-broken-bone;
+.ra-var-icon-bleeding-eye {
+  &:before {
+    content: $ra-var-icon-bleeding-eye; 
+  }
 }
 
-.#{$ra-css-prefix}-broken-bottle:before {
-  content: $ra-var-icon-broken-bottle;
+.ra-var-icon-bleeding-hearts {
+  &:before {
+    content: $ra-var-icon-bleeding-hearts; 
+  }
 }
 
-.#{$ra-css-prefix}-broken-heart:before {
-  content: $ra-var-icon-broken-bottle;
+.ra-var-icon-bolt-shield {
+  &:before {
+    content: $ra-var-icon-bolt-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-broken-shield:before {
-  content: $ra-var-icon-broken-shield;
+.ra-var-icon-bomb-explosion {
+  &:before {
+    content: $ra-var-icon-bomb-explosion; 
+  }
 }
 
-.#{$ra-css-prefix}-broken-skull:before {
-  content: $ra-var-icon-broken-skull;
+.ra-var-icon-bombs {
+  &:before {
+    content: $ra-var-icon-bombs; 
+  }
 }
 
-.#{$ra-css-prefix}-bubbling-potion:before {
-  content: $ra-var-icon-bubbling-potion;
+.ra-var-icon-bone-bite {
+  &:before {
+    content: $ra-var-icon-bone-bite; 
+  }
 }
 
-.#{$ra-css-prefix}-bullets:before {
-  content: $ra-var-icon-bullets;
+.ra-var-icon-bone-knife {
+  &:before {
+    content: $ra-var-icon-bone-knife; 
+  }
 }
 
-.#{$ra-css-prefix}-burning-book:before {
-  content: $ra-var-icon-burning-book;
+.ra-var-icon-book {
+  &:before {
+    content: $ra-var-icon-book; 
+  }
 }
 
-.#{$ra-css-prefix}-burning-embers:before {
-  content: $ra-var-icon-burning-embers;
+.ra-var-icon-boomerang {
+  &:before {
+    content: $ra-var-icon-boomerang; 
+  }
 }
 
-.#{$ra-css-prefix}-burning-eye:before {
-  content: $ra-var-icon-burning-eye;
+.ra-var-icon-boot-stomp {
+  &:before {
+    content: $ra-var-icon-boot-stomp; 
+  }
 }
 
-.#{$ra-css-prefix}-burning-meteor:before {
-  content: $ra-var-icon-burning-meteor;
+.ra-var-icon-bottle-vapors {
+  &:before {
+    content: $ra-var-icon-bottle-vapors; 
+  }
 }
 
-.#{$ra-css-prefix}-burst-blob:before {
-  content: $ra-var-icon-burst-blob;
+.ra-var-icon-bottled-bolt {
+  &:before {
+    content: $ra-var-icon-bottled-bolt; 
+  }
 }
 
-.#{$ra-css-prefix}-butterfly:before {
-  content: $ra-var-icon-butterfly;
+.ra-var-icon-bottom-right {
+  &:before {
+    content: $ra-var-icon-bottom-right; 
+  }
 }
 
-.#{$ra-css-prefix}-campfire:before {
-  content: $ra-var-icon-campfire;
+.ra-var-icon-bowie-knife {
+  &:before {
+    content: $ra-var-icon-bowie-knife; 
+  }
 }
 
-.#{$ra-css-prefix}-cancel:before {
-  content: $ra-var-icon-cancel;
+.ra-var-icon-bowling-pin {
+  &:before {
+    content: $ra-var-icon-bowling-pin; 
+  }
 }
 
-.#{$ra-css-prefix}-cancer:before {
-  content: $ra-var-icon-cancer;
+.ra-var-icon-brain-freeze {
+  &:before {
+    content: $ra-var-icon-brain-freeze; 
+  }
 }
 
-.#{$ra-css-prefix}-candle:before {
-  content: $ra-var-icon-candle;
+.ra-var-icon-brandy-bottle {
+  &:before {
+    content: $ra-var-icon-brandy-bottle; 
+  }
 }
 
-.#{$ra-css-prefix}-candle-fire:before {
-  content: $ra-var-icon-candle-fire;
+.ra-var-icon-bridge {
+  &:before {
+    content: $ra-var-icon-bridge; 
+  }
 }
 
-.#{$ra-css-prefix}-cannon-shot:before {
-  content: $ra-var-icon-cannon-shot;
+.ra-var-icon-broadhead-arrow {
+  &:before {
+    content: $ra-var-icon-broadhead-arrow; 
+  }
 }
 
-.#{$ra-css-prefix}-capitol:before {
-  content: $ra-var-icon-capitol;
+.ra-var-icon-broadsword {
+  &:before {
+    content: $ra-var-icon-broadsword; 
+  }
 }
 
-.#{$ra-css-prefix}-capricorn:before {
-  content: $ra-var-icon-capricorn;
+.ra-var-icon-broken-arrow {
+  &:before {
+    content: $ra-var-icon-broken-arrow; 
+  }
 }
 
-.#{$ra-css-prefix}-carrot:before {
-  content: $ra-var-icon-carrot;
+.ra-var-icon-broken-bone {
+  &:before {
+    content: $ra-var-icon-broken-bone; 
+  }
 }
 
-.#{$ra-css-prefix}-castle-emblem:before {
-  content: $ra-var-icon-castle-emblem;
+.ra-var-icon-broken-bottle {
+  &:before {
+    content: $ra-var-icon-broken-bottle; 
+  }
 }
 
-.#{$ra-css-prefix}-castle-flag:before {
-  content: $ra-var-icon-castle-flag;
+.ra-var-icon-broken-heart {
+  &:before {
+    content: $ra-var-icon-broken-heart; 
+  }
 }
 
-.#{$ra-css-prefix}-cat:before {
-  content: $ra-var-icon-cat;
+.ra-var-icon-broken-shield {
+  &:before {
+    content: $ra-var-icon-broken-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-chain:before {
-  content: $ra-var-icon-chain;
+.ra-var-icon-broken-skull {
+  &:before {
+    content: $ra-var-icon-broken-skull; 
+  }
 }
 
-.#{$ra-css-prefix}-cheese:before {
-  content: $ra-var-icon-cheese;
+.ra-var-icon-bubbling-potion {
+  &:before {
+    content: $ra-var-icon-bubbling-potion; 
+  }
 }
 
-.#{$ra-css-prefix}-chemical-arrow:before {
-  content: $ra-var-icon-chemical-arrow;
+.ra-var-icon-bullets {
+  &:before {
+    content: $ra-var-icon-bullets; 
+  }
 }
 
-.#{$ra-css-prefix}-chessboard:before {
-  content: $ra-var-icon-chessboard;
+.ra-var-icon-burning-book {
+  &:before {
+    content: $ra-var-icon-burning-book; 
+  }
 }
 
-.#{$ra-css-prefix}-chicken-leg:before {
-  content: $ra-var-icon-chicken-leg;
+.ra-var-icon-burning-embers {
+  &:before {
+    content: $ra-var-icon-burning-embers; 
+  }
 }
 
-.#{$ra-css-prefix}-circle-of-circles:before {
-  content: $ra-var-icon-circle-of-circles;
+.ra-var-icon-burning-eye {
+  &:before {
+    content: $ra-var-icon-burning-eye; 
+  }
 }
 
-.#{$ra-css-prefix}-circular-saw:before {
-  content: $ra-var-icon-circular-saw;
+.ra-var-icon-burning-meteor {
+  &:before {
+    content: $ra-var-icon-burning-meteor; 
+  }
 }
 
-.#{$ra-css-prefix}-circular-shield:before {
-  content: $ra-var-icon-circular-shield;
+.ra-var-icon-burning-skull {
+  &:before {
+    content: $ra-var-icon-burning-skull; 
+  }
 }
 
-.#{$ra-css-prefix}-cloak-and-dagger:before {
-  content: $ra-var-icon-cloak-and-dagger;
+.ra-var-icon-burst-blob {
+  &:before {
+    content: $ra-var-icon-burst-blob; 
+  }
 }
 
-.#{$ra-css-prefix}-clockwork:before {
-  content: $ra-var-icon-clockwork;
+.ra-var-icon-butterfly {
+  &:before {
+    content: $ra-var-icon-butterfly; 
+  }
 }
 
-.#{$ra-css-prefix}-clover:before {
-  content: $ra-var-icon-clover;
+.ra-var-icon-campfire {
+  &:before {
+    content: $ra-var-icon-campfire; 
+  }
 }
 
-.#{$ra-css-prefix}-clovers:before {
-  content: $ra-var-icon-clovers;
+.ra-var-icon-camping-tent {
+  &:before {
+    content: $ra-var-icon-camping-tent; 
+  }
 }
 
-.#{$ra-css-prefix}-clovers-card:before {
-  content: $ra-var-icon-clovers-card;
+.ra-var-icon-cancel {
+  &:before {
+    content: $ra-var-icon-cancel; 
+  }
 }
 
-.#{$ra-css-prefix}-cluster-bomb:before {
-  content: $ra-var-icon-cluster-bomb;
+.ra-var-icon-cancer {
+  &:before {
+    content: $ra-var-icon-cancer; 
+  }
 }
 
-.#{$ra-css-prefix}-coffee-mug:before {
-  content: $ra-var-icon-coffee-mug;
+.ra-var-icon-candle-fire {
+  &:before {
+    content: $ra-var-icon-candle-fire; 
+  }
 }
 
-.#{$ra-css-prefix}-cog:before {
-  content: $ra-var-icon-cog;
+.ra-var-icon-candle {
+  &:before {
+    content: $ra-var-icon-candle; 
+  }
 }
 
-.#{$ra-css-prefix}-cog-wheel:before {
-  content: $ra-var-icon-cog-wheel;
+.ra-var-icon-cannon-shot {
+  &:before {
+    content: $ra-var-icon-cannon-shot; 
+  }
 }
 
-.#{$ra-css-prefix}-cold-heart:before {
-  content: $ra-var-icon-cold-heart;
+.ra-var-icon-capitol {
+  &:before {
+    content: $ra-var-icon-capitol; 
+  }
 }
 
-.#{$ra-css-prefix}-compass:before {
-  content: $ra-var-icon-compass;
+.ra-var-icon-capricorn {
+  &:before {
+    content: $ra-var-icon-capricorn; 
+  }
 }
 
-.#{$ra-css-prefix}-corked-tube:before {
-  content: $ra-var-icon-corked-tube;
+.ra-var-icon-carrot {
+  &:before {
+    content: $ra-var-icon-carrot; 
+  }
 }
 
-.#{$ra-css-prefix}-crab-claw:before {
-  content: $ra-var-icon-crab-claw;
+.ra-var-icon-castle-emblem {
+  &:before {
+    content: $ra-var-icon-castle-emblem; 
+  }
 }
 
-.#{$ra-css-prefix}-cracked-helm:before {
-  content: $ra-var-icon-cracked-helm;
+.ra-var-icon-castle-flag {
+  &:before {
+    content: $ra-var-icon-castle-flag; 
+  }
 }
 
-.#{$ra-css-prefix}-cracked-shield:before {
-  content: $ra-var-icon-cracked-shield;
+.ra-var-icon-cat {
+  &:before {
+    content: $ra-var-icon-cat; 
+  }
 }
 
-.#{$ra-css-prefix}-croc-sword:before {
-  content: $ra-var-icon-croc-sword;
+.ra-var-icon-cauldron {
+  &:before {
+    content: $ra-var-icon-cauldron; 
+  }
 }
 
-.#{$ra-css-prefix}-crossbow:before {
-  content: $ra-var-icon-crossbow;
+.ra-var-icon-chain {
+  &:before {
+    content: $ra-var-icon-chain; 
+  }
 }
 
-.#{$ra-css-prefix}-crossed-axes:before {
-  content: $ra-var-icon-crossed-axes;
+.ra-var-icon-cheese {
+  &:before {
+    content: $ra-var-icon-cheese; 
+  }
 }
 
-.#{$ra-css-prefix}-crossed-bones:before {
-  content: $ra-var-icon-crossed-bones;
+.ra-var-icon-chemical-arrow {
+  &:before {
+    content: $ra-var-icon-chemical-arrow; 
+  }
 }
 
-.#{$ra-css-prefix}-crossed-pistols:before {
-  content: $ra-var-icon-crossed-pistols;
+.ra-var-icon-chessboard {
+  &:before {
+    content: $ra-var-icon-chessboard; 
+  }
 }
 
-.#{$ra-css-prefix}-crossed-sabres:before {
-  content: $ra-var-icon-crossed-sabres;
+.ra-var-icon-chicken-leg {
+  &:before {
+    content: $ra-var-icon-chicken-leg; 
+  }
 }
 
-.#{$ra-css-prefix}-crossed-swords:before {
-  content: $ra-var-icon-crossed-swords;
+.ra-var-icon-circle-of-circles {
+  &:before {
+    content: $ra-var-icon-circle-of-circles; 
+  }
 }
 
-.#{$ra-css-prefix}-crown:before {
-  content: $ra-var-icon-crown;
+.ra-var-icon-circular-saw {
+  &:before {
+    content: $ra-var-icon-circular-saw; 
+  }
 }
 
-.#{$ra-css-prefix}-crown-of-thorns:before {
-  content: $ra-var-icon-crown-of-thorns;
+.ra-var-icon-circular-shield {
+  &:before {
+    content: $ra-var-icon-circular-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-crowned-heart:before {
-  content: $ra-var-icon-crowned-heart;
+.ra-var-icon-cloak-and-dagger {
+  &:before {
+    content: $ra-var-icon-cloak-and-dagger; 
+  }
 }
 
-.#{$ra-css-prefix}-crush:before {
-  content: $ra-var-icon-crush;
+.ra-var-icon-clockwork {
+  &:before {
+    content: $ra-var-icon-clockwork; 
+  }
 }
 
-.#{$ra-css-prefix}-crystal-ball:before {
-  content: $ra-var-icon-crystal-ball;
+.ra-var-icon-closed-barbute {
+  &:before {
+    content: $ra-var-icon-closed-barbute; 
+  }
 }
 
-.#{$ra-css-prefix}-crystal-cluster:before {
-  content: $ra-var-icon-crystal-cluster;
+.ra-var-icon-clover {
+  &:before {
+    content: $ra-var-icon-clover; 
+  }
 }
 
-.#{$ra-css-prefix}-crystal-wand:before {
-  content: $ra-var-icon-crystal-wand;
+.ra-var-icon-clovers-card {
+  &:before {
+    content: $ra-var-icon-clovers-card; 
+  }
 }
 
-.#{$ra-css-prefix}-crystals:before {
-  content: $ra-var-icon-crystals;
+.ra-var-icon-clovers {
+  &:before {
+    content: $ra-var-icon-clovers; 
+  }
 }
 
-.#{$ra-css-prefix}-cubes:before {
-  content: $ra-var-icon-cubes;
+.ra-var-icon-cluster-bomb {
+  &:before {
+    content: $ra-var-icon-cluster-bomb; 
+  }
 }
 
-.#{$ra-css-prefix}-cut-palm:before {
-  content: $ra-var-icon-cut-palm;
+.ra-var-icon-coal-wagon {
+  &:before {
+    content: $ra-var-icon-coal-wagon; 
+  }
 }
 
-.#{$ra-css-prefix}-cycle:before {
-  content: $ra-var-icon-cycle;
+.ra-var-icon-coffee-mug {
+  &:before {
+    content: $ra-var-icon-coffee-mug; 
+  }
 }
 
-.#{$ra-css-prefix}-daggers:before {
-  content: $ra-var-icon-daggers;
+.ra-var-icon-cog-wheel {
+  &:before {
+    content: $ra-var-icon-cog-wheel; 
+  }
 }
 
-.#{$ra-css-prefix}-daisy:before {
-  content: $ra-var-icon-daisy;
+.ra-var-icon-cog {
+  &:before {
+    content: $ra-var-icon-cog; 
+  }
 }
 
-.#{$ra-css-prefix}-dead-tree:before {
-  content: $ra-var-icon-dead-tree;
+.ra-var-icon-coins {
+  &:before {
+    content: $ra-var-icon-coins; 
+  }
 }
 
-.#{$ra-css-prefix}-death-skull:before {
-  content: $ra-var-icon-death-skull;
+.ra-var-icon-cold-heart {
+  &:before {
+    content: $ra-var-icon-cold-heart; 
+  }
 }
 
-.#{$ra-css-prefix}-decapitation:before {
-  content: $ra-var-icon-decapitation;
+.ra-var-icon-compass {
+  &:before {
+    content: $ra-var-icon-compass; 
+  }
 }
 
-.#{$ra-css-prefix}-defibrillate:before {
-  content: $ra-var-icon-defibrillate;
+.ra-var-icon-console-controller {
+  &:before {
+    content: $ra-var-icon-console-controller; 
+  }
 }
 
-.#{$ra-css-prefix}-demolish:before {
-  content: $ra-var-icon-demolish;
+.ra-var-icon-conversation {
+  &:before {
+    content: $ra-var-icon-conversation; 
+  }
 }
 
-.#{$ra-css-prefix}-dervish-swords:before {
-  content: $ra-var-icon-dervish-swords;
+.ra-var-icon-corked-tube {
+  &:before {
+    content: $ra-var-icon-corked-tube; 
+  }
 }
 
-.#{$ra-css-prefix}-desert-skull:before {
-  content: $ra-var-icon-desert-skull;
+.ra-var-icon-crab-claw {
+  &:before {
+    content: $ra-var-icon-crab-claw; 
+  }
 }
 
-.#{$ra-css-prefix}-diamond:before {
-  content: $ra-var-icon-diamond;
+.ra-var-icon-cracked-helm {
+  &:before {
+    content: $ra-var-icon-cracked-helm; 
+  }
 }
 
-.#{$ra-css-prefix}-diamonds:before {
-  content: $ra-var-icon-diamonds;
+.ra-var-icon-cracked-shield {
+  &:before {
+    content: $ra-var-icon-cracked-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-diamonds-card:before {
-  content: $ra-var-icon-diamonds-card;
+.ra-var-icon-croc-sword {
+  &:before {
+    content: $ra-var-icon-croc-sword; 
+  }
 }
 
-.#{$ra-css-prefix}-dice-five:before {
-  content: $ra-var-icon-dice-five;
+.ra-var-icon-crossbow {
+  &:before {
+    content: $ra-var-icon-crossbow; 
+  }
 }
 
-.#{$ra-css-prefix}-dice-four:before {
-  content: $ra-var-icon-dice-four;
+.ra-var-icon-crossed-axes {
+  &:before {
+    content: $ra-var-icon-crossed-axes; 
+  }
 }
 
-.#{$ra-css-prefix}-dice-one:before {
-  content: $ra-var-icon-dice-one;
+.ra-var-icon-crossed-bones {
+  &:before {
+    content: $ra-var-icon-crossed-bones; 
+  }
 }
 
-.#{$ra-css-prefix}-dice-six:before {
-  content: $ra-var-icon-dice-six;
+.ra-var-icon-crossed-pistols {
+  &:before {
+    content: $ra-var-icon-crossed-pistols; 
+  }
 }
 
-.#{$ra-css-prefix}-dice-three:before {
-  content: $ra-var-icon-dice-three;
+.ra-var-icon-crossed-sabres {
+  &:before {
+    content: $ra-var-icon-crossed-sabres; 
+  }
 }
 
-.#{$ra-css-prefix}-dice-two:before {
-  content: $ra-var-icon-dice-two;
+.ra-var-icon-crossed-swords {
+  &:before {
+    content: $ra-var-icon-crossed-swords; 
+  }
 }
 
-.#{$ra-css-prefix}-dinosaur:before {
-  content: $ra-var-icon-dinosaur;
+.ra-var-icon-crown-of-thorns {
+  &:before {
+    content: $ra-var-icon-crown-of-thorns; 
+  }
 }
 
-.#{$ra-css-prefix}-divert:before {
-  content: $ra-var-icon-divert;
+.ra-var-icon-crown {
+  &:before {
+    content: $ra-var-icon-crown; 
+  }
 }
 
-.#{$ra-css-prefix}-diving-dagger:before {
-  content: $ra-var-icon-diving-dagger;
+.ra-var-icon-crowned-heart {
+  &:before {
+    content: $ra-var-icon-crowned-heart; 
+  }
 }
 
-.#{$ra-css-prefix}-double-team:before {
-  content: $ra-var-icon-double-team;
+.ra-var-icon-crush {
+  &:before {
+    content: $ra-var-icon-crush; 
+  }
 }
 
-.#{$ra-css-prefix}-doubled:before {
-  content: $ra-var-icon-doubled;
+.ra-var-icon-crystal-ball {
+  &:before {
+    content: $ra-var-icon-crystal-ball; 
+  }
 }
 
-.#{$ra-css-prefix}-dragon:before {
-  content: $ra-var-icon-dragon;
+.ra-var-icon-crystal-cluster {
+  &:before {
+    content: $ra-var-icon-crystal-cluster; 
+  }
 }
 
-.#{$ra-css-prefix}-dragon-breath:before {
-  content: $ra-var-icon-dragon-breath;
+.ra-var-icon-crystal-wand {
+  &:before {
+    content: $ra-var-icon-crystal-wand; 
+  }
 }
 
-.#{$ra-css-prefix}-dragon-wing:before {
-  content: $ra-var-icon-dragon-wing;
+.ra-var-icon-crystals {
+  &:before {
+    content: $ra-var-icon-crystals; 
+  }
 }
 
-.#{$ra-css-prefix}-dragonfly:before {
-  content: $ra-var-icon-dragonfly;
+.ra-var-icon-cubes {
+  &:before {
+    content: $ra-var-icon-cubes; 
+  }
 }
 
-.#{$ra-css-prefix}-drill:before {
-  content: $ra-var-icon-drill;
+.ra-var-icon-cut-palm {
+  &:before {
+    content: $ra-var-icon-cut-palm; 
+  }
 }
 
-.#{$ra-css-prefix}-dripping-blade:before {
-  content: $ra-var-icon-dripping-blade;
+.ra-var-icon-cycle {
+  &:before {
+    content: $ra-var-icon-cycle; 
+  }
 }
 
-.#{$ra-css-prefix}-dripping-knife:before {
-  content: $ra-var-icon-dripping-knife;
+.ra-var-icon-daggers {
+  &:before {
+    content: $ra-var-icon-daggers; 
+  }
 }
 
-.#{$ra-css-prefix}-dripping-sword:before {
-  content: $ra-var-icon-dripping-sword;
+.ra-var-icon-daisy {
+  &:before {
+    content: $ra-var-icon-daisy; 
+  }
 }
 
-.#{$ra-css-prefix}-droplet:before {
-  content: $ra-var-icon-droplet;
+.ra-var-icon-dead-tree {
+  &:before {
+    content: $ra-var-icon-dead-tree; 
+  }
 }
 
-.#{$ra-css-prefix}-droplet-splash:before {
-  content: $ra-var-icon-droplet-splash;
+.ra-var-icon-death-skull {
+  &:before {
+    content: $ra-var-icon-death-skull; 
+  }
 }
 
-.#{$ra-css-prefix}-droplets:before {
-  content: $ra-var-icon-droplets;
+.ra-var-icon-decapitation {
+  &:before {
+    content: $ra-var-icon-decapitation; 
+  }
 }
 
-.#{$ra-css-prefix}-duel:before {
-  content: $ra-var-icon-duel;
+.ra-var-icon-defibrillate {
+  &:before {
+    content: $ra-var-icon-defibrillate; 
+  }
 }
 
-.#{$ra-css-prefix}-egg:before {
-  content: $ra-var-icon-egg;
+.ra-var-icon-demolish {
+  &:before {
+    content: $ra-var-icon-demolish; 
+  }
 }
 
-.#{$ra-css-prefix}-egg-pod:before {
-  content: $ra-var-icon-egg-pod;
+.ra-var-icon-dervish-swords {
+  &:before {
+    content: $ra-var-icon-dervish-swords; 
+  }
 }
 
-.#{$ra-css-prefix}-eggplant:before {
-  content: $ra-var-icon-eggplant;
+.ra-var-icon-desert-skull {
+  &:before {
+    content: $ra-var-icon-desert-skull; 
+  }
 }
 
-.#{$ra-css-prefix}-emerald:before {
-  content: $ra-var-icon-emerald;
+.ra-var-icon-diamond {
+  &:before {
+    content: $ra-var-icon-diamond; 
+  }
 }
 
-.#{$ra-css-prefix}-energise:before {
-  content: $ra-var-icon-energise;
+.ra-var-icon-diamonds-card {
+  &:before {
+    content: $ra-var-icon-diamonds-card; 
+  }
 }
 
-.#{$ra-css-prefix}-explosion:before {
-  content: $ra-var-icon-explosion;
+.ra-var-icon-diamonds {
+  &:before {
+    content: $ra-var-icon-diamonds; 
+  }
 }
 
-.#{$ra-css-prefix}-explosive-materials:before {
-  content: $ra-var-icon-explosive-materials;
+.ra-var-icon-dice-five {
+  &:before {
+    content: $ra-var-icon-dice-five; 
+  }
 }
 
-.#{$ra-css-prefix}-eye-monster:before {
-  content: $ra-var-icon-eye-monster;
+.ra-var-icon-dice-four {
+  &:before {
+    content: $ra-var-icon-dice-four; 
+  }
 }
 
-.#{$ra-css-prefix}-eye-shield:before {
-  content: $ra-var-icon-eye-shield;
+.ra-var-icon-dice-one {
+  &:before {
+    content: $ra-var-icon-dice-one; 
+  }
 }
 
-.#{$ra-css-prefix}-eyeball:before {
-  content: $ra-var-icon-eyeball;
+.ra-var-icon-dice-six {
+  &:before {
+    content: $ra-var-icon-dice-six; 
+  }
 }
 
-.#{$ra-css-prefix}-fairy:before {
-  content: $ra-var-icon-fairy;
+.ra-var-icon-dice-three {
+  &:before {
+    content: $ra-var-icon-dice-three; 
+  }
 }
 
-.#{$ra-css-prefix}-fairy-wand:before {
-  content: $ra-var-icon-fairy-wand;
+.ra-var-icon-dice-two {
+  &:before {
+    content: $ra-var-icon-dice-two; 
+  }
 }
 
-.#{$ra-css-prefix}-fall-down:before {
-  content: $ra-var-icon-fall-down;
+.ra-var-icon-dinosaur {
+  &:before {
+    content: $ra-var-icon-dinosaur; 
+  }
 }
 
-.#{$ra-css-prefix}-falling:before {
-  content: $ra-var-icon-falling;
+.ra-var-icon-divert {
+  &:before {
+    content: $ra-var-icon-divert; 
+  }
 }
 
-.#{$ra-css-prefix}-fast-ship:before {
-  content: $ra-var-icon-fast-ship;
+.ra-var-icon-diving-dagger {
+  &:before {
+    content: $ra-var-icon-diving-dagger; 
+  }
 }
 
-.#{$ra-css-prefix}-feather-wing:before {
-  content: $ra-var-icon-feather-wing;
+.ra-var-icon-double-team {
+  &:before {
+    content: $ra-var-icon-double-team; 
+  }
 }
 
-.#{$ra-css-prefix}-feathered-wing:before {
-  content: $ra-var-icon-feathered-wing;
+.ra-var-icon-doubled {
+  &:before {
+    content: $ra-var-icon-doubled; 
+  }
 }
 
-.#{$ra-css-prefix}-fedora:before {
-  content: $ra-var-icon-fedora;
+.ra-var-icon-dragon-breath {
+  &:before {
+    content: $ra-var-icon-dragon-breath; 
+  }
 }
 
-.#{$ra-css-prefix}-fire:before {
-  content: $ra-var-icon-fire;
+.ra-var-icon-dragon-wing {
+  &:before {
+    content: $ra-var-icon-dragon-wing; 
+  }
 }
 
-.#{$ra-css-prefix}-fire-bomb:before {
-  content: $ra-var-icon-fire-bomb;
+.ra-var-icon-dragon {
+  &:before {
+    content: $ra-var-icon-dragon; 
+  }
 }
 
-.#{$ra-css-prefix}-fire-breath:before {
-  content: $ra-var-icon-fire-breath;
+.ra-var-icon-dragonfly {
+  &:before {
+    content: $ra-var-icon-dragonfly; 
+  }
 }
 
-.#{$ra-css-prefix}-fire-ring:before {
-  content: $ra-var-icon-fire-ring;
+.ra-var-icon-drill {
+  &:before {
+    content: $ra-var-icon-drill; 
+  }
 }
 
-.#{$ra-css-prefix}-fire-shield:before {
-  content: $ra-var-icon-fire-shield;
+.ra-var-icon-dripping-blade {
+  &:before {
+    content: $ra-var-icon-dripping-blade; 
+  }
 }
 
-.#{$ra-css-prefix}-fire-symbol:before {
-  content: $ra-var-icon-fire-symbol;
+.ra-var-icon-dripping-knife {
+  &:before {
+    content: $ra-var-icon-dripping-knife; 
+  }
 }
 
-.#{$ra-css-prefix}-fireball-sword:before {
-  content: $ra-var-icon-fireball-sword;
+.ra-var-icon-dripping-sword {
+  &:before {
+    content: $ra-var-icon-dripping-sword; 
+  }
 }
 
-.#{$ra-css-prefix}-fish:before {
-  content: $ra-var-icon-fish;
+.ra-var-icon-droplet-splash {
+  &:before {
+    content: $ra-var-icon-droplet-splash; 
+  }
 }
 
-.#{$ra-css-prefix}-fizzing-flask:before {
-  content: $ra-var-icon-fizzing-flask;
+.ra-var-icon-droplet {
+  &:before {
+    content: $ra-var-icon-droplet; 
+  }
 }
 
-.#{$ra-css-prefix}-flame-symbol:before {
-  content: $ra-var-icon-flame-symbol;
+.ra-var-icon-droplets {
+  &:before {
+    content: $ra-var-icon-droplets; 
+  }
 }
 
-.#{$ra-css-prefix}-flaming-arrow:before {
-  content: $ra-var-icon-flaming-arrow;
+.ra-var-icon-duel {
+  &:before {
+    content: $ra-var-icon-duel; 
+  }
 }
 
-.#{$ra-css-prefix}-flaming-claw:before {
-  content: $ra-var-icon-flaming-claw;
+.ra-var-icon-earth-crack {
+  &:before {
+    content: $ra-var-icon-earth-crack; 
+  }
 }
 
-.#{$ra-css-prefix}-flaming-trident:before {
-  content: $ra-var-icon-flaming-trident;
+.ra-var-icon-egg-pod {
+  &:before {
+    content: $ra-var-icon-egg-pod; 
+  }
 }
 
-.#{$ra-css-prefix}-flask:before {
-  content: $ra-var-icon-flask;
+.ra-var-icon-egg {
+  &:before {
+    content: $ra-var-icon-egg; 
+  }
 }
 
-.#{$ra-css-prefix}-flat-hammer:before {
-  content: $ra-var-icon-flat-hammer;
+.ra-var-icon-eggplant {
+  &:before {
+    content: $ra-var-icon-eggplant; 
+  }
 }
 
-.#{$ra-css-prefix}-flower:before {
-  content: $ra-var-icon-flower;
+.ra-var-icon-emerald {
+  &:before {
+    content: $ra-var-icon-emerald; 
+  }
 }
 
-.#{$ra-css-prefix}-flowers:before {
-  content: $ra-var-icon-flowers;
+.ra-var-icon-energise {
+  &:before {
+    content: $ra-var-icon-energise; 
+  }
 }
 
-.#{$ra-css-prefix}-fluffy-swirl:before {
-  content: $ra-var-icon-fluffy-swirl;
+.ra-var-icon-executioner-hood {
+  &:before {
+    content: $ra-var-icon-executioner-hood; 
+  }
 }
 
-.#{$ra-css-prefix}-focused-lightning:before {
-  content: $ra-var-icon-focused-lightning;
+.ra-var-icon-explosion {
+  &:before {
+    content: $ra-var-icon-explosion; 
+  }
 }
 
-.#{$ra-css-prefix}-food-chain:before {
-  content: $ra-var-icon-food-chain;
+.ra-var-icon-explosive-materials {
+  &:before {
+    content: $ra-var-icon-explosive-materials; 
+  }
 }
 
-.#{$ra-css-prefix}-footprint:before {
-  content: $ra-var-icon-footprint;
+.ra-var-icon-eye-monster {
+  &:before {
+    content: $ra-var-icon-eye-monster; 
+  }
 }
 
-.#{$ra-css-prefix}-forging:before {
-  content: $ra-var-icon-forging;
+.ra-var-icon-eye-shield {
+  &:before {
+    content: $ra-var-icon-eye-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-forward:before {
-  content: $ra-var-icon-forward;
+.ra-var-icon-eyeball {
+  &:before {
+    content: $ra-var-icon-eyeball; 
+  }
 }
 
-.#{$ra-css-prefix}-fox:before {
-  content: $ra-var-icon-fox;
+.ra-var-icon-fairy-wand {
+  &:before {
+    content: $ra-var-icon-fairy-wand; 
+  }
 }
 
-.#{$ra-css-prefix}-frost-emblem:before {
-  content: $ra-var-icon-frost-emblem;
+.ra-var-icon-fairy {
+  &:before {
+    content: $ra-var-icon-fairy; 
+  }
 }
 
-.#{$ra-css-prefix}-frostfire:before {
-  content: $ra-var-icon-frostfire;
+.ra-var-icon-fall-down {
+  &:before {
+    content: $ra-var-icon-fall-down; 
+  }
 }
 
-.#{$ra-css-prefix}-frozen-arrow:before {
-  content: $ra-var-icon-frozen-arrow;
+.ra-var-icon-falling {
+  &:before {
+    content: $ra-var-icon-falling; 
+  }
 }
 
-.#{$ra-css-prefix}-gamepad-cross:before {
-  content: $ra-var-icon-gamepad-cross;
+.ra-var-icon-fast-ship {
+  &:before {
+    content: $ra-var-icon-fast-ship; 
+  }
 }
 
-.#{$ra-css-prefix}-gavel:before {
-  content: $ra-var-icon-gavel;
+.ra-var-icon-feather-wing {
+  &:before {
+    content: $ra-var-icon-feather-wing; 
+  }
 }
 
-.#{$ra-css-prefix}-gear-hammer:before {
-  content: $ra-var-icon-gear-hammer;
+.ra-var-icon-feathered-wing {
+  &:before {
+    content: $ra-var-icon-feathered-wing; 
+  }
 }
 
-.#{$ra-css-prefix}-gear-heart:before {
-  content: $ra-var-icon-gear-heart;
+.ra-var-icon-fedora {
+  &:before {
+    content: $ra-var-icon-fedora; 
+  }
 }
 
-.#{$ra-css-prefix}-gears:before {
-  content: $ra-var-icon-gears;
+.ra-var-icon-fire-bomb {
+  &:before {
+    content: $ra-var-icon-fire-bomb; 
+  }
 }
 
-.#{$ra-css-prefix}-gecko:before {
-  content: $ra-var-icon-gecko;
+.ra-var-icon-fire-breath {
+  &:before {
+    content: $ra-var-icon-fire-breath; 
+  }
 }
 
-.#{$ra-css-prefix}-gem:before {
-  content: $ra-var-icon-gem;
+.ra-var-icon-fire-ring {
+  &:before {
+    content: $ra-var-icon-fire-ring; 
+  }
 }
 
-.#{$ra-css-prefix}-gem-pendant:before {
-  content: $ra-var-icon-gem-pendant;
+.ra-var-icon-fire-shield {
+  &:before {
+    content: $ra-var-icon-fire-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-gemini:before {
-  content: $ra-var-icon-gemini;
+.ra-var-icon-fire-symbol {
+  &:before {
+    content: $ra-var-icon-fire-symbol; 
+  }
 }
 
-.#{$ra-css-prefix}-glass-heart:before {
-  content: $ra-var-icon-glass-heart;
+.ra-var-icon-fire {
+  &:before {
+    content: $ra-var-icon-fire; 
+  }
 }
 
-.#{$ra-css-prefix}-gloop:before {
-  content: $ra-var-icon-gloop;
+.ra-var-icon-fireball-sword {
+  &:before {
+    content: $ra-var-icon-fireball-sword; 
+  }
 }
 
-.#{$ra-css-prefix}-gold-bar:before {
-  content: $ra-var-icon-gold-bar;
+.ra-var-icon-fish {
+  &:before {
+    content: $ra-var-icon-fish; 
+  }
 }
 
-.#{$ra-css-prefix}-grappling-hook:before {
-  content: $ra-var-icon-grappling-hook;
+.ra-var-icon-fizzing-flask {
+  &:before {
+    content: $ra-var-icon-fizzing-flask; 
+  }
 }
 
-.#{$ra-css-prefix}-grass:before {
-  content: $ra-var-icon-grass;
+.ra-var-icon-flail {
+  &:before {
+    content: $ra-var-icon-flail; 
+  }
 }
 
-.#{$ra-css-prefix}-grass-patch:before {
-  content: $ra-var-icon-grass-patch;
+.ra-var-icon-flame-symbol {
+  &:before {
+    content: $ra-var-icon-flame-symbol; 
+  }
 }
 
-.#{$ra-css-prefix}-grenade:before {
-  content: $ra-var-icon-grenade;
+.ra-var-icon-flame {
+  &:before {
+    content: $ra-var-icon-flame; 
+  }
 }
 
-.#{$ra-css-prefix}-groundbreaker:before {
-  content: $ra-var-icon-groundbreaker;
+.ra-var-icon-flaming-arrow {
+  &:before {
+    content: $ra-var-icon-flaming-arrow; 
+  }
 }
 
-.#{$ra-css-prefix}-guarded-tower:before {
-  content: $ra-var-icon-guarded-tower;
+.ra-var-icon-flaming-claw {
+  &:before {
+    content: $ra-var-icon-flaming-claw; 
+  }
 }
 
-.#{$ra-css-prefix}-guillotine:before {
-  content: $ra-var-icon-guillotine;
+.ra-var-icon-flaming-trident {
+  &:before {
+    content: $ra-var-icon-flaming-trident; 
+  }
 }
 
-.#{$ra-css-prefix}-halberd:before {
-  content: $ra-var-icon-halberd;
+.ra-var-icon-flask {
+  &:before {
+    content: $ra-var-icon-flask; 
+  }
 }
 
-.#{$ra-css-prefix}-hammer:before {
-  content: $ra-var-icon-hammer;
+.ra-var-icon-flat-hammer {
+  &:before {
+    content: $ra-var-icon-flat-hammer; 
+  }
 }
 
-.#{$ra-css-prefix}-hammer-drop:before {
-  content: $ra-var-icon-hammer-drop;
+.ra-var-icon-flower {
+  &:before {
+    content: $ra-var-icon-flower; 
+  }
 }
 
-.#{$ra-css-prefix}-hand:before {
-  content: $ra-var-icon-hand;
+.ra-var-icon-flowers {
+  &:before {
+    content: $ra-var-icon-flowers; 
+  }
 }
 
-.#{$ra-css-prefix}-hand-emblem:before {
-  content: $ra-var-icon-hand-emblem;
+.ra-var-icon-fluffy-swirl {
+  &:before {
+    content: $ra-var-icon-fluffy-swirl; 
+  }
 }
 
-.#{$ra-css-prefix}-hand-saw:before {
-  content: $ra-var-icon-hand-saw;
+.ra-var-icon-focused-lightning {
+  &:before {
+    content: $ra-var-icon-focused-lightning; 
+  }
 }
 
-.#{$ra-css-prefix}-harpoon-trident:before {
-  content: $ra-var-icon-harpoon-trident;
+.ra-var-icon-food-chain {
+  &:before {
+    content: $ra-var-icon-food-chain; 
+  }
 }
 
-.#{$ra-css-prefix}-health:before {
-  content: $ra-var-icon-health;
+.ra-var-icon-football-ball {
+  &:before {
+    content: $ra-var-icon-football-ball; 
+  }
 }
 
-.#{$ra-css-prefix}-health-decrease:before {
-  content: $ra-var-icon-health-decrease;
+.ra-var-icon-footprint {
+  &:before {
+    content: $ra-var-icon-footprint; 
+  }
 }
 
-.#{$ra-css-prefix}-health-increase:before {
-  content: $ra-var-icon-health-increase;
+.ra-var-icon-forging {
+  &:before {
+    content: $ra-var-icon-forging; 
+  }
 }
 
-.#{$ra-css-prefix}-heart-bottle:before {
-  content: $ra-var-icon-heart-bottle;
+.ra-var-icon-forward {
+  &:before {
+    content: $ra-var-icon-forward; 
+  }
 }
 
-.#{$ra-css-prefix}-heart-tower:before {
-  content: $ra-var-icon-heart-tower;
+.ra-var-icon-fox {
+  &:before {
+    content: $ra-var-icon-fox; 
+  }
 }
 
-.#{$ra-css-prefix}-heartburn:before {
-  content: $ra-var-icon-heartburn;
+.ra-var-icon-frost-emblem {
+  &:before {
+    content: $ra-var-icon-frost-emblem; 
+  }
 }
 
-.#{$ra-css-prefix}-hearts:before {
-  content: $ra-var-icon-hearts;
+.ra-var-icon-frostfire {
+  &:before {
+    content: $ra-var-icon-frostfire; 
+  }
 }
 
-.#{$ra-css-prefix}-hearts-card:before {
-  content: $ra-var-icon-hearts-card;
+.ra-var-icon-frozen-arrow {
+  &:before {
+    content: $ra-var-icon-frozen-arrow; 
+  }
 }
 
-.#{$ra-css-prefix}-heat-haze:before {
-  content: $ra-var-icon-heat-haze;
+.ra-var-icon-gamepad-cross {
+  &:before {
+    content: $ra-var-icon-gamepad-cross; 
+  }
 }
 
-.#{$ra-css-prefix}-heavy-fall:before {
-  content: $ra-var-icon-heavy-fall;
+.ra-var-icon-gamepad {
+  &:before {
+    content: $ra-var-icon-gamepad; 
+  }
 }
 
-.#{$ra-css-prefix}-heavy-shield:before {
-  content: $ra-var-icon-heavy-shield;
+.ra-var-icon-gavel {
+  &:before {
+    content: $ra-var-icon-gavel; 
+  }
 }
 
-.#{$ra-css-prefix}-helmet:before {
-  content: $ra-var-icon-helmet;
+.ra-var-icon-gear-hammer {
+  &:before {
+    content: $ra-var-icon-gear-hammer; 
+  }
 }
 
-.#{$ra-css-prefix}-help:before {
-  content: $ra-var-icon-help;
+.ra-var-icon-gear-heart {
+  &:before {
+    content: $ra-var-icon-gear-heart; 
+  }
 }
 
-.#{$ra-css-prefix}-hive-emblem:before {
-  content: $ra-var-icon-hive-emblem;
+.ra-var-icon-gears {
+  &:before {
+    content: $ra-var-icon-gears; 
+  }
 }
 
-.#{$ra-css-prefix}-hole-ladder:before {
-  content: $ra-var-icon-hole-ladder;
+.ra-var-icon-gecko {
+  &:before {
+    content: $ra-var-icon-gecko; 
+  }
 }
 
-.#{$ra-css-prefix}-honeycomb:before {
-  content: $ra-var-icon-honeycomb;
+.ra-var-icon-gem-pendant {
+  &:before {
+    content: $ra-var-icon-gem-pendant; 
+  }
 }
 
-.#{$ra-css-prefix}-hood:before {
-  content: $ra-var-icon-hood;
+.ra-var-icon-gem {
+  &:before {
+    content: $ra-var-icon-gem; 
+  }
 }
 
-.#{$ra-css-prefix}-horn-call:before {
-  content: $ra-var-icon-horn-call;
+.ra-var-icon-gemini {
+  &:before {
+    content: $ra-var-icon-gemini; 
+  }
 }
 
-.#{$ra-css-prefix}-horns:before {
-  content: $ra-var-icon-horns;
+.ra-var-icon-gladius {
+  &:before {
+    content: $ra-var-icon-gladius; 
+  }
 }
 
-.#{$ra-css-prefix}-horseshoe:before {
-  content: $ra-var-icon-horseshoe;
+.ra-var-icon-glass-heart {
+  &:before {
+    content: $ra-var-icon-glass-heart; 
+  }
 }
 
-.#{$ra-css-prefix}-hospital-cross:before {
-  content: $ra-var-icon-hospital-cross;
+.ra-var-icon-gloop {
+  &:before {
+    content: $ra-var-icon-gloop; 
+  }
 }
 
-.#{$ra-css-prefix}-hot-surface:before {
-  content: $ra-var-icon-hot-surface;
+.ra-var-icon-gold-bar {
+  &:before {
+    content: $ra-var-icon-gold-bar; 
+  }
 }
 
-.#{$ra-css-prefix}-hourglass:before {
-  content: $ra-var-icon-hourglass;
+.ra-var-icon-gold-stack {
+  &:before {
+    content: $ra-var-icon-gold-stack; 
+  }
 }
 
-.#{$ra-css-prefix}-hydra:before {
-  content: $ra-var-icon-hydra;
+.ra-var-icon-grappling-hook {
+  &:before {
+    content: $ra-var-icon-grappling-hook; 
+  }
 }
 
-.#{$ra-css-prefix}-hydra-shot:before {
-  content: $ra-var-icon-hydra-shot;
+.ra-var-icon-grass-patch {
+  &:before {
+    content: $ra-var-icon-grass-patch; 
+  }
 }
 
-.#{$ra-css-prefix}-ice-cube:before {
-  content: $ra-var-icon-ice-cube;
+.ra-var-icon-grass {
+  &:before {
+    content: $ra-var-icon-grass; 
+  }
 }
 
-.#{$ra-css-prefix}-implosion:before {
-  content: $ra-var-icon-implosion;
+.ra-var-icon-greek-temple {
+  &:before {
+    content: $ra-var-icon-greek-temple; 
+  }
 }
 
-.#{$ra-css-prefix}-incense:before {
-  content: $ra-var-icon-incense;
+.ra-var-icon-grenade {
+  &:before {
+    content: $ra-var-icon-grenade; 
+  }
 }
 
-.#{$ra-css-prefix}-insect-jaws:before {
-  content: $ra-var-icon-insect-jaws;
+.ra-var-icon-groundbreaker {
+  &:before {
+    content: $ra-var-icon-groundbreaker; 
+  }
 }
 
-.#{$ra-css-prefix}-interdiction:before {
-  content: $ra-var-icon-interdiction;
+.ra-var-icon-guarded-tower {
+  &:before {
+    content: $ra-var-icon-guarded-tower; 
+  }
 }
 
-.#{$ra-css-prefix}-jetpack:before {
-  content: $ra-var-icon-jetpack;
+.ra-var-icon-guillotine {
+  &:before {
+    content: $ra-var-icon-guillotine; 
+  }
 }
 
-.#{$ra-css-prefix}-jigsaw-piece:before {
-  content: $ra-var-icon-jigsaw-piece;
+.ra-var-icon-halberd {
+  &:before {
+    content: $ra-var-icon-halberd; 
+  }
 }
 
-.#{$ra-css-prefix}-kaleidoscope:before {
-  content: $ra-var-icon-kaleidoscope;
+.ra-var-icon-ham-shank {
+  &:before {
+    content: $ra-var-icon-ham-shank; 
+  }
 }
 
-.#{$ra-css-prefix}-kettlebell:before {
-  content: $ra-var-icon-kettlebell;
+.ra-var-icon-hammer-drop {
+  &:before {
+    content: $ra-var-icon-hammer-drop; 
+  }
 }
 
-.#{$ra-css-prefix}-key:before {
-  content: $ra-var-icon-key;
+.ra-var-icon-hammer {
+  &:before {
+    content: $ra-var-icon-hammer; 
+  }
 }
 
-.#{$ra-css-prefix}-key-basic:before {
-  content: $ra-var-icon-key-basic;
+.ra-var-icon-hand-emblem {
+  &:before {
+    content: $ra-var-icon-hand-emblem; 
+  }
 }
 
-.#{$ra-css-prefix}-kitchen-knives:before {
-  content: $ra-var-icon-kitchen-knives;
+.ra-var-icon-hand-saw {
+  &:before {
+    content: $ra-var-icon-hand-saw; 
+  }
 }
 
-.#{$ra-css-prefix}-knife:before {
-  content: $ra-var-icon-knife;
+.ra-var-icon-hand {
+  &:before {
+    content: $ra-var-icon-hand; 
+  }
 }
 
-.#{$ra-css-prefix}-knife-fork:before {
-  content: $ra-var-icon-knife-fork;
+.ra-var-icon-harpoon-trident {
+  &:before {
+    content: $ra-var-icon-harpoon-trident; 
+  }
 }
 
-.#{$ra-css-prefix}-knight-helmet:before {
-  content: $ra-var-icon-knight-helmet;
+.ra-var-icon-hatchet {
+  &:before {
+    content: $ra-var-icon-hatchet; 
+  }
 }
 
-.#{$ra-css-prefix}-kunai:before {
-  content: $ra-var-icon-kunai;
+.ra-var-icon-health-decrease {
+  &:before {
+    content: $ra-var-icon-health-decrease; 
+  }
 }
 
-.#{$ra-css-prefix}-lantern-flame:before {
-  content: $ra-var-icon-lantern-flame;
+.ra-var-icon-health-increase {
+  &:before {
+    content: $ra-var-icon-health-increase; 
+  }
 }
 
-.#{$ra-css-prefix}-large-hammer:before {
-  content: $ra-var-icon-large-hammer;
+.ra-var-icon-health {
+  &:before {
+    content: $ra-var-icon-health; 
+  }
 }
 
-.#{$ra-css-prefix}-laser-blast:before {
-  content: $ra-var-icon-laser-blast;
+.ra-var-icon-heart-bottle {
+  &:before {
+    content: $ra-var-icon-heart-bottle; 
+  }
 }
 
-.#{$ra-css-prefix}-laser-site:before {
-  content: $ra-var-icon-laser-site;
+.ra-var-icon-heart-tower {
+  &:before {
+    content: $ra-var-icon-heart-tower; 
+  }
 }
 
-.#{$ra-css-prefix}-lava:before {
-  content: $ra-var-icon-lava;
+.ra-var-icon-heartburn {
+  &:before {
+    content: $ra-var-icon-heartburn; 
+  }
 }
 
-.#{$ra-css-prefix}-leaf:before {
-  content: $ra-var-icon-leaf;
+.ra-var-icon-hearts-card {
+  &:before {
+    content: $ra-var-icon-hearts-card; 
+  }
 }
 
-.#{$ra-css-prefix}-leo:before {
-  content: $ra-var-icon-leo;
+.ra-var-icon-hearts {
+  &:before {
+    content: $ra-var-icon-hearts; 
+  }
 }
 
-.#{$ra-css-prefix}-level-four:before {
-  content: $ra-var-icon-level-four;
+.ra-var-icon-heat-haze {
+  &:before {
+    content: $ra-var-icon-heat-haze; 
+  }
 }
 
-.#{$ra-css-prefix}-level-four-advanced:before {
-  content: $ra-var-icon-level-four-advanced;
+.ra-var-icon-heavy-fall {
+  &:before {
+    content: $ra-var-icon-heavy-fall; 
+  }
 }
 
-.#{$ra-css-prefix}-level-three:before {
-  content: $ra-var-icon-level-three;
+.ra-var-icon-heavy-shield {
+  &:before {
+    content: $ra-var-icon-heavy-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-level-three-advanced:before {
-  content: $ra-var-icon-level-three-advanced;
+.ra-var-icon-helmet {
+  &:before {
+    content: $ra-var-icon-helmet; 
+  }
 }
 
-.#{$ra-css-prefix}-level-two:before {
-  content: $ra-var-icon-level-two;
+.ra-var-icon-help {
+  &:before {
+    content: $ra-var-icon-help; 
+  }
 }
 
-.#{$ra-css-prefix}-level-two-advanced:before {
-  content: $ra-var-icon-level-two-advanced;
+.ra-var-icon-hive-emblem {
+  &:before {
+    content: $ra-var-icon-hive-emblem; 
+  }
 }
 
-.#{$ra-css-prefix}-lever:before {
-  content: $ra-var-icon-lever;
+.ra-var-icon-hole-ladder {
+  &:before {
+    content: $ra-var-icon-hole-ladder; 
+  }
 }
 
-.#{$ra-css-prefix}-libra:before {
-  content: $ra-var-icon-libra;
+.ra-var-icon-honeycomb {
+  &:before {
+    content: $ra-var-icon-honeycomb; 
+  }
 }
 
-.#{$ra-css-prefix}-light-bulb:before {
-  content: $ra-var-icon-light-bulb;
+.ra-var-icon-hood {
+  &:before {
+    content: $ra-var-icon-hood; 
+  }
 }
 
-.#{$ra-css-prefix}-lighthouse:before {
-  content: $ra-var-icon-lighthouse;
+.ra-var-icon-horn-call {
+  &:before {
+    content: $ra-var-icon-horn-call; 
+  }
 }
 
-.#{$ra-css-prefix}-lightning:before {
-  content: $ra-var-icon-lightning;
+.ra-var-icon-horns {
+  &:before {
+    content: $ra-var-icon-horns; 
+  }
 }
 
-.#{$ra-css-prefix}-lightning-bolt:before {
-  content: $ra-var-icon-lightning-bolt;
+.ra-var-icon-horseshoe {
+  &:before {
+    content: $ra-var-icon-horseshoe; 
+  }
 }
 
-.#{$ra-css-prefix}-lightning-storm:before {
-  content: $ra-var-icon-lightning-storm;
+.ra-var-icon-hospital-cross {
+  &:before {
+    content: $ra-var-icon-hospital-cross; 
+  }
 }
 
-.#{$ra-css-prefix}-lightning-sword:before {
-  content: $ra-var-icon-lightning-sword;
+.ra-var-icon-hot-surface {
+  &:before {
+    content: $ra-var-icon-hot-surface; 
+  }
 }
 
-.#{$ra-css-prefix}-lightning-trio:before {
-  content: $ra-var-icon-lightning-trio;
+.ra-var-icon-hourglass {
+  &:before {
+    content: $ra-var-icon-hourglass; 
+  }
 }
 
-.#{$ra-css-prefix}-lion:before {
-  content: $ra-var-icon-lion;
+.ra-var-icon-house {
+  &:before {
+    content: $ra-var-icon-house; 
+  }
 }
 
-.#{$ra-css-prefix}-lit-candelabra:before {
-  content: $ra-var-icon-lit-candelabra;
+.ra-var-icon-hydra-shot {
+  &:before {
+    content: $ra-var-icon-hydra-shot; 
+  }
 }
 
-.#{$ra-css-prefix}-load:before {
-  content: $ra-var-icon-load;
+.ra-var-icon-hydra {
+  &:before {
+    content: $ra-var-icon-hydra; 
+  }
 }
 
-.#{$ra-css-prefix}-locked-fortress:before {
-  content: $ra-var-icon-locked-fortress;
+.ra-var-icon-ice-cube {
+  &:before {
+    content: $ra-var-icon-ice-cube; 
+  }
 }
 
-.#{$ra-css-prefix}-love-howl:before {
-  content: $ra-var-icon-love-howl;
+.ra-var-icon-imperial-crown {
+  &:before {
+    content: $ra-var-icon-imperial-crown; 
+  }
 }
 
-.#{$ra-css-prefix}-maggot:before {
-  content: $ra-var-icon-maggot;
+.ra-var-icon-implosion {
+  &:before {
+    content: $ra-var-icon-implosion; 
+  }
 }
 
-.#{$ra-css-prefix}-magnet:before {
-  content: $ra-var-icon-magnet;
+.ra-var-icon-incense {
+  &:before {
+    content: $ra-var-icon-incense; 
+  }
 }
 
-.#{$ra-css-prefix}-mass-driver:before {
-  content: $ra-var-icon-mass-driver;
+.ra-var-icon-insect-jaws {
+  &:before {
+    content: $ra-var-icon-insect-jaws; 
+  }
 }
 
-.#{$ra-css-prefix}-match:before {
-  content: $ra-var-icon-match;
+.ra-var-icon-interdiction {
+  &:before {
+    content: $ra-var-icon-interdiction; 
+  }
 }
 
-.#{$ra-css-prefix}-meat:before {
-  content: $ra-var-icon-meat;
+.ra-var-icon-jetpack {
+  &:before {
+    content: $ra-var-icon-jetpack; 
+  }
 }
 
-.#{$ra-css-prefix}-meat-hook:before {
-  content: $ra-var-icon-meat-hook;
+.ra-var-icon-jewel-crown {
+  &:before {
+    content: $ra-var-icon-jewel-crown; 
+  }
 }
 
-.#{$ra-css-prefix}-medical-pack:before {
-  content: $ra-var-icon-medical-pack;
+.ra-var-icon-jigsaw-piece {
+  &:before {
+    content: $ra-var-icon-jigsaw-piece; 
+  }
 }
 
-.#{$ra-css-prefix}-metal-gate:before {
-  content: $ra-var-icon-metal-gate;
+.ra-var-icon-kaleidoscope {
+  &:before {
+    content: $ra-var-icon-kaleidoscope; 
+  }
 }
 
-.#{$ra-css-prefix}-microphone:before {
-  content: $ra-var-icon-microphone;
+.ra-var-icon-kettlebell {
+  &:before {
+    content: $ra-var-icon-kettlebell; 
+  }
 }
 
-.#{$ra-css-prefix}-mine-wagon:before {
-  content: $ra-var-icon-mine-wagon;
+.ra-var-icon-key-basic {
+  &:before {
+    content: $ra-var-icon-key-basic; 
+  }
 }
 
-.#{$ra-css-prefix}-mining-diamonds:before {
-  content: $ra-var-icon-mining-diamonds;
+.ra-var-icon-key {
+  &:before {
+    content: $ra-var-icon-key; 
+  }
 }
 
-.#{$ra-css-prefix}-mirror:before {
-  content: $ra-var-icon-mirror;
+.ra-var-icon-kitchen-knives {
+  &:before {
+    content: $ra-var-icon-kitchen-knives; 
+  }
 }
 
-.#{$ra-css-prefix}-monster-skull:before {
-  content: $ra-var-icon-monster-skull;
+.ra-var-icon-knife-fork {
+  &:before {
+    content: $ra-var-icon-knife-fork; 
+  }
 }
 
-.#{$ra-css-prefix}-mountains:before {
-  content: $ra-var-icon-mountains;
+.ra-var-icon-knife {
+  &:before {
+    content: $ra-var-icon-knife; 
+  }
 }
 
-.#{$ra-css-prefix}-moon-sun:before {
-  content: $ra-var-icon-moon-sun;
+.ra-var-icon-knight-helmet {
+  &:before {
+    content: $ra-var-icon-knight-helmet; 
+  }
 }
 
-.#{$ra-css-prefix}-mp5:before {
-  content: $ra-var-icon-mp5;
+.ra-var-icon-kunai {
+  &:before {
+    content: $ra-var-icon-kunai; 
+  }
 }
 
-.#{$ra-css-prefix}-muscle-fat:before {
-  content: $ra-var-icon-muscle-fat;
+.ra-var-icon-lantern-flame {
+  &:before {
+    content: $ra-var-icon-lantern-flame; 
+  }
 }
 
-.#{$ra-css-prefix}-muscle-up:before {
-  content: $ra-var-icon-muscle-up;
+.ra-var-icon-large-hammer {
+  &:before {
+    content: $ra-var-icon-large-hammer; 
+  }
 }
 
-.#{$ra-css-prefix}-musket:before {
-  content: $ra-var-icon-musket;
+.ra-var-icon-laser-blast {
+  &:before {
+    content: $ra-var-icon-laser-blast; 
+  }
 }
 
-.#{$ra-css-prefix}-nails:before {
-  content: $ra-var-icon-nails;
+.ra-var-icon-laser-site {
+  &:before {
+    content: $ra-var-icon-laser-site; 
+  }
 }
 
-.#{$ra-css-prefix}-nodular:before {
-  content: $ra-var-icon-nodular;
+.ra-var-icon-lava {
+  &:before {
+    content: $ra-var-icon-lava; 
+  }
 }
 
-.#{$ra-css-prefix}-noose:before {
-  content: $ra-var-icon-noose;
+.ra-var-icon-leaf {
+  &:before {
+    content: $ra-var-icon-leaf; 
+  }
 }
 
-.#{$ra-css-prefix}-nuclear:before {
-  content: $ra-var-icon-nuclear;
+.ra-var-icon-leo {
+  &:before {
+    content: $ra-var-icon-leo; 
+  }
 }
 
-.#{$ra-css-prefix}-ocarina:before {
-  content: $ra-var-icon-ocarina;
+.ra-var-icon-level-four-advanced {
+  &:before {
+    content: $ra-var-icon-level-four-advanced; 
+  }
 }
 
-.#{$ra-css-prefix}-ocean-emblem:before {
-  content: $ra-var-icon-ocean-emblem;
+.ra-var-icon-level-four {
+  &:before {
+    content: $ra-var-icon-level-four; 
+  }
 }
 
-.#{$ra-css-prefix}-octopus:before {
-  content: $ra-var-icon-octopus;
+.ra-var-icon-level-three-advanced {
+  &:before {
+    content: $ra-var-icon-level-three-advanced; 
+  }
 }
 
-.#{$ra-css-prefix}-omega:before {
-  content: $ra-var-icon-omega;
+.ra-var-icon-level-three {
+  &:before {
+    content: $ra-var-icon-level-three; 
+  }
 }
 
-.#{$ra-css-prefix}-on-target:before {
-  content: $ra-var-icon-on-target;
+.ra-var-icon-level-two-advanced {
+  &:before {
+    content: $ra-var-icon-level-two-advanced; 
+  }
 }
 
-.#{$ra-css-prefix}-ophiuchus:before {
-  content: $ra-var-icon-ophiuchus;
+.ra-var-icon-level-two {
+  &:before {
+    content: $ra-var-icon-level-two; 
+  }
 }
 
-.#{$ra-css-prefix}-overhead:before {
-  content: $ra-var-icon-overhead;
+.ra-var-icon-lever {
+  &:before {
+    content: $ra-var-icon-lever; 
+  }
 }
 
-.#{$ra-css-prefix}-overmind:before {
-  content: $ra-var-icon-overmind;
+.ra-var-icon-libra {
+  &:before {
+    content: $ra-var-icon-libra; 
+  }
 }
 
-.#{$ra-css-prefix}-palm-tree:before {
-  content: $ra-var-icon-palm-tree;
+.ra-var-icon-light-bulb {
+  &:before {
+    content: $ra-var-icon-light-bulb; 
+  }
 }
 
-.#{$ra-css-prefix}-pawn:before {
-  content: $ra-var-icon-pawn;
+.ra-var-icon-lighthouse {
+  &:before {
+    content: $ra-var-icon-lighthouse; 
+  }
 }
 
-.#{$ra-css-prefix}-pawprint:before {
-  content: $ra-var-icon-pawprint;
+.ra-var-icon-lightning-bolt {
+  &:before {
+    content: $ra-var-icon-lightning-bolt; 
+  }
 }
 
-.#{$ra-css-prefix}-perspective-dice-five:before {
-  content: $ra-var-icon-perspective-dice-five;
+.ra-var-icon-lightning-storm {
+  &:before {
+    content: $ra-var-icon-lightning-storm; 
+  }
 }
 
-.#{$ra-css-prefix}-perspective-dice-four:before {
-  content: $ra-var-icon-perspective-dice-four;
+.ra-var-icon-lightning-sword {
+  &:before {
+    content: $ra-var-icon-lightning-sword; 
+  }
 }
 
-.#{$ra-css-prefix}-perspective-dice-one:before {
-  content: $ra-var-icon-perspective-dice-one;
+.ra-var-icon-lightning-trio {
+  &:before {
+    content: $ra-var-icon-lightning-trio; 
+  }
 }
 
-.#{$ra-css-prefix}-perspective-dice-random:before {
-  content: $ra-var-icon-perspective-dice-random;
+.ra-var-icon-lightning {
+  &:before {
+    content: $ra-var-icon-lightning; 
+  }
 }
 
-.#{$ra-css-prefix}-perspective-dice-six:before {
-  content: $ra-var-icon-perspective-dice-six;
+.ra-var-icon-lion {
+  &:before {
+    content: $ra-var-icon-lion; 
+  }
 }
 
-.#{$ra-css-prefix}-perspective-dice-two:before {
-  content: $ra-var-icon-perspective-dice-two;
+.ra-var-icon-lit-candelabra {
+  &:before {
+    content: $ra-var-icon-lit-candelabra; 
+  }
 }
 
-.#{$ra-css-prefix}-perspective-dice-three:before {
-  content: $ra-var-icon-perspective-dice-three;
+.ra-var-icon-load {
+  &:before {
+    content: $ra-var-icon-load; 
+  }
 }
 
-.#{$ra-css-prefix}-pill:before {
-  content: $ra-var-icon-pill;
+.ra-var-icon-locked-fortress {
+  &:before {
+    content: $ra-var-icon-locked-fortress; 
+  }
 }
 
-.#{$ra-css-prefix}-pills:before {
-  content: $ra-var-icon-pills;
+.ra-var-icon-love-howl {
+  &:before {
+    content: $ra-var-icon-love-howl; 
+  }
 }
 
-.#{$ra-css-prefix}-pine-tree:before {
-  content: $ra-var-icon-pine-tree;
+.ra-var-icon-maggot {
+  &:before {
+    content: $ra-var-icon-maggot; 
+  }
 }
 
-.#{$ra-css-prefix}-ping-pong:before {
-  content: $ra-var-icon-ping-pong;
+.ra-var-icon-magnet {
+  &:before {
+    content: $ra-var-icon-magnet; 
+  }
 }
 
-.#{$ra-css-prefix}-pisces:before {
-  content: $ra-var-icon-pisces;
+.ra-var-icon-mass-driver {
+  &:before {
+    content: $ra-var-icon-mass-driver; 
+  }
 }
 
-.#{$ra-css-prefix}-plain-dagger:before {
-  content: $ra-var-icon-plain-dagger;
+.ra-var-icon-match {
+  &:before {
+    content: $ra-var-icon-match; 
+  }
 }
 
-.#{$ra-css-prefix}-player:before {
-  content: $ra-var-icon-player;
+.ra-var-icon-materials-science {
+  &:before {
+    content: $ra-var-icon-materials-science; 
+  }
 }
 
-.#{$ra-css-prefix}-player-despair:before {
-  content: $ra-var-icon-player-despair;
+.ra-var-icon-meat-hook {
+  &:before {
+    content: $ra-var-icon-meat-hook; 
+  }
 }
 
-.#{$ra-css-prefix}-player-dodge:before {
-  content: $ra-var-icon-player-dodge;
+.ra-var-icon-meat {
+  &:before {
+    content: $ra-var-icon-meat; 
+  }
 }
 
-.#{$ra-css-prefix}-player-king:before {
-  content: $ra-var-icon-player-king;
+.ra-var-icon-medical-pack {
+  &:before {
+    content: $ra-var-icon-medical-pack; 
+  }
 }
 
-.#{$ra-css-prefix}-player-lift:before {
-  content: $ra-var-icon-player-lift;
+.ra-var-icon-metal-gate {
+  &:before {
+    content: $ra-var-icon-metal-gate; 
+  }
 }
 
-.#{$ra-css-prefix}-player-pain:before {
-  content: $ra-var-icon-player-pain;
+.ra-var-icon-microphone {
+  &:before {
+    content: $ra-var-icon-microphone; 
+  }
 }
 
-.#{$ra-css-prefix}-player-pyromaniac:before {
-  content: $ra-var-icon-player-pyromaniac;
+.ra-var-icon-mine-wagon {
+  &:before {
+    content: $ra-var-icon-mine-wagon; 
+  }
 }
 
-.#{$ra-css-prefix}-player-shot:before {
-  content: $ra-var-icon-player-shot;
+.ra-var-icon-mining-diamonds {
+  &:before {
+    content: $ra-var-icon-mining-diamonds; 
+  }
 }
 
-.#{$ra-css-prefix}-player-teleport:before {
-  content: $ra-var-icon-player-teleport;
+.ra-var-icon-mirror {
+  &:before {
+    content: $ra-var-icon-mirror; 
+  }
 }
 
-.#{$ra-css-prefix}-player-thunder-struck:before {
-  content: $ra-var-icon-player-thunder-struck;
+.ra-var-icon-monster-skull {
+  &:before {
+    content: $ra-var-icon-monster-skull; 
+  }
 }
 
-.#{$ra-css-prefix}-podium:before {
-  content: $ra-var-icon-podium;
+.ra-var-icon-mountains {
+  &:before {
+    content: $ra-var-icon-mountains; 
+  }
 }
 
-.#{$ra-css-prefix}-poison-cloud:before {
-  content: $ra-var-icon-poison-cloud;
+.ra-var-icon-moon-sun {
+  &:before {
+    content: $ra-var-icon-moon-sun; 
+  }
 }
 
-.#{$ra-css-prefix}-potion:before {
-  content: $ra-var-icon-potion;
+.ra-var-icon-mp5 {
+  &:before {
+    content: $ra-var-icon-mp5; 
+  }
 }
 
-.#{$ra-css-prefix}-pyramids:before {
-  content: $ra-var-icon-pyramids;
+.ra-var-icon-muscle-fat {
+  &:before {
+    content: $ra-var-icon-muscle-fat; 
+  }
 }
 
-.#{$ra-css-prefix}-queen-crown:before {
-  content: $ra-var-icon-queen-crown;
+.ra-var-icon-muscle-up {
+  &:before {
+    content: $ra-var-icon-muscle-up; 
+  }
 }
 
-.#{$ra-css-prefix}-quill-ink:before {
-  content: $ra-var-icon-quill-ink;
+.ra-var-icon-musket {
+  &:before {
+    content: $ra-var-icon-musket; 
+  }
 }
 
-.#{$ra-css-prefix}-rabbit:before {
-  content: $ra-var-icon-rabbit;
+.ra-var-icon-nails {
+  &:before {
+    content: $ra-var-icon-nails; 
+  }
 }
 
-.#{$ra-css-prefix}-radar-dish:before {
-  content: $ra-var-icon-radar-dish;
+.ra-var-icon-newspaper {
+  &:before {
+    content: $ra-var-icon-newspaper; 
+  }
 }
 
-.#{$ra-css-prefix}-radial-balance:before {
-  content: $ra-var-icon-radial-balance;
+.ra-var-icon-nodular {
+  &:before {
+    content: $ra-var-icon-nodular; 
+  }
 }
 
-.#{$ra-css-prefix}-radioactive:before {
-  content: $ra-var-icon-radioactive;
+.ra-var-icon-noose {
+  &:before {
+    content: $ra-var-icon-noose; 
+  }
 }
 
-.#{$ra-css-prefix}-raven:before {
-  content: $ra-var-icon-raven;
+.ra-var-icon-nuclear {
+  &:before {
+    content: $ra-var-icon-nuclear; 
+  }
 }
 
-.#{$ra-css-prefix}-reactor:before {
-  content: $ra-var-icon-reactor;
+.ra-var-icon-ocarina {
+  &:before {
+    content: $ra-var-icon-ocarina; 
+  }
 }
 
-.#{$ra-css-prefix}-recycle:before {
-  content: $ra-var-icon-recycle;
+.ra-var-icon-ocean-emblem {
+  &:before {
+    content: $ra-var-icon-ocean-emblem; 
+  }
 }
 
-.#{$ra-css-prefix}-regeneration:before {
-  content: $ra-var-icon-regeneration;
+.ra-var-icon-octopus {
+  &:before {
+    content: $ra-var-icon-octopus; 
+  }
 }
 
-.#{$ra-css-prefix}-relic-blade:before {
-  content: $ra-var-icon-relic-blade;
+.ra-var-icon-omega {
+  &:before {
+    content: $ra-var-icon-omega; 
+  }
 }
 
-.#{$ra-css-prefix}-repair:before {
-  content: $ra-var-icon-repair;
+.ra-var-icon-on-target {
+  &:before {
+    content: $ra-var-icon-on-target; 
+  }
 }
 
-.#{$ra-css-prefix}-reverse:before {
-  content: $ra-var-icon-reverse;
+.ra-var-icon-open-chest {
+  &:before {
+    content: $ra-var-icon-open-chest; 
+  }
 }
 
-.#{$ra-css-prefix}-revolver:before {
-  content: $ra-var-icon-revolver;
+.ra-var-icon-ophiuchus {
+  &:before {
+    content: $ra-var-icon-ophiuchus; 
+  }
 }
 
-.#{$ra-css-prefix}-rifle:before {
-  content: $ra-var-icon-rifle;
+.ra-var-icon-orb-wand {
+  &:before {
+    content: $ra-var-icon-orb-wand; 
+  }
 }
 
-.#{$ra-css-prefix}-ringing-bell:before {
-  content: $ra-var-icon-ringing-bell;
+.ra-var-icon-overhead {
+  &:before {
+    content: $ra-var-icon-overhead; 
+  }
 }
 
-.#{$ra-css-prefix}-roast-chicken:before {
-  content: $ra-var-icon-roast-chicken;
+.ra-var-icon-overmind {
+  &:before {
+    content: $ra-var-icon-overmind; 
+  }
 }
 
-.#{$ra-css-prefix}-robot-arm:before {
-  content: $ra-var-icon-robot-arm;
+.ra-var-icon-palm-tree {
+  &:before {
+    content: $ra-var-icon-palm-tree; 
+  }
 }
 
-.#{$ra-css-prefix}-round-bottom-flask:before {
-  content: $ra-var-icon-round-bottom-flask;
+.ra-var-icon-pawn {
+  &:before {
+    content: $ra-var-icon-pawn; 
+  }
 }
 
-.#{$ra-css-prefix}-round-shield:before {
-  content: $ra-var-icon-round-shield;
+.ra-var-icon-pawprint {
+  &:before {
+    content: $ra-var-icon-pawprint; 
+  }
 }
 
-.#{$ra-css-prefix}-rss:before {
-  content: $ra-var-icon-rss;
+.ra-var-icon-perspective-dice-five {
+  &:before {
+    content: $ra-var-icon-perspective-dice-five; 
+  }
 }
 
-.#{$ra-css-prefix}-rune-stone:before {
-  content: $ra-var-icon-rune-stone;
+.ra-var-icon-perspective-dice-four {
+  &:before {
+    content: $ra-var-icon-perspective-dice-four; 
+  }
 }
 
-.#{$ra-css-prefix}-sagittarius:before {
-  content: $ra-var-icon-sagittarius;
+.ra-var-icon-perspective-dice-one {
+  &:before {
+    content: $ra-var-icon-perspective-dice-one; 
+  }
 }
 
-.#{$ra-css-prefix}-sapphire:before {
-  content: $ra-var-icon-sapphire;
+.ra-var-icon-perspective-dice-random {
+  &:before {
+    content: $ra-var-icon-perspective-dice-random; 
+  }
 }
 
-.#{$ra-css-prefix}-satellite:before {
-  content: $ra-var-icon-satellite;
+.ra-var-icon-perspective-dice-two {
+  &:before {
+    content: $ra-var-icon-perspective-dice-two; 
+  }
 }
 
-.#{$ra-css-prefix}-save:before {
-  content: $ra-var-icon-save;
+.ra-var-icon-perspective-dice-six {
+  &:before {
+    content: $ra-var-icon-perspective-dice-six; 
+  }
 }
 
-.#{$ra-css-prefix}-scorpio:before {
-  content: $ra-var-icon-scorpio;
+.ra-var-icon-perspective-dice-three {
+  &:before {
+    content: $ra-var-icon-perspective-dice-three; 
+  }
 }
 
-.#{$ra-css-prefix}-scroll-unfurled:before {
-  content: $ra-var-icon-scroll-unfurled;
+.ra-var-icon-pig {
+  &:before {
+    content: $ra-var-icon-pig; 
+  }
 }
 
-.#{$ra-css-prefix}-scythe:before {
-  content: $ra-var-icon-scythe;
+.ra-var-icon-pill {
+  &:before {
+    content: $ra-var-icon-pill; 
+  }
 }
 
-.#{$ra-css-prefix}-sea-serpent:before {
-  content: $ra-var-icon-sea-serpent;
+.ra-var-icon-pills {
+  &:before {
+    content: $ra-var-icon-pills; 
+  }
 }
 
-.#{$ra-css-prefix}-seagull:before {
-  content: $ra-var-icon-seagull;
+.ra-var-icon-pine-tree {
+  &:before {
+    content: $ra-var-icon-pine-tree; 
+  }
 }
 
-.#{$ra-css-prefix}-shark:before {
-  content: $ra-var-icon-shark;
+.ra-var-icon-ping-pong {
+  &:before {
+    content: $ra-var-icon-ping-pong; 
+  }
 }
 
-.#{$ra-css-prefix}-sheep:before {
-  content: $ra-var-icon-sheep;
+.ra-var-icon-pisces {
+  &:before {
+    content: $ra-var-icon-pisces; 
+  }
 }
 
-.#{$ra-css-prefix}-sheriff:before {
-  content: $ra-var-icon-sheriff;
+.ra-var-icon-plain-dagger {
+  &:before {
+    content: $ra-var-icon-plain-dagger; 
+  }
 }
 
-.#{$ra-css-prefix}-shield:before {
-  content: $ra-var-icon-shield;
+.ra-var-icon-player-despair {
+  &:before {
+    content: $ra-var-icon-player-despair; 
+  }
 }
 
-.#{$ra-css-prefix}-ship-emblem:before {
-  content: $ra-var-icon-ship-emblem;
+.ra-var-icon-player-dodge {
+  &:before {
+    content: $ra-var-icon-player-dodge; 
+  }
 }
 
-.#{$ra-css-prefix}-shoe-prints:before {
-  content: $ra-var-icon-shoe-prints;
+.ra-var-icon-player-king {
+  &:before {
+    content: $ra-var-icon-player-king; 
+  }
 }
 
-.#{$ra-css-prefix}-shot-through-the-heart:before {
-  content: $ra-var-icon-shot-through-the-heart;
+.ra-var-icon-player-lift {
+  &:before {
+    content: $ra-var-icon-player-lift; 
+  }
 }
 
-.#{$ra-css-prefix}-shotgun-shell:before {
-  content: $ra-var-icon-shotgun-shell;
+.ra-var-icon-player-pain {
+  &:before {
+    content: $ra-var-icon-player-pain; 
+  }
 }
 
-.#{$ra-css-prefix}-shovel:before {
-  content: $ra-var-icon-shovel;
+.ra-var-icon-player-pyromaniac {
+  &:before {
+    content: $ra-var-icon-player-pyromaniac; 
+  }
 }
 
-.#{$ra-css-prefix}-shuriken:before {
-  content: $ra-var-icon-shuriken;
+.ra-var-icon-player-shot {
+  &:before {
+    content: $ra-var-icon-player-shot; 
+  }
 }
 
-.#{$ra-css-prefix}-sickle:before {
-  content: $ra-var-icon-sickle;
+.ra-var-icon-player-teleport {
+  &:before {
+    content: $ra-var-icon-player-teleport; 
+  }
 }
 
-.#{$ra-css-prefix}-sideswipe:before {
-  content: $ra-var-icon-sideswipe;
+.ra-var-icon-player-thunder-struck {
+  &:before {
+    content: $ra-var-icon-player-thunder-struck; 
+  }
 }
 
-.#{$ra-css-prefix}-site:before {
-  content: $ra-var-icon-site;
+.ra-var-icon-player {
+  &:before {
+    content: $ra-var-icon-player; 
+  }
 }
 
-.#{$ra-css-prefix}-skull:before {
-  content: $ra-var-icon-skull;
+.ra-var-icon-podium {
+  &:before {
+    content: $ra-var-icon-podium; 
+  }
 }
 
-.#{$ra-css-prefix}-skull-trophy:before {
-  content: $ra-var-icon-skull-trophy;
+.ra-var-icon-pointy-hat {
+  &:before {
+    content: $ra-var-icon-pointy-hat; 
+  }
 }
 
-.#{$ra-css-prefix}-slash-ring:before {
-  content: $ra-var-icon-slash-ring;
+.ra-var-icon-poison-cloud {
+  &:before {
+    content: $ra-var-icon-poison-cloud; 
+  }
 }
 
-.#{$ra-css-prefix}-small-fire:before {
-  content: $ra-var-icon-small-fire;
+.ra-var-icon-potion {
+  &:before {
+    content: $ra-var-icon-potion; 
+  }
 }
 
-.#{$ra-css-prefix}-snail:before {
-  content: $ra-var-icon-snail;
+.ra-var-icon-psychic-waves {
+  &:before {
+    content: $ra-var-icon-psychic-waves; 
+  }
 }
 
-.#{$ra-css-prefix}-snake:before {
-  content: $ra-var-icon-snake;
+.ra-var-icon-pyramids {
+  &:before {
+    content: $ra-var-icon-pyramids; 
+  }
 }
 
-.#{$ra-css-prefix}-snorkel:before {
-  content: $ra-var-icon-snorkel;
+.ra-var-icon-queen-crown {
+  &:before {
+    content: $ra-var-icon-queen-crown; 
+  }
 }
 
-.#{$ra-css-prefix}-snowflake:before {
-  content: $ra-var-icon-snowflake;
+.ra-var-icon-quill-ink {
+  &:before {
+    content: $ra-var-icon-quill-ink; 
+  }
 }
 
-.#{$ra-css-prefix}-soccer-ball:before {
-  content: $ra-var-icon-soccer-ball;
+.ra-var-icon-rabbit {
+  &:before {
+    content: $ra-var-icon-rabbit; 
+  }
 }
 
-.#{$ra-css-prefix}-spades:before {
-  content: $ra-var-icon-spades;
+.ra-var-icon-radar-dish {
+  &:before {
+    content: $ra-var-icon-radar-dish; 
+  }
 }
 
-.#{$ra-css-prefix}-spades-card:before {
-  content: $ra-var-icon-spades-card;
+.ra-var-icon-radial-balance {
+  &:before {
+    content: $ra-var-icon-radial-balance; 
+  }
 }
 
-.#{$ra-css-prefix}-spawn-node:before {
-  content: $ra-var-icon-spawn-node;
+.ra-var-icon-radioactive {
+  &:before {
+    content: $ra-var-icon-radioactive; 
+  }
 }
 
-.#{$ra-css-prefix}-spear-head:before {
-  content: $ra-var-icon-spear-head;
+.ra-var-icon-raven {
+  &:before {
+    content: $ra-var-icon-raven; 
+  }
 }
 
-.#{$ra-css-prefix}-speech-bubble:before {
-  content: $ra-var-icon-speech-bubble;
+.ra-var-icon-reactor {
+  &:before {
+    content: $ra-var-icon-reactor; 
+  }
 }
 
-.#{$ra-css-prefix}-speech-bubbles:before {
-  content: $ra-var-icon-speech-bubbles;
+.ra-var-icon-recycle {
+  &:before {
+    content: $ra-var-icon-recycle; 
+  }
 }
 
-.#{$ra-css-prefix}-spider-face:before {
-  content: $ra-var-icon-spider-face;
+.ra-var-icon-regeneration {
+  &:before {
+    content: $ra-var-icon-regeneration; 
+  }
 }
 
-.#{$ra-css-prefix}-spikeball:before {
-  content: $ra-var-icon-spikeball;
+.ra-var-icon-relic-blade {
+  &:before {
+    content: $ra-var-icon-relic-blade; 
+  }
 }
 
-.#{$ra-css-prefix}-spiked-mace:before {
-  content: $ra-var-icon-spiked-mace;
+.ra-var-icon-repair {
+  &:before {
+    content: $ra-var-icon-repair; 
+  }
 }
 
-.#{$ra-css-prefix}-spiked-tentacle:before {
-  content: $ra-var-icon-spiked-tentacle;
+.ra-var-icon-reverse {
+  &:before {
+    content: $ra-var-icon-reverse; 
+  }
 }
 
-.#{$ra-css-prefix}-spinning-sword:before {
-  content: $ra-var-icon-spinning-sword;
+.ra-var-icon-revolver {
+  &:before {
+    content: $ra-var-icon-revolver; 
+  }
 }
 
-.#{$ra-css-prefix}-spiral-shell:before {
-  content: $ra-var-icon-spiral-shell;
+.ra-var-icon-rifle {
+  &:before {
+    content: $ra-var-icon-rifle; 
+  }
 }
 
-.#{$ra-css-prefix}-splash:before {
-  content: $ra-var-icon-splash;
+.ra-var-icon-ringing-bell {
+  &:before {
+    content: $ra-var-icon-ringing-bell; 
+  }
 }
 
-.#{$ra-css-prefix}-spray-can:before {
-  content: $ra-var-icon-spray-can;
+.ra-var-icon-roast-chicken {
+  &:before {
+    content: $ra-var-icon-roast-chicken; 
+  }
 }
 
-.#{$ra-css-prefix}-sprout:before {
-  content: $ra-var-icon-sprout;
+.ra-var-icon-robot-arm {
+  &:before {
+    content: $ra-var-icon-robot-arm; 
+  }
 }
 
-.#{$ra-css-prefix}-sprout-emblem:before {
-  content: $ra-var-icon-sprout-emblem;
+.ra-var-icon-round-bottom-flask {
+  &:before {
+    content: $ra-var-icon-round-bottom-flask; 
+  }
 }
 
-.#{$ra-css-prefix}-stopwatch:before {
-  content: $ra-var-icon-stopwatch;
+.ra-var-icon-round-shield {
+  &:before {
+    content: $ra-var-icon-round-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-suckered-tentacle:before {
-  content: $ra-var-icon-suckered-tentacle;
+.ra-var-icon-rss {
+  &:before {
+    content: $ra-var-icon-rss; 
+  }
 }
 
-.#{$ra-css-prefix}-suits:before {
-  content: $ra-var-icon-suits;
+.ra-var-icon-rune-stone {
+  &:before {
+    content: $ra-var-icon-rune-stone; 
+  }
 }
 
-.#{$ra-css-prefix}-sun:before {
-  content: $ra-var-icon-sun;
+.ra-var-icon-sagittarius {
+  &:before {
+    content: $ra-var-icon-sagittarius; 
+  }
 }
 
-.#{$ra-css-prefix}-sun-symbol:before {
-  content: $ra-var-icon-sun-symbol;
+.ra-var-icon-sapphire {
+  &:before {
+    content: $ra-var-icon-sapphire; 
+  }
 }
 
-.#{$ra-css-prefix}-sunbeams:before {
-  content: $ra-var-icon-sunbeams;
+.ra-var-icon-satellite {
+  &:before {
+    content: $ra-var-icon-satellite; 
+  }
 }
 
-.#{$ra-css-prefix}-super-mushroom:before {
-  content: $ra-var-icon-super-mushroom;
+.ra-var-icon-save {
+  &:before {
+    content: $ra-var-icon-save; 
+  }
 }
 
-.#{$ra-css-prefix}-supersonic-arrow:before {
-  content: $ra-var-icon-supersonic-arrow;
+.ra-var-icon-scorpio {
+  &:before {
+    content: $ra-var-icon-scorpio; 
+  }
 }
 
-.#{$ra-css-prefix}-surveillance-camera:before {
-  content: $ra-var-icon-surveillance-camera;
+.ra-var-icon-scroll-unfurled {
+  &:before {
+    content: $ra-var-icon-scroll-unfurled; 
+  }
 }
 
-.#{$ra-css-prefix}-syringe:before {
-  content: $ra-var-icon-syringe;
+.ra-var-icon-scythe {
+  &:before {
+    content: $ra-var-icon-scythe; 
+  }
 }
 
-.#{$ra-css-prefix}-target-arrows:before {
-  content: $ra-var-icon-target-arrows;
+.ra-var-icon-sea-serpent {
+  &:before {
+    content: $ra-var-icon-sea-serpent; 
+  }
 }
 
-.#{$ra-css-prefix}-target-laser:before {
-  content: $ra-var-icon-target-laser;
+.ra-var-icon-seagull {
+  &:before {
+    content: $ra-var-icon-seagull; 
+  }
 }
 
-.#{$ra-css-prefix}-targeted:before {
-  content: $ra-var-icon-targeted;
+.ra-var-icon-shark {
+  &:before {
+    content: $ra-var-icon-shark; 
+  }
 }
 
-.#{$ra-css-prefix}-taurus:before {
-  content: $ra-var-icon-taurus;
+.ra-var-icon-sheep {
+  &:before {
+    content: $ra-var-icon-sheep; 
+  }
 }
 
-.#{$ra-css-prefix}-telescope:before {
-  content: $ra-var-icon-telescope;
+.ra-var-icon-sheriff {
+  &:before {
+    content: $ra-var-icon-sheriff; 
+  }
 }
 
-.#{$ra-css-prefix}-tentacle:before {
-  content: $ra-var-icon-tentacle;
+.ra-var-icon-shield {
+  &:before {
+    content: $ra-var-icon-shield; 
+  }
 }
 
-.#{$ra-css-prefix}-tesla:before {
-  content: $ra-var-icon-tesla;
+.ra-var-icon-ship-emblem {
+  &:before {
+    content: $ra-var-icon-ship-emblem; 
+  }
 }
 
-.#{$ra-css-prefix}-thorn-arrow:before {
-  content: $ra-var-icon-thorn-arrow;
+.ra-var-icon-shoe-prints {
+  &:before {
+    content: $ra-var-icon-shoe-prints; 
+  }
 }
 
-.#{$ra-css-prefix}-thorny-vine:before {
-  content: $ra-var-icon-thorny-vine;
+.ra-var-icon-shot-through-the-heart {
+  &:before {
+    content: $ra-var-icon-shot-through-the-heart; 
+  }
 }
 
-.#{$ra-css-prefix}-three-keys:before {
-  content: $ra-var-icon-three-keys;
+.ra-var-icon-shotgun-shell {
+  &:before {
+    content: $ra-var-icon-shotgun-shell; 
+  }
 }
 
-.#{$ra-css-prefix}-tic-tac-toe:before {
-  content: $ra-var-icon-tic-tac-toe;
+.ra-var-icon-shovel {
+  &:before {
+    content: $ra-var-icon-shovel; 
+  }
 }
 
-.#{$ra-css-prefix}-toast:before {
-  content: $ra-var-icon-toast;
+.ra-var-icon-shuriken {
+  &:before {
+    content: $ra-var-icon-shuriken; 
+  }
 }
 
-.#{$ra-css-prefix}-tombstone:before {
-  content: $ra-var-icon-tombstone;
+.ra-var-icon-sickle {
+  &:before {
+    content: $ra-var-icon-sickle; 
+  }
 }
 
-.#{$ra-css-prefix}-tooth:before {
-  content: $ra-var-icon-tooth;
+.ra-var-icon-sideswipe {
+  &:before {
+    content: $ra-var-icon-sideswipe; 
+  }
 }
 
-.#{$ra-css-prefix}-torch:before {
-  content: $ra-var-icon-torch;
+.ra-var-icon-sinking-ship {
+  &:before {
+    content: $ra-var-icon-sinking-ship; 
+  }
 }
 
-.#{$ra-css-prefix}-tower:before {
-  content: $ra-var-icon-tower;
+.ra-var-icon-site {
+  &:before {
+    content: $ra-var-icon-site; 
+  }
 }
 
-.#{$ra-css-prefix}-trail:before {
-  content: $ra-var-icon-trail;
+.ra-var-icon-skull-trophy {
+  &:before {
+    content: $ra-var-icon-skull-trophy; 
+  }
 }
 
-.#{$ra-css-prefix}-trefoil-lily:before {
-  content: $ra-var-icon-trefoil-lily;
+.ra-var-icon-skull {
+  &:before {
+    content: $ra-var-icon-skull; 
+  }
 }
 
-.#{$ra-css-prefix}-trident:before {
-  content: $ra-var-icon-trident;
+.ra-var-icon-slash-ring {
+  &:before {
+    content: $ra-var-icon-slash-ring; 
+  }
 }
 
-.#{$ra-css-prefix}-triforce:before {
-  content: $ra-var-icon-triforce;
+.ra-var-icon-sliced-bread {
+  &:before {
+    content: $ra-var-icon-sliced-bread; 
+  }
 }
 
-.#{$ra-css-prefix}-trophy:before {
-  content: $ra-var-icon-trophy;
+.ra-var-icon-small-fire {
+  &:before {
+    content: $ra-var-icon-small-fire; 
+  }
 }
 
-.#{$ra-css-prefix}-turd:before {
-  content: $ra-var-icon-turd;
+.ra-var-icon-snail {
+  &:before {
+    content: $ra-var-icon-snail; 
+  }
 }
 
-.#{$ra-css-prefix}-two-dragons:before {
-  content: $ra-var-icon-two-dragons;
+.ra-var-icon-snake {
+  &:before {
+    content: $ra-var-icon-snake; 
+  }
 }
 
-.#{$ra-css-prefix}-two-hearts:before {
-  content: $ra-var-icon-two-hearts;
+.ra-var-icon-snorkel {
+  &:before {
+    content: $ra-var-icon-snorkel; 
+  }
 }
 
-.#{$ra-css-prefix}-uncertainty:before {
-  content: $ra-var-icon-uncertainty;
+.ra-var-icon-snowflake {
+  &:before {
+    content: $ra-var-icon-snowflake; 
+  }
 }
 
-.#{$ra-css-prefix}-underhand:before {
-  content: $ra-var-icon-underhand;
+.ra-var-icon-soccer-ball {
+  &:before {
+    content: $ra-var-icon-soccer-ball; 
+  }
 }
 
-.#{$ra-css-prefix}-unplugged:before {
-  content: $ra-var-icon-unplugged;
+.ra-var-icon-spades-card {
+  &:before {
+    content: $ra-var-icon-spades-card; 
+  }
 }
 
-.#{$ra-css-prefix}-vase:before {
-  content: $ra-var-icon-vase;
+.ra-var-icon-spades {
+  &:before {
+    content: $ra-var-icon-spades; 
+  }
 }
 
-.#{$ra-css-prefix}-venomous-snake:before {
-  content: $ra-var-icon-venomous-snake;
+.ra-var-icon-spawn-node {
+  &:before {
+    content: $ra-var-icon-spawn-node; 
+  }
 }
 
-.#{$ra-css-prefix}-vest:before {
-  content: $ra-var-icon-vest;
+.ra-var-icon-spear-head {
+  &:before {
+    content: $ra-var-icon-spear-head; 
+  }
 }
 
-.#{$ra-css-prefix}-vial:before {
-  content: $ra-var-icon-vial;
+.ra-var-icon-speech-bubble {
+  &:before {
+    content: $ra-var-icon-speech-bubble; 
+  }
 }
 
-.#{$ra-css-prefix}-vine-whip:before {
-  content: $ra-var-icon-vine-whip;
+.ra-var-icon-speech-bubbles {
+  &:before {
+    content: $ra-var-icon-speech-bubbles; 
+  }
 }
 
-.#{$ra-css-prefix}-virgo:before {
-  content: $ra-var-icon-virgo;
+.ra-var-icon-spider-alt {
+  &:before {
+    content: $ra-var-icon-spider-alt; 
+  }
 }
 
-.#{$ra-css-prefix}-water-drop:before {
-  content: $ra-var-icon-water-drop;
+.ra-var-icon-spider-face {
+  &:before {
+    content: $ra-var-icon-spider-face; 
+  }
 }
 
-.#{$ra-css-prefix}-wifi:before {
-  content: $ra-var-icon-wifi;
+.ra-var-icon-spikeball {
+  &:before {
+    content: $ra-var-icon-spikeball; 
+  }
 }
 
-.#{$ra-css-prefix}-wireless-signal:before {
-  content: $ra-var-icon-wireless-signal;
+.ra-var-icon-spiked-ball {
+  &:before {
+    content: $ra-var-icon-spiked-ball; 
+  }
 }
 
-.#{$ra-css-prefix}-wolf-head:before {
-  content: $ra-var-icon-wolf-head;
+.ra-var-icon-spiked-bat {
+  &:before {
+    content: $ra-var-icon-spiked-bat; 
+  }
 }
 
-.#{$ra-css-prefix}-wolf-howl:before {
-  content: $ra-var-icon-wolf-howl;
+.ra-var-icon-spiked-mace {
+  &:before {
+    content: $ra-var-icon-spiked-mace; 
+  }
 }
 
-.#{$ra-css-prefix}-wooden-sign:before {
-  content: $ra-var-icon-wooden-sign;
+.ra-var-icon-spiked-tentacle {
+  &:before {
+    content: $ra-var-icon-spiked-tentacle; 
+  }
 }
 
-.#{$ra-css-prefix}-wrench:before {
-  content: $ra-var-icon-wrench;
+.ra-var-icon-spinning-sword {
+  &:before {
+    content: $ra-var-icon-spinning-sword; 
+  }
 }
 
-.#{$ra-css-prefix}-wyvern:before {
-  content: $ra-var-icon-wyvern;
+.ra-var-icon-spiral-shell {
+  &:before {
+    content: $ra-var-icon-spiral-shell; 
+  }
 }
 
-.#{$ra-css-prefix}-x-mark:before {
-  content: $ra-var-icon-x-mark;
+.ra-var-icon-splash {
+  &:before {
+    content: $ra-var-icon-splash; 
+  }
 }
 
-.#{$ra-css-prefix}-zebra-shield:before {
-  content: $ra-var-icon-zebra-shield;
+.ra-var-icon-spray-can {
+  &:before {
+    content: $ra-var-icon-spray-can; 
+  }
 }
 
-.#{$ra-css-prefix}-arcane-mask:before {
-  content: $ra-var-icon-arcane-mask;
+.ra-var-icon-sprout-emblem {
+  &:before {
+    content: $ra-var-icon-sprout-emblem; 
+  }
 }
 
-.#{$ra-css-prefix}-aquarius:before {
-  content: $ra-var-icon-aquarius;
+.ra-var-icon-sprout {
+  &:before {
+    content: $ra-var-icon-sprout; 
+  }
 }
 
-.#{$ra-css-prefix}-apple:before {
-  content: $ra-var-icon-apple;
+.ra-var-icon-spy {
+  &:before {
+    content: $ra-var-icon-spy; 
+  }
 }
 
-.#{$ra-css-prefix}-anvil:before {
-  content: $ra-var-icon-anvil;
+.ra-var-icon-stone-pile {
+  &:before {
+    content: $ra-var-icon-stone-pile; 
+  }
 }
 
-.#{$ra-css-prefix}-ankh:before {
-  content: $ra-var-icon-ankh;
+.ra-var-icon-stopwatch {
+  &:before {
+    content: $ra-var-icon-stopwatch; 
+  }
 }
 
-.#{$ra-css-prefix}-angel-wings:before {
-  content: $ra-var-icon-angel-wings;
+.ra-var-icon-suckered-tentacle {
+  &:before {
+    content: $ra-var-icon-suckered-tentacle; 
+  }
 }
 
-.#{$ra-css-prefix}-anchor:before {
-  content: $ra-var-icon-anchor;
+.ra-var-icon-suits {
+  &:before {
+    content: $ra-var-icon-suits; 
+  }
 }
 
-.#{$ra-css-prefix}-ammo-bag:before {
-  content: $ra-var-icon-ammo-bag;
+.ra-var-icon-sun-symbol {
+  &:before {
+    content: $ra-var-icon-sun-symbol; 
+  }
 }
 
-.#{$ra-css-prefix}-alligator-clip:before {
-  content: $ra-var-icon-alligator-clip;
+.ra-var-icon-sun {
+  &:before {
+    content: $ra-var-icon-sun; 
+  }
 }
 
-.#{$ra-css-prefix}-all-for-one:before {
-  content: $ra-var-icon-all-for-one;
+.ra-var-icon-sunbeams {
+  &:before {
+    content: $ra-var-icon-sunbeams; 
+  }
 }
 
-.#{$ra-css-prefix}-alien-fire:before {
-  content: $ra-var-icon-alien-fire;
+.ra-var-icon-super-mushroom {
+  &:before {
+    content: $ra-var-icon-super-mushroom; 
+  }
 }
 
-.#{$ra-css-prefix}-acorn:before {
-  content: $ra-var-icon-acorn;
+.ra-var-icon-supersonic-arrow {
+  &:before {
+    content: $ra-var-icon-supersonic-arrow; 
+  }
+}
+
+.ra-var-icon-surveillance-camera {
+  &:before {
+    content: $ra-var-icon-surveillance-camera; 
+  }
+}
+
+.ra-var-icon-syringe {
+  &:before {
+    content: $ra-var-icon-syringe; 
+  }
+}
+
+.ra-var-icon-target-arrows {
+  &:before {
+    content: $ra-var-icon-target-arrows; 
+  }
+}
+
+.ra-var-icon-target-laser {
+  &:before {
+    content: $ra-var-icon-target-laser; 
+  }
+}
+
+.ra-var-icon-targeted {
+  &:before {
+    content: $ra-var-icon-targeted; 
+  }
+}
+
+.ra-var-icon-taurus {
+  &:before {
+    content: $ra-var-icon-taurus; 
+  }
+}
+
+.ra-var-icon-telescope {
+  &:before {
+    content: $ra-var-icon-telescope; 
+  }
+}
+
+.ra-var-icon-tentacle {
+  &:before {
+    content: $ra-var-icon-tentacle; 
+  }
+}
+
+.ra-var-icon-tesla {
+  &:before {
+    content: $ra-var-icon-tesla; 
+  }
+}
+
+.ra-var-icon-thorn-arrow {
+  &:before {
+    content: $ra-var-icon-thorn-arrow; 
+  }
+}
+
+.ra-var-icon-thorny-vine {
+  &:before {
+    content: $ra-var-icon-thorny-vine; 
+  }
+}
+
+.ra-var-icon-three-keys {
+  &:before {
+    content: $ra-var-icon-three-keys; 
+  }
+}
+
+.ra-var-icon-tic-tac-toe {
+  &:before {
+    content: $ra-var-icon-tic-tac-toe; 
+  }
+}
+
+.ra-var-icon-toast {
+  &:before {
+    content: $ra-var-icon-toast; 
+  }
+}
+
+.ra-var-icon-tombstone {
+  &:before {
+    content: $ra-var-icon-tombstone; 
+  }
+}
+
+.ra-var-icon-tooth {
+  &:before {
+    content: $ra-var-icon-tooth; 
+  }
+}
+
+.ra-var-icon-torch {
+  &:before {
+    content: $ra-var-icon-torch; 
+  }
+}
+
+.ra-var-icon-tornado {
+  &:before {
+    content: $ra-var-icon-tornado; 
+  }
+}
+
+.ra-var-icon-tower {
+  &:before {
+    content: $ra-var-icon-tower; 
+  }
+}
+
+.ra-var-icon-trail {
+  &:before {
+    content: $ra-var-icon-trail; 
+  }
+}
+
+.ra-var-icon-trefoil-lily {
+  &:before {
+    content: $ra-var-icon-trefoil-lily; 
+  }
+}
+
+.ra-var-icon-trident {
+  &:before {
+    content: $ra-var-icon-trident; 
+  }
+}
+
+.ra-var-icon-triforce {
+  &:before {
+    content: $ra-var-icon-triforce; 
+  }
+}
+
+.ra-var-icon-trophy {
+  &:before {
+    content: $ra-var-icon-trophy; 
+  }
+}
+
+.ra-var-icon-turd {
+  &:before {
+    content: $ra-var-icon-turd; 
+  }
+}
+
+.ra-var-icon-two-dragons {
+  &:before {
+    content: $ra-var-icon-two-dragons; 
+  }
+}
+
+.ra-var-icon-two-hearts {
+  &:before {
+    content: $ra-var-icon-two-hearts; 
+  }
+}
+
+.ra-var-icon-uncertainty {
+  &:before {
+    content: $ra-var-icon-uncertainty; 
+  }
+}
+
+.ra-var-icon-underhand {
+  &:before {
+    content: $ra-var-icon-underhand; 
+  }
+}
+
+.ra-var-icon-unplugged {
+  &:before {
+    content: $ra-var-icon-unplugged; 
+  }
+}
+
+.ra-var-icon-upgrade {
+  &:before {
+    content: $ra-var-icon-upgrade; 
+  }
+}
+
+.ra-var-icon-vase {
+  &:before {
+    content: $ra-var-icon-vase; 
+  }
+}
+
+.ra-var-icon-venomous-snake {
+  &:before {
+    content: $ra-var-icon-venomous-snake; 
+  }
+}
+
+.ra-var-icon-vest {
+  &:before {
+    content: $ra-var-icon-vest; 
+  }
+}
+
+.ra-var-icon-vial {
+  &:before {
+    content: $ra-var-icon-vial; 
+  }
+}
+
+.ra-var-icon-vine-whip {
+  &:before {
+    content: $ra-var-icon-vine-whip; 
+  }
+}
+
+.ra-var-icon-virgo {
+  &:before {
+    content: $ra-var-icon-virgo; 
+  }
+}
+
+.ra-var-icon-water-drop {
+  &:before {
+    content: $ra-var-icon-water-drop; 
+  }
+}
+
+.ra-var-icon-wave-crest {
+  &:before {
+    content: $ra-var-icon-wave-crest; 
+  }
+}
+
+.ra-var-icon-wifi {
+  &:before {
+    content: $ra-var-icon-wifi; 
+  }
+}
+
+.ra-var-icon-wireless-signal {
+  &:before {
+    content: $ra-var-icon-wireless-signal; 
+  }
+}
+
+.ra-var-icon-wizard-face {
+  &:before {
+    content: $ra-var-icon-wizard-face; 
+  }
+}
+
+.ra-var-icon-wizard-staff {
+  &:before {
+    content: $ra-var-icon-wizard-staff; 
+  }
+}
+
+.ra-var-icon-wolf-head {
+  &:before {
+    content: $ra-var-icon-wolf-head; 
+  }
+}
+
+.ra-var-icon-wolf-howl {
+  &:before {
+    content: $ra-var-icon-wolf-howl; 
+  }
+}
+
+.ra-var-icon-wooden-sign {
+  &:before {
+    content: $ra-var-icon-wooden-sign; 
+  }
+}
+
+.ra-var-icon-world {
+  &:before {
+    content: $ra-var-icon-world; 
+  }
+}
+
+.ra-var-icon-wrench {
+  &:before {
+    content: $ra-var-icon-wrench; 
+  }
+}
+
+.ra-var-icon-wyvern {
+  &:before {
+    content: $ra-var-icon-wyvern; 
+  }
+}
+
+.ra-var-icon-x-mark {
+  &:before {
+    content: $ra-var-icon-x-mark; 
+  }
+}
+
+.ra-var-icon-zebra-shield {
+  &:before {
+    content: $ra-var-icon-zebra-shield; 
+  }
+}
+
+.ra-var-icon-zigzag-leaf {
+  &:before {
+    content: $ra-var-icon-zigzag-leaf; 
+  }
 }

@@ -2,7 +2,7 @@
   "name": "@opendominion/rpg-awesome",
   "style": "css/rpg-awesome.css",
   "sass": "scss/rpg-awesome.scss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/OpenDominion/Rpg-Awesome.git"
@@ -25,5 +25,5 @@
   "homepage": "https://github.com/OpenDominion/Rpg-Awesome#readme",
   "main": "Gruntfile.js",
   "author": "",
-  "license": "BSD",
+  "license": "BSD"
 }

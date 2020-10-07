@@ -190,1985 +190,2192 @@
   color: #fff;
 }
 
-.ra-acid:before {
+.ra-var-icon-achievement:before {
+  content: "";
+}
+
+.ra-var-icon-acid:before {
   content: "";
 }
 
-.ra-zigzag-leaf:before {
-  content: "";
+.ra-var-icon-acorn:before {
+  content: "";
 }
 
-.ra-archer:before {
-  content: "";
-}
-
-.ra-archery-target:before {
-  content: "";
-}
-
-.ra-arena:before {
-  content: "";
-}
-
-.ra-aries:before {
-  content: "";
-}
-
-.ra-arrow-cluster:before {
-  content: "";
-}
-
-.ra-arrow-flights:before {
-  content: "";
-}
-
-.ra-arson:before {
-  content: "";
-}
-
-.ra-aura:before {
-  content: "";
-}
-
-.ra-aware:before {
-  content: "";
-}
-
-.ra-axe:before {
-  content: "";
-}
-
-.ra-axe-swing:before {
-  content: "";
-}
-
-.ra-ball:before {
-  content: "";
-}
-
-.ra-barbed-arrow:before {
-  content: "";
-}
-
-.ra-barrier:before {
-  content: "";
-}
-
-.ra-bat-sword:before {
-  content: "";
-}
-
-.ra-battered-axe:before {
-  content: "";
-}
-
-.ra-batteries:before {
-  content: "";
-}
-
-.ra-battery-0:before {
-  content: "";
-}
-
-.ra-battery-25:before {
-  content: "";
-}
-
-.ra-battery-50:before {
-  content: "";
-}
-
-.ra-battery-75:before {
-  content: "";
-}
-
-.ra-battery-100:before {
-  content: "";
-}
-
-.ra-battery-black:before {
-  content: "";
-}
-
-.ra-battery-negative:before {
-  content: "";
-}
-
-.ra-battery-positive:before {
-  content: "";
-}
-
-.ra-battery-white:before {
-  content: "";
-}
-
-.ra-batwings:before {
-  content: "";
-}
-
-.ra-beam-wake:before {
-  content: "";
-}
-
-.ra-bear-trap:before {
-  content: "";
-}
-
-.ra-beer:before {
-  content: "";
-}
-
-.ra-beetle:before {
-  content: "";
-}
-
-.ra-bell:before {
-  content: "";
-}
-
-.ra-biohazard:before {
-  content: "";
-}
-
-.ra-bird-claw:before {
-  content: "";
-}
-
-.ra-bird-mask:before {
-  content: "";
-}
-
-.ra-blade-bite:before {
-  content: "";
-}
-
-.ra-blast:before {
-  content: "";
-}
-
-.ra-blaster:before {
-  content: "";
-}
-
-.ra-bleeding-eye:before {
-  content: "";
-}
-
-.ra-bleeding-hearts:before {
-  content: "";
-}
-
-.ra-bolt-shield:before {
-  content: "";
-}
-
-.ra-bomb-explosion:before {
-  content: "";
-}
-
-.ra-bombs:before {
-  content: "";
-}
-
-.ra-bone-bite:before {
-  content: "";
-}
-
-.ra-bone-knife:before {
-  content: "";
-}
-
-.ra-book:before {
-  content: "";
-}
-
-.ra-boomerang:before {
-  content: "";
-}
-
-.ra-boot-stomp:before {
-  content: "";
-}
-
-.ra-bottle-vapors:before {
-  content: "";
-}
-
-.ra-bottled-bolt:before {
-  content: "";
-}
-
-.ra-bottom-right:before {
-  content: "";
-}
-
-.ra-bowie-knife:before {
-  content: "";
-}
-
-.ra-bowling-pin:before {
-  content: "";
-}
-
-.ra-brain-freeze:before {
-  content: "";
-}
-
-.ra-brandy-bottle:before {
-  content: "";
-}
-
-.ra-bridge:before {
-  content: "";
-}
-
-.ra-broadhead-arrow:before {
-  content: "";
-}
-
-.ra-sword:before,
-.ra-broadsword:before {
-  content: "";
-}
-
-.ra-broken-bone:before {
-  content: "";
-}
-
-.ra-broken-bottle:before {
-  content: "";
-}
-
-.ra-broken-heart:before {
-  content: "";
-}
-
-.ra-broken-shield:before {
-  content: "";
-}
-
-.ra-broken-skull:before {
-  content: "";
-}
-
-.ra-bubbling-potion:before {
-  content: "";
-}
-
-.ra-bullets:before {
-  content: "";
-}
-
-.ra-burning-book:before {
-  content: "";
-}
-
-.ra-burning-embers:before {
-  content: "";
-}
-
-.ra-burning-eye:before {
-  content: "";
-}
-
-.ra-burning-meteor:before {
-  content: "";
-}
-
-.ra-burst-blob:before {
-  content: "";
-}
-
-.ra-butterfly:before {
-  content: "";
-}
-
-.ra-campfire:before {
-  content: "";
-}
-
-.ra-cancel:before {
-  content: "";
-}
-
-.ra-cancer:before {
-  content: "";
-}
-
-.ra-candle:before {
-  content: "";
-}
-
-.ra-candle-fire:before {
-  content: "";
-}
-
-.ra-cannon-shot:before {
-  content: "";
-}
-
-.ra-capitol:before {
-  content: "";
-}
-
-.ra-capricorn:before {
-  content: "";
-}
-
-.ra-carrot:before {
-  content: "";
-}
-
-.ra-castle-emblem:before {
-  content: "";
-}
-
-.ra-castle-flag:before {
-  content: "";
-}
-
-.ra-cat:before {
-  content: "";
-}
-
-.ra-chain:before {
-  content: "";
-}
-
-.ra-cheese:before {
-  content: "";
-}
-
-.ra-chemical-arrow:before {
-  content: "";
-}
-
-.ra-chessboard:before {
-  content: "";
-}
-
-.ra-chicken-leg:before {
-  content: "";
-}
-
-.ra-circle-of-circles:before {
-  content: "";
-}
-
-.ra-circular-saw:before {
-  content: "";
-}
-
-.ra-circular-shield:before {
-  content: "";
-}
-
-.ra-cloak-and-dagger:before {
-  content: "";
-}
-
-.ra-clockwork:before {
-  content: "";
-}
-
-.ra-clover:before {
-  content: "";
-}
-
-.ra-clovers:before {
-  content: "";
-}
-
-.ra-clovers-card:before {
-  content: "";
-}
-
-.ra-cluster-bomb:before {
-  content: "";
-}
-
-.ra-coffee-mug:before {
-  content: "";
-}
-
-.ra-cog:before {
-  content: "";
-}
-
-.ra-cog-wheel:before {
-  content: "";
-}
-
-.ra-cold-heart:before {
-  content: "";
-}
-
-.ra-compass:before {
-  content: "";
-}
-
-.ra-corked-tube:before {
-  content: "";
-}
-
-.ra-crab-claw:before {
-  content: "";
-}
-
-.ra-cracked-helm:before {
-  content: "";
-}
-
-.ra-cracked-shield:before {
-  content: "";
-}
-
-.ra-croc-sword:before {
-  content: "";
-}
-
-.ra-crossbow:before {
-  content: "";
-}
-
-.ra-crossed-axes:before {
-  content: "";
-}
-
-.ra-crossed-bones:before {
-  content: "";
-}
-
-.ra-crossed-pistols:before {
-  content: "";
-}
-
-.ra-crossed-sabres:before {
-  content: "";
-}
-
-.ra-crossed-swords:before {
-  content: "";
-}
-
-.ra-crown:before {
-  content: "";
-}
-
-.ra-crown-of-thorns:before {
-  content: "";
-}
-
-.ra-crowned-heart:before {
-  content: "";
-}
-
-.ra-crush:before {
-  content: "";
-}
-
-.ra-crystal-ball:before {
-  content: "";
-}
-
-.ra-crystal-cluster:before {
-  content: "";
-}
-
-.ra-crystal-wand:before {
-  content: "";
-}
-
-.ra-crystals:before {
-  content: "";
-}
-
-.ra-cubes:before {
-  content: "";
-}
-
-.ra-cut-palm:before {
-  content: "";
-}
-
-.ra-cycle:before {
-  content: "";
-}
-
-.ra-daggers:before {
-  content: "";
-}
-
-.ra-daisy:before {
-  content: "";
-}
-
-.ra-dead-tree:before {
-  content: "";
-}
-
-.ra-death-skull:before {
-  content: "";
-}
-
-.ra-decapitation:before {
-  content: "";
-}
-
-.ra-defibrillate:before {
-  content: "";
-}
-
-.ra-demolish:before {
-  content: "";
-}
-
-.ra-dervish-swords:before {
-  content: "";
-}
-
-.ra-desert-skull:before {
-  content: "";
-}
-
-.ra-diamond:before {
-  content: "";
-}
-
-.ra-diamonds:before {
-  content: "";
-}
-
-.ra-diamonds-card:before {
-  content: "";
-}
-
-.ra-dice-five:before {
-  content: "";
-}
-
-.ra-dice-four:before {
-  content: "";
-}
-
-.ra-dice-one:before {
-  content: "";
-}
-
-.ra-dice-six:before {
-  content: "";
-}
-
-.ra-dice-three:before {
-  content: "";
-}
-
-.ra-dice-two:before {
-  content: "";
-}
-
-.ra-dinosaur:before {
-  content: "";
-}
-
-.ra-divert:before {
-  content: "";
-}
-
-.ra-diving-dagger:before {
-  content: "";
-}
-
-.ra-double-team:before {
-  content: "";
-}
-
-.ra-doubled:before {
-  content: "";
-}
-
-.ra-dragon:before {
-  content: "";
-}
-
-.ra-dragon-breath:before {
-  content: "";
-}
-
-.ra-dragon-wing:before {
-  content: "";
-}
-
-.ra-dragonfly:before {
-  content: "";
-}
-
-.ra-drill:before {
-  content: "";
-}
-
-.ra-dripping-blade:before {
-  content: "";
-}
-
-.ra-dripping-knife:before {
-  content: "";
-}
-
-.ra-dripping-sword:before {
-  content: "";
-}
-
-.ra-droplet:before {
-  content: "";
-}
-
-.ra-droplet-splash:before {
-  content: "";
-}
-
-.ra-droplets:before {
-  content: "";
-}
-
-.ra-duel:before {
-  content: "";
-}
-
-.ra-egg:before {
-  content: "";
-}
-
-.ra-egg-pod:before {
-  content: "";
-}
-
-.ra-eggplant:before {
-  content: "";
-}
-
-.ra-emerald:before {
-  content: "";
-}
-
-.ra-energise:before {
-  content: "";
-}
-
-.ra-explosion:before {
-  content: "";
-}
-
-.ra-explosive-materials:before {
-  content: "";
-}
-
-.ra-eye-monster:before {
-  content: "";
-}
-
-.ra-eye-shield:before {
-  content: "";
-}
-
-.ra-eyeball:before {
-  content: "";
-}
-
-.ra-fairy:before {
-  content: "";
-}
-
-.ra-fairy-wand:before {
-  content: "";
-}
-
-.ra-fall-down:before {
-  content: "";
-}
-
-.ra-falling:before {
-  content: "";
-}
-
-.ra-fast-ship:before {
-  content: "";
-}
-
-.ra-feather-wing:before {
-  content: "";
-}
-
-.ra-feathered-wing:before {
-  content: "";
-}
-
-.ra-fedora:before {
-  content: "";
-}
-
-.ra-fire:before {
-  content: "";
-}
-
-.ra-fire-bomb:before {
-  content: "";
-}
-
-.ra-fire-breath:before {
-  content: "";
-}
-
-.ra-fire-ring:before {
-  content: "";
-}
-
-.ra-fire-shield:before {
-  content: "";
-}
-
-.ra-fire-symbol:before {
-  content: "";
-}
-
-.ra-fireball-sword:before {
-  content: "";
-}
-
-.ra-fish:before {
-  content: "";
-}
-
-.ra-fizzing-flask:before {
-  content: "";
-}
-
-.ra-flame-symbol:before {
-  content: "";
-}
-
-.ra-flaming-arrow:before {
-  content: "";
-}
-
-.ra-flaming-claw:before {
-  content: "";
-}
-
-.ra-flaming-trident:before {
-  content: "";
-}
-
-.ra-flask:before {
-  content: "";
-}
-
-.ra-flat-hammer:before {
-  content: "";
-}
-
-.ra-flower:before {
-  content: "";
-}
-
-.ra-flowers:before {
-  content: "";
-}
-
-.ra-fluffy-swirl:before {
-  content: "";
-}
-
-.ra-focused-lightning:before {
-  content: "";
-}
-
-.ra-food-chain:before {
-  content: "";
-}
-
-.ra-footprint:before {
-  content: "";
-}
-
-.ra-forging:before {
-  content: "";
-}
-
-.ra-forward:before {
-  content: "";
-}
-
-.ra-fox:before {
-  content: "";
-}
-
-.ra-frost-emblem:before {
-  content: "";
-}
-
-.ra-frostfire:before {
-  content: "";
-}
-
-.ra-frozen-arrow:before {
-  content: "";
-}
-
-.ra-gamepad-cross:before {
-  content: "";
-}
-
-.ra-gavel:before {
-  content: "";
-}
-
-.ra-gear-hammer:before {
-  content: "";
-}
-
-.ra-gear-heart:before {
-  content: "";
-}
-
-.ra-gears:before {
-  content: "";
-}
-
-.ra-gecko:before {
-  content: "";
-}
-
-.ra-gem:before {
-  content: "";
-}
-
-.ra-gem-pendant:before {
-  content: "";
-}
-
-.ra-gemini:before {
-  content: "";
-}
-
-.ra-glass-heart:before {
-  content: "";
-}
-
-.ra-gloop:before {
-  content: "";
-}
-
-.ra-gold-bar:before {
-  content: "";
-}
-
-.ra-grappling-hook:before {
-  content: "";
-}
-
-.ra-grass:before {
-  content: "";
-}
-
-.ra-grass-patch:before {
-  content: "";
-}
-
-.ra-grenade:before {
-  content: "";
-}
-
-.ra-groundbreaker:before {
-  content: "";
-}
-
-.ra-guarded-tower:before {
-  content: "";
-}
-
-.ra-guillotine:before {
-  content: "";
-}
-
-.ra-halberd:before {
-  content: "";
-}
-
-.ra-hammer:before {
-  content: "";
-}
-
-.ra-hammer-drop:before {
-  content: "";
-}
-
-.ra-hand:before {
-  content: "";
-}
-
-.ra-hand-emblem:before {
-  content: "";
-}
-
-.ra-hand-saw:before {
-  content: "";
-}
-
-.ra-harpoon-trident:before {
-  content: "";
-}
-
-.ra-health:before {
-  content: "";
-}
-
-.ra-health-decrease:before {
-  content: "";
-}
-
-.ra-health-increase:before {
-  content: "";
-}
-
-.ra-heart-bottle:before {
-  content: "";
-}
-
-.ra-heart-tower:before {
-  content: "";
-}
-
-.ra-heartburn:before {
-  content: "";
-}
-
-.ra-hearts:before {
-  content: "";
-}
-
-.ra-hearts-card:before {
-  content: "";
-}
-
-.ra-heat-haze:before {
-  content: "";
-}
-
-.ra-heavy-fall:before {
-  content: "";
-}
-
-.ra-heavy-shield:before {
-  content: "";
-}
-
-.ra-helmet:before {
-  content: "";
-}
-
-.ra-help:before {
-  content: "";
-}
-
-.ra-hive-emblem:before {
-  content: "";
-}
-
-.ra-hole-ladder:before {
-  content: "";
-}
-
-.ra-honeycomb:before {
-  content: "";
-}
-
-.ra-hood:before {
-  content: "";
-}
-
-.ra-horn-call:before {
-  content: "";
-}
-
-.ra-horns:before {
-  content: "";
-}
-
-.ra-horseshoe:before {
-  content: "";
-}
-
-.ra-hospital-cross:before {
-  content: "";
-}
-
-.ra-hot-surface:before {
-  content: "";
-}
-
-.ra-hourglass:before {
-  content: "";
-}
-
-.ra-hydra:before {
-  content: "";
-}
-
-.ra-hydra-shot:before {
-  content: "";
-}
-
-.ra-ice-cube:before {
-  content: "";
-}
-
-.ra-implosion:before {
-  content: "";
-}
-
-.ra-incense:before {
-  content: "";
-}
-
-.ra-insect-jaws:before {
-  content: "";
-}
-
-.ra-interdiction:before {
-  content: "";
-}
-
-.ra-jetpack:before {
-  content: "";
-}
-
-.ra-jigsaw-piece:before {
-  content: "";
-}
-
-.ra-kaleidoscope:before {
-  content: "";
-}
-
-.ra-kettlebell:before {
-  content: "";
-}
-
-.ra-key:before {
-  content: "";
-}
-
-.ra-key-basic:before {
-  content: "";
-}
-
-.ra-kitchen-knives:before {
-  content: "";
-}
-
-.ra-knife:before {
-  content: "";
-}
-
-.ra-knife-fork:before {
-  content: "";
-}
-
-.ra-knight-helmet:before {
-  content: "";
-}
-
-.ra-kunai:before {
-  content: "";
-}
-
-.ra-lantern-flame:before {
-  content: "";
-}
-
-.ra-large-hammer:before {
-  content: "";
-}
-
-.ra-laser-blast:before {
-  content: "";
-}
-
-.ra-laser-site:before {
-  content: "";
-}
-
-.ra-lava:before {
-  content: "";
-}
-
-.ra-leaf:before {
-  content: "";
-}
-
-.ra-leo:before {
-  content: "";
-}
-
-.ra-level-four:before {
-  content: "";
-}
-
-.ra-level-four-advanced:before {
-  content: "";
-}
-
-.ra-level-three:before {
-  content: "";
-}
-
-.ra-level-three-advanced:before {
-  content: "";
-}
-
-.ra-level-two:before {
-  content: "";
-}
-
-.ra-level-two-advanced:before {
-  content: "";
-}
-
-.ra-lever:before {
-  content: "";
-}
-
-.ra-libra:before {
-  content: "";
-}
-
-.ra-light-bulb:before {
-  content: "";
-}
-
-.ra-lighthouse:before {
-  content: "";
-}
-
-.ra-lightning:before {
-  content: "";
-}
-
-.ra-lightning-bolt:before {
-  content: "";
-}
-
-.ra-lightning-storm:before {
-  content: "";
-}
-
-.ra-lightning-sword:before {
-  content: "";
-}
-
-.ra-lightning-trio:before {
-  content: "";
-}
-
-.ra-lion:before {
-  content: "";
-}
-
-.ra-lit-candelabra:before {
-  content: "";
-}
-
-.ra-load:before {
-  content: "";
-}
-
-.ra-locked-fortress:before {
-  content: "";
-}
-
-.ra-love-howl:before {
-  content: "";
-}
-
-.ra-maggot:before {
-  content: "";
-}
-
-.ra-magnet:before {
-  content: "";
-}
-
-.ra-mass-driver:before {
-  content: "";
-}
-
-.ra-match:before {
-  content: "";
-}
-
-.ra-meat:before {
-  content: "";
-}
-
-.ra-meat-hook:before {
-  content: "";
-}
-
-.ra-medical-pack:before {
-  content: "";
-}
-
-.ra-metal-gate:before {
-  content: "";
-}
-
-.ra-microphone:before {
-  content: "";
-}
-
-.ra-mine-wagon:before {
-  content: "";
-}
-
-.ra-mining-diamonds:before {
-  content: "";
-}
-
-.ra-mirror:before {
-  content: "";
-}
-
-.ra-monster-skull:before {
-  content: "";
-}
-
-.ra-mountains:before {
-  content: "";
-}
-
-.ra-moon-sun:before {
-  content: "";
-}
-
-.ra-mp5:before {
-  content: "";
-}
-
-.ra-muscle-fat:before {
-  content: "";
-}
-
-.ra-muscle-up:before {
-  content: "";
-}
-
-.ra-musket:before {
-  content: "";
-}
-
-.ra-nails:before {
-  content: "";
-}
-
-.ra-nodular:before {
-  content: "";
-}
-
-.ra-noose:before {
-  content: "";
-}
-
-.ra-nuclear:before {
-  content: "";
-}
-
-.ra-ocarina:before {
-  content: "";
-}
-
-.ra-ocean-emblem:before {
-  content: "";
-}
-
-.ra-octopus:before {
-  content: "";
-}
-
-.ra-omega:before {
-  content: "";
-}
-
-.ra-on-target:before {
-  content: "";
-}
-
-.ra-ophiuchus:before {
-  content: "";
-}
-
-.ra-overhead:before {
-  content: "";
-}
-
-.ra-overmind:before {
-  content: "";
-}
-
-.ra-palm-tree:before {
-  content: "";
-}
-
-.ra-pawn:before {
-  content: "";
-}
-
-.ra-pawprint:before {
-  content: "";
-}
-
-.ra-perspective-dice-five:before {
-  content: "";
-}
-
-.ra-perspective-dice-four:before {
-  content: "";
-}
-
-.ra-perspective-dice-one:before {
-  content: "";
-}
-
-.ra-perspective-dice-random:before {
-  content: "";
-}
-
-.ra-perspective-dice-six:before {
-  content: "";
-}
-
-.ra-perspective-dice-two:before {
-  content: "";
-}
-
-.ra-perspective-dice-three:before {
-  content: "";
-}
-
-.ra-pill:before {
-  content: "";
-}
-
-.ra-pills:before {
-  content: "";
-}
-
-.ra-pine-tree:before {
-  content: "";
-}
-
-.ra-ping-pong:before {
-  content: "";
-}
-
-.ra-pisces:before {
-  content: "";
-}
-
-.ra-plain-dagger:before {
-  content: "";
-}
-
-.ra-player:before {
-  content: "";
-}
-
-.ra-player-despair:before {
-  content: "";
-}
-
-.ra-player-dodge:before {
-  content: "";
-}
-
-.ra-player-king:before {
-  content: "";
-}
-
-.ra-player-lift:before {
-  content: "";
-}
-
-.ra-player-pain:before {
-  content: "";
-}
-
-.ra-player-pyromaniac:before {
-  content: "";
-}
-
-.ra-player-shot:before {
-  content: "";
-}
-
-.ra-player-teleport:before {
-  content: "";
-}
-
-.ra-player-thunder-struck:before {
-  content: "";
-}
-
-.ra-podium:before {
-  content: "";
-}
-
-.ra-poison-cloud:before {
-  content: "";
-}
-
-.ra-potion:before {
-  content: "";
-}
-
-.ra-pyramids:before {
-  content: "";
-}
-
-.ra-queen-crown:before {
-  content: "";
-}
-
-.ra-quill-ink:before {
-  content: "";
-}
-
-.ra-rabbit:before {
-  content: "";
-}
-
-.ra-radar-dish:before {
-  content: "";
-}
-
-.ra-radial-balance:before {
-  content: "";
-}
-
-.ra-radioactive:before {
-  content: "";
-}
-
-.ra-raven:before {
-  content: "";
-}
-
-.ra-reactor:before {
-  content: "";
-}
-
-.ra-recycle:before {
-  content: "";
-}
-
-.ra-regeneration:before {
-  content: "";
-}
-
-.ra-relic-blade:before {
-  content: "";
-}
-
-.ra-repair:before {
-  content: "";
-}
-
-.ra-reverse:before {
-  content: "";
-}
-
-.ra-revolver:before {
-  content: "";
-}
-
-.ra-rifle:before {
-  content: "";
-}
-
-.ra-ringing-bell:before {
-  content: "";
-}
-
-.ra-roast-chicken:before {
-  content: "";
-}
-
-.ra-robot-arm:before {
-  content: "";
-}
-
-.ra-round-bottom-flask:before {
-  content: "";
-}
-
-.ra-round-shield:before {
-  content: "";
-}
-
-.ra-rss:before {
-  content: "";
-}
-
-.ra-rune-stone:before {
-  content: "";
-}
-
-.ra-sagittarius:before {
-  content: "";
-}
-
-.ra-sapphire:before {
-  content: "";
-}
-
-.ra-satellite:before {
-  content: "";
-}
-
-.ra-save:before {
-  content: "";
-}
-
-.ra-scorpio:before {
-  content: "";
-}
-
-.ra-scroll-unfurled:before {
-  content: "";
-}
-
-.ra-scythe:before {
-  content: "";
-}
-
-.ra-sea-serpent:before {
-  content: "";
-}
-
-.ra-seagull:before {
-  content: "";
-}
-
-.ra-shark:before {
-  content: "";
-}
-
-.ra-sheep:before {
-  content: "";
-}
-
-.ra-sheriff:before {
-  content: "";
-}
-
-.ra-shield:before {
-  content: "";
-}
-
-.ra-ship-emblem:before {
-  content: "";
-}
-
-.ra-shoe-prints:before {
-  content: "";
-}
-
-.ra-shot-through-the-heart:before {
-  content: "";
-}
-
-.ra-shotgun-shell:before {
-  content: "";
-}
-
-.ra-shovel:before {
-  content: "";
-}
-
-.ra-shuriken:before {
-  content: "";
-}
-
-.ra-sickle:before {
-  content: "";
-}
-
-.ra-sideswipe:before {
-  content: "";
-}
-
-.ra-site:before {
-  content: "";
-}
-
-.ra-skull:before {
-  content: "";
-}
-
-.ra-skull-trophy:before {
-  content: "";
-}
-
-.ra-slash-ring:before {
-  content: "";
-}
-
-.ra-small-fire:before {
-  content: "";
-}
-
-.ra-snail:before {
-  content: "";
-}
-
-.ra-snake:before {
-  content: "";
-}
-
-.ra-snorkel:before {
-  content: "";
-}
-
-.ra-snowflake:before {
-  content: "";
-}
-
-.ra-soccer-ball:before {
-  content: "";
-}
-
-.ra-spades:before {
-  content: "";
-}
-
-.ra-spades-card:before {
-  content: "";
-}
-
-.ra-spawn-node:before {
-  content: "";
-}
-
-.ra-spear-head:before {
-  content: "";
-}
-
-.ra-speech-bubble:before {
-  content: "";
-}
-
-.ra-speech-bubbles:before {
-  content: "";
-}
-
-.ra-spider-face:before {
-  content: "";
-}
-
-.ra-spikeball:before {
-  content: "";
-}
-
-.ra-spiked-mace:before {
-  content: "";
-}
-
-.ra-spiked-tentacle:before {
-  content: "";
-}
-
-.ra-spinning-sword:before {
-  content: "";
-}
-
-.ra-spiral-shell:before {
-  content: "";
-}
-
-.ra-splash:before {
-  content: "";
-}
-
-.ra-spray-can:before {
-  content: "";
-}
-
-.ra-sprout:before {
-  content: "";
-}
-
-.ra-sprout-emblem:before {
-  content: "";
-}
-
-.ra-stopwatch:before {
-  content: "";
-}
-
-.ra-suckered-tentacle:before {
-  content: "";
-}
-
-.ra-suits:before {
-  content: "";
-}
-
-.ra-sun:before {
-  content: "";
-}
-
-.ra-sun-symbol:before {
-  content: "";
-}
-
-.ra-sunbeams:before {
-  content: "";
-}
-
-.ra-super-mushroom:before {
-  content: "";
-}
-
-.ra-supersonic-arrow:before {
-  content: "";
-}
-
-.ra-surveillance-camera:before {
-  content: "";
-}
-
-.ra-syringe:before {
-  content: "";
-}
-
-.ra-target-arrows:before {
-  content: "";
-}
-
-.ra-target-laser:before {
-  content: "";
-}
-
-.ra-targeted:before {
-  content: "";
-}
-
-.ra-taurus:before {
-  content: "";
-}
-
-.ra-telescope:before {
-  content: "";
-}
-
-.ra-tentacle:before {
-  content: "";
-}
-
-.ra-tesla:before {
-  content: "";
-}
-
-.ra-thorn-arrow:before {
-  content: "";
-}
-
-.ra-thorny-vine:before {
-  content: "";
-}
-
-.ra-three-keys:before {
-  content: "";
-}
-
-.ra-tic-tac-toe:before {
-  content: "";
-}
-
-.ra-toast:before {
-  content: "";
-}
-
-.ra-tombstone:before {
-  content: "";
-}
-
-.ra-tooth:before {
-  content: "";
-}
-
-.ra-torch:before {
-  content: "";
-}
-
-.ra-tower:before {
-  content: "";
-}
-
-.ra-trail:before {
-  content: "";
-}
-
-.ra-trefoil-lily:before {
-  content: "";
-}
-
-.ra-trident:before {
-  content: "";
-}
-
-.ra-triforce:before {
-  content: "";
-}
-
-.ra-trophy:before {
-  content: "";
-}
-
-.ra-turd:before {
-  content: "";
-}
-
-.ra-two-dragons:before {
-  content: "";
-}
-
-.ra-two-hearts:before {
-  content: "";
-}
-
-.ra-uncertainty:before {
-  content: "";
-}
-
-.ra-underhand:before {
-  content: "";
-}
-
-.ra-unplugged:before {
-  content: "";
-}
-
-.ra-vase:before {
-  content: "";
-}
-
-.ra-venomous-snake:before {
-  content: "";
-}
-
-.ra-vest:before {
-  content: "";
-}
-
-.ra-vial:before {
-  content: "";
-}
-
-.ra-vine-whip:before {
-  content: "";
-}
-
-.ra-virgo:before {
-  content: "";
-}
-
-.ra-water-drop:before {
-  content: "";
-}
-
-.ra-wifi:before {
-  content: "";
-}
-
-.ra-wireless-signal:before {
-  content: "";
-}
-
-.ra-wolf-head:before {
-  content: "";
-}
-
-.ra-wolf-howl:before {
-  content: "";
-}
-
-.ra-wooden-sign:before {
-  content: "";
-}
-
-.ra-wrench:before {
-  content: "";
-}
-
-.ra-wyvern:before {
-  content: "";
-}
-
-.ra-x-mark:before {
-  content: "";
-}
-
-.ra-zebra-shield:before {
-  content: "";
-}
-
-.ra-arcane-mask:before {
-  content: "";
-}
-
-.ra-aquarius:before {
-  content: "";
-}
-
-.ra-apple:before {
-  content: "";
-}
-
-.ra-anvil:before {
-  content: "";
-}
-
-.ra-ankh:before {
-  content: "";
-}
-
-.ra-angel-wings:before {
-  content: "";
-}
-
-.ra-anchor:before {
-  content: "";
-}
-
-.ra-ammo-bag:before {
-  content: "";
-}
-
-.ra-alligator-clip:before {
-  content: "";
-}
-
-.ra-all-for-one:before {
-  content: "";
-}
-
-.ra-alien-fire:before {
+.ra-var-icon-alien-fire:before {
   content: "";
 }
 
-.ra-acorn:before {
-  content: "";
+.ra-var-icon-all-for-one:before {
+  content: "";
+}
+
+.ra-var-icon-alligator-clip:before {
+  content: "";
+}
+
+.ra-var-icon-amethyst:before {
+  content: "";
+}
+
+.ra-var-icon-ammo-bag:before {
+  content: "";
+}
+
+.ra-var-icon-amphora:before {
+  content: "";
+}
+
+.ra-var-icon-amputation:before {
+  content: "";
+}
+
+.ra-var-icon-anchor:before {
+  content: "";
+}
+
+.ra-var-icon-angel-wings:before {
+  content: "";
+}
+
+.ra-var-icon-ankh:before {
+  content: "";
+}
+
+.ra-var-icon-anvil:before {
+  content: "";
+}
+
+.ra-var-icon-apothecary:before {
+  content: "";
+}
+
+.ra-var-icon-apple:before {
+  content: "";
+}
+
+.ra-var-icon-aquarius:before {
+  content: "";
+}
+
+.ra-var-icon-arcane-mask:before {
+  content: "";
+}
+
+.ra-var-icon-archer:before {
+  content: "";
+}
+
+.ra-var-icon-archery-target:before {
+  content: "";
+}
+
+.ra-var-icon-arena:before {
+  content: "";
+}
+
+.ra-var-icon-aries:before {
+  content: "";
+}
+
+.ra-var-icon-arrow-cluster:before {
+  content: "";
+}
+
+.ra-var-icon-arrow-flights:before {
+  content: "";
+}
+
+.ra-var-icon-arson:before {
+  content: "";
+}
+
+.ra-var-icon-aura:before {
+  content: "";
+}
+
+.ra-var-icon-aware:before {
+  content: "";
+}
+
+.ra-var-icon-axe-in-log:before {
+  content: "";
+}
+
+.ra-var-icon-axe-swing:before {
+  content: "";
+}
+
+.ra-var-icon-axe-sword:before {
+  content: "";
+}
+
+.ra-var-icon-axe:before {
+  content: "";
+}
+
+.ra-var-icon-ball:before {
+  content: "";
+}
+
+.ra-var-icon-banknote:before {
+  content: "";
+}
+
+.ra-var-icon-barbed-arrow:before {
+  content: "";
+}
+
+.ra-var-icon-barrier:before {
+  content: "";
+}
+
+.ra-var-icon-basketball-ball:before {
+  content: "";
+}
+
+.ra-var-icon-bat-sword:before {
+  content: "";
+}
+
+.ra-var-icon-battered-axe:before {
+  content: "";
+}
+
+.ra-var-icon-batteries:before {
+  content: "";
+}
+
+.ra-var-icon-battery-0:before {
+  content: "";
+}
+
+.ra-var-icon-battery-25:before {
+  content: "";
+}
+
+.ra-var-icon-battery-50:before {
+  content: "";
+}
+
+.ra-var-icon-battery-75:before {
+  content: "";
+}
+
+.ra-var-icon-battery-100:before {
+  content: "";
+}
+
+.ra-var-icon-battery-black:before {
+  content: "";
+}
+
+.ra-var-icon-battery-negative:before {
+  content: "";
+}
+
+.ra-var-icon-battery-positive:before {
+  content: "";
+}
+
+.ra-var-icon-battery-white:before {
+  content: "";
+}
+
+.ra-var-icon-batwings:before {
+  content: "";
+}
+
+.ra-var-icon-beam-wake:before {
+  content: "";
+}
+
+.ra-var-icon-bear-trap:before {
+  content: "";
+}
+
+.ra-var-icon-beer:before {
+  content: "";
+}
+
+.ra-var-icon-beetle:before {
+  content: "";
+}
+
+.ra-var-icon-bell:before {
+  content: "";
+}
+
+.ra-var-icon-biohazard:before {
+  content: "";
+}
+
+.ra-var-icon-bird-claw:before {
+  content: "";
+}
+
+.ra-var-icon-bird-mask:before {
+  content: "";
+}
+
+.ra-var-icon-blade-bite:before {
+  content: "";
+}
+
+.ra-var-icon-blast:before {
+  content: "";
+}
+
+.ra-var-icon-blaster:before {
+  content: "";
+}
+
+.ra-var-icon-bleeding-eye:before {
+  content: "";
+}
+
+.ra-var-icon-bleeding-hearts:before {
+  content: "";
+}
+
+.ra-var-icon-bolt-shield:before {
+  content: "";
+}
+
+.ra-var-icon-bomb-explosion:before {
+  content: "";
+}
+
+.ra-var-icon-bombs:before {
+  content: "";
+}
+
+.ra-var-icon-bone-bite:before {
+  content: "";
+}
+
+.ra-var-icon-bone-knife:before {
+  content: "";
+}
+
+.ra-var-icon-book:before {
+  content: "";
+}
+
+.ra-var-icon-boomerang:before {
+  content: "";
+}
+
+.ra-var-icon-boot-stomp:before {
+  content: "";
+}
+
+.ra-var-icon-bottle-vapors:before {
+  content: "";
+}
+
+.ra-var-icon-bottled-bolt:before {
+  content: "";
+}
+
+.ra-var-icon-bottom-right:before {
+  content: "";
+}
+
+.ra-var-icon-bowie-knife:before {
+  content: "";
+}
+
+.ra-var-icon-bowling-pin:before {
+  content: "";
+}
+
+.ra-var-icon-brain-freeze:before {
+  content: "";
+}
+
+.ra-var-icon-brandy-bottle:before {
+  content: "";
+}
+
+.ra-var-icon-bridge:before {
+  content: "";
+}
+
+.ra-var-icon-broadhead-arrow:before {
+  content: "";
+}
+
+.ra-var-icon-broadsword:before {
+  content: "";
+}
+
+.ra-var-icon-broken-arrow:before {
+  content: "";
+}
+
+.ra-var-icon-broken-bone:before {
+  content: "";
+}
+
+.ra-var-icon-broken-bottle:before {
+  content: "";
+}
+
+.ra-var-icon-broken-heart:before {
+  content: "";
+}
+
+.ra-var-icon-broken-shield:before {
+  content: "";
+}
+
+.ra-var-icon-broken-skull:before {
+  content: "";
+}
+
+.ra-var-icon-bubbling-potion:before {
+  content: "";
+}
+
+.ra-var-icon-bullets:before {
+  content: "";
+}
+
+.ra-var-icon-burning-book:before {
+  content: "";
+}
+
+.ra-var-icon-burning-embers:before {
+  content: "";
+}
+
+.ra-var-icon-burning-eye:before {
+  content: "";
+}
+
+.ra-var-icon-burning-meteor:before {
+  content: "";
+}
+
+.ra-var-icon-burning-skull:before {
+  content: "";
+}
+
+.ra-var-icon-burst-blob:before {
+  content: "";
+}
+
+.ra-var-icon-butterfly:before {
+  content: "";
+}
+
+.ra-var-icon-campfire:before {
+  content: "";
+}
+
+.ra-var-icon-camping-tent:before {
+  content: "";
+}
+
+.ra-var-icon-cancel:before {
+  content: "";
+}
+
+.ra-var-icon-cancer:before {
+  content: "";
+}
+
+.ra-var-icon-candle-fire:before {
+  content: "";
+}
+
+.ra-var-icon-candle:before {
+  content: "";
+}
+
+.ra-var-icon-cannon-shot:before {
+  content: "";
+}
+
+.ra-var-icon-capitol:before {
+  content: "";
+}
+
+.ra-var-icon-capricorn:before {
+  content: "";
+}
+
+.ra-var-icon-carrot:before {
+  content: "";
+}
+
+.ra-var-icon-castle-emblem:before {
+  content: "";
+}
+
+.ra-var-icon-castle-flag:before {
+  content: "";
+}
+
+.ra-var-icon-cat:before {
+  content: "";
+}
+
+.ra-var-icon-cauldron:before {
+  content: "";
+}
+
+.ra-var-icon-chain:before {
+  content: "";
+}
+
+.ra-var-icon-cheese:before {
+  content: "";
+}
+
+.ra-var-icon-chemical-arrow:before {
+  content: "";
+}
+
+.ra-var-icon-chessboard:before {
+  content: "";
+}
+
+.ra-var-icon-chicken-leg:before {
+  content: "";
+}
+
+.ra-var-icon-circle-of-circles:before {
+  content: "";
+}
+
+.ra-var-icon-circular-saw:before {
+  content: "";
+}
+
+.ra-var-icon-circular-shield:before {
+  content: "";
+}
+
+.ra-var-icon-cloak-and-dagger:before {
+  content: "";
+}
+
+.ra-var-icon-clockwork:before {
+  content: "";
+}
+
+.ra-var-icon-closed-barbute:before {
+  content: "";
+}
+
+.ra-var-icon-clover:before {
+  content: "";
+}
+
+.ra-var-icon-clovers-card:before {
+  content: "";
+}
+
+.ra-var-icon-clovers:before {
+  content: "";
+}
+
+.ra-var-icon-cluster-bomb:before {
+  content: "";
+}
+
+.ra-var-icon-coal-wagon:before {
+  content: "";
+}
+
+.ra-var-icon-coffee-mug:before {
+  content: "";
+}
+
+.ra-var-icon-cog-wheel:before {
+  content: "";
+}
+
+.ra-var-icon-cog:before {
+  content: "";
+}
+
+.ra-var-icon-coins:before {
+  content: "";
+}
+
+.ra-var-icon-cold-heart:before {
+  content: "";
+}
+
+.ra-var-icon-compass:before {
+  content: "";
+}
+
+.ra-var-icon-console-controller:before {
+  content: "";
+}
+
+.ra-var-icon-conversation:before {
+  content: "";
+}
+
+.ra-var-icon-corked-tube:before {
+  content: "";
+}
+
+.ra-var-icon-crab-claw:before {
+  content: "";
+}
+
+.ra-var-icon-cracked-helm:before {
+  content: "";
+}
+
+.ra-var-icon-cracked-shield:before {
+  content: "";
+}
+
+.ra-var-icon-croc-sword:before {
+  content: "";
+}
+
+.ra-var-icon-crossbow:before {
+  content: "";
+}
+
+.ra-var-icon-crossed-axes:before {
+  content: "";
+}
+
+.ra-var-icon-crossed-bones:before {
+  content: "";
+}
+
+.ra-var-icon-crossed-pistols:before {
+  content: "";
+}
+
+.ra-var-icon-crossed-sabres:before {
+  content: "";
+}
+
+.ra-var-icon-crossed-swords:before {
+  content: "";
+}
+
+.ra-var-icon-crown-of-thorns:before {
+  content: "";
+}
+
+.ra-var-icon-crown:before {
+  content: "";
+}
+
+.ra-var-icon-crowned-heart:before {
+  content: "";
+}
+
+.ra-var-icon-crush:before {
+  content: "";
+}
+
+.ra-var-icon-crystal-ball:before {
+  content: "";
+}
+
+.ra-var-icon-crystal-cluster:before {
+  content: "";
+}
+
+.ra-var-icon-crystal-wand:before {
+  content: "";
+}
+
+.ra-var-icon-crystals:before {
+  content: "";
+}
+
+.ra-var-icon-cubes:before {
+  content: "";
+}
+
+.ra-var-icon-cut-palm:before {
+  content: "";
+}
+
+.ra-var-icon-cycle:before {
+  content: "";
+}
+
+.ra-var-icon-daggers:before {
+  content: "";
+}
+
+.ra-var-icon-daisy:before {
+  content: "";
+}
+
+.ra-var-icon-dead-tree:before {
+  content: "";
+}
+
+.ra-var-icon-death-skull:before {
+  content: "";
+}
+
+.ra-var-icon-decapitation:before {
+  content: "";
+}
+
+.ra-var-icon-defibrillate:before {
+  content: "";
+}
+
+.ra-var-icon-demolish:before {
+  content: "";
+}
+
+.ra-var-icon-dervish-swords:before {
+  content: "";
+}
+
+.ra-var-icon-desert-skull:before {
+  content: "";
+}
+
+.ra-var-icon-diamond:before {
+  content: "";
+}
+
+.ra-var-icon-diamonds-card:before {
+  content: "";
+}
+
+.ra-var-icon-diamonds:before {
+  content: "";
+}
+
+.ra-var-icon-dice-five:before {
+  content: "";
+}
+
+.ra-var-icon-dice-four:before {
+  content: "";
+}
+
+.ra-var-icon-dice-one:before {
+  content: "";
+}
+
+.ra-var-icon-dice-six:before {
+  content: "";
+}
+
+.ra-var-icon-dice-three:before {
+  content: "";
+}
+
+.ra-var-icon-dice-two:before {
+  content: "";
+}
+
+.ra-var-icon-dinosaur:before {
+  content: "";
+}
+
+.ra-var-icon-divert:before {
+  content: "";
+}
+
+.ra-var-icon-diving-dagger:before {
+  content: "";
+}
+
+.ra-var-icon-double-team:before {
+  content: "";
+}
+
+.ra-var-icon-doubled:before {
+  content: "";
+}
+
+.ra-var-icon-dragon-breath:before {
+  content: "";
+}
+
+.ra-var-icon-dragon-wing:before {
+  content: "";
+}
+
+.ra-var-icon-dragon:before {
+  content: "";
+}
+
+.ra-var-icon-dragonfly:before {
+  content: "";
+}
+
+.ra-var-icon-drill:before {
+  content: "";
+}
+
+.ra-var-icon-dripping-blade:before {
+  content: "";
+}
+
+.ra-var-icon-dripping-knife:before {
+  content: "";
+}
+
+.ra-var-icon-dripping-sword:before {
+  content: "";
+}
+
+.ra-var-icon-droplet-splash:before {
+  content: "";
+}
+
+.ra-var-icon-droplet:before {
+  content: "";
+}
+
+.ra-var-icon-droplets:before {
+  content: "";
+}
+
+.ra-var-icon-duel:before {
+  content: "";
+}
+
+.ra-var-icon-earth-crack:before {
+  content: "";
+}
+
+.ra-var-icon-egg-pod:before {
+  content: "";
+}
+
+.ra-var-icon-egg:before {
+  content: "";
+}
+
+.ra-var-icon-eggplant:before {
+  content: "";
+}
+
+.ra-var-icon-emerald:before {
+  content: "";
+}
+
+.ra-var-icon-energise:before {
+  content: "";
+}
+
+.ra-var-icon-executioner-hood:before {
+  content: "";
+}
+
+.ra-var-icon-explosion:before {
+  content: "";
+}
+
+.ra-var-icon-explosive-materials:before {
+  content: "";
+}
+
+.ra-var-icon-eye-monster:before {
+  content: "";
+}
+
+.ra-var-icon-eye-shield:before {
+  content: "";
+}
+
+.ra-var-icon-eyeball:before {
+  content: "";
+}
+
+.ra-var-icon-fairy-wand:before {
+  content: "";
+}
+
+.ra-var-icon-fairy:before {
+  content: "";
+}
+
+.ra-var-icon-fall-down:before {
+  content: "";
+}
+
+.ra-var-icon-falling:before {
+  content: "";
+}
+
+.ra-var-icon-fast-ship:before {
+  content: "";
+}
+
+.ra-var-icon-feather-wing:before {
+  content: "";
+}
+
+.ra-var-icon-feathered-wing:before {
+  content: "";
+}
+
+.ra-var-icon-fedora:before {
+  content: "";
+}
+
+.ra-var-icon-fire-bomb:before {
+  content: "";
+}
+
+.ra-var-icon-fire-breath:before {
+  content: "";
+}
+
+.ra-var-icon-fire-ring:before {
+  content: "";
+}
+
+.ra-var-icon-fire-shield:before {
+  content: "";
+}
+
+.ra-var-icon-fire-symbol:before {
+  content: "";
+}
+
+.ra-var-icon-fire:before {
+  content: "";
+}
+
+.ra-var-icon-fireball-sword:before {
+  content: "";
+}
+
+.ra-var-icon-fish:before {
+  content: "";
+}
+
+.ra-var-icon-fizzing-flask:before {
+  content: "";
+}
+
+.ra-var-icon-flail:before {
+  content: "";
+}
+
+.ra-var-icon-flame-symbol:before {
+  content: "";
+}
+
+.ra-var-icon-flame:before {
+  content: "";
+}
+
+.ra-var-icon-flaming-arrow:before {
+  content: "";
+}
+
+.ra-var-icon-flaming-claw:before {
+  content: "";
+}
+
+.ra-var-icon-flaming-trident:before {
+  content: "";
+}
+
+.ra-var-icon-flask:before {
+  content: "";
+}
+
+.ra-var-icon-flat-hammer:before {
+  content: "";
+}
+
+.ra-var-icon-flower:before {
+  content: "";
+}
+
+.ra-var-icon-flowers:before {
+  content: "";
+}
+
+.ra-var-icon-fluffy-swirl:before {
+  content: "";
+}
+
+.ra-var-icon-focused-lightning:before {
+  content: "";
+}
+
+.ra-var-icon-food-chain:before {
+  content: "";
+}
+
+.ra-var-icon-football-ball:before {
+  content: "";
+}
+
+.ra-var-icon-footprint:before {
+  content: "";
+}
+
+.ra-var-icon-forging:before {
+  content: "";
+}
+
+.ra-var-icon-forward:before {
+  content: "";
+}
+
+.ra-var-icon-fox:before {
+  content: "";
+}
+
+.ra-var-icon-frost-emblem:before {
+  content: "";
+}
+
+.ra-var-icon-frostfire:before {
+  content: "";
+}
+
+.ra-var-icon-frozen-arrow:before {
+  content: "";
+}
+
+.ra-var-icon-gamepad-cross:before {
+  content: "";
+}
+
+.ra-var-icon-gamepad:before {
+  content: "";
+}
+
+.ra-var-icon-gavel:before {
+  content: "";
+}
+
+.ra-var-icon-gear-hammer:before {
+  content: "";
+}
+
+.ra-var-icon-gear-heart:before {
+  content: "";
+}
+
+.ra-var-icon-gears:before {
+  content: "";
+}
+
+.ra-var-icon-gecko:before {
+  content: "";
+}
+
+.ra-var-icon-gem-pendant:before {
+  content: "";
+}
+
+.ra-var-icon-gem:before {
+  content: "";
+}
+
+.ra-var-icon-gemini:before {
+  content: "";
+}
+
+.ra-var-icon-gladius:before {
+  content: "";
+}
+
+.ra-var-icon-glass-heart:before {
+  content: "";
+}
+
+.ra-var-icon-gloop:before {
+  content: "";
+}
+
+.ra-var-icon-gold-bar:before {
+  content: "";
+}
+
+.ra-var-icon-gold-stack:before {
+  content: "";
+}
+
+.ra-var-icon-grappling-hook:before {
+  content: "";
+}
+
+.ra-var-icon-grass-patch:before {
+  content: "";
+}
+
+.ra-var-icon-grass:before {
+  content: "";
+}
+
+.ra-var-icon-greek-temple:before {
+  content: "";
+}
+
+.ra-var-icon-grenade:before {
+  content: "";
+}
+
+.ra-var-icon-groundbreaker:before {
+  content: "";
+}
+
+.ra-var-icon-guarded-tower:before {
+  content: "";
+}
+
+.ra-var-icon-guillotine:before {
+  content: "";
+}
+
+.ra-var-icon-halberd:before {
+  content: "";
+}
+
+.ra-var-icon-ham-shank:before {
+  content: "";
+}
+
+.ra-var-icon-hammer-drop:before {
+  content: "";
+}
+
+.ra-var-icon-hammer:before {
+  content: "";
+}
+
+.ra-var-icon-hand-emblem:before {
+  content: "";
+}
+
+.ra-var-icon-hand-saw:before {
+  content: "";
+}
+
+.ra-var-icon-hand:before {
+  content: "";
+}
+
+.ra-var-icon-harpoon-trident:before {
+  content: "";
+}
+
+.ra-var-icon-hatchet:before {
+  content: "";
+}
+
+.ra-var-icon-health-decrease:before {
+  content: "";
+}
+
+.ra-var-icon-health-increase:before {
+  content: "";
+}
+
+.ra-var-icon-health:before {
+  content: "";
+}
+
+.ra-var-icon-heart-bottle:before {
+  content: "";
+}
+
+.ra-var-icon-heart-tower:before {
+  content: "";
+}
+
+.ra-var-icon-heartburn:before {
+  content: "";
+}
+
+.ra-var-icon-hearts-card:before {
+  content: "";
+}
+
+.ra-var-icon-hearts:before {
+  content: "";
+}
+
+.ra-var-icon-heat-haze:before {
+  content: "";
+}
+
+.ra-var-icon-heavy-fall:before {
+  content: "";
+}
+
+.ra-var-icon-heavy-shield:before {
+  content: "";
+}
+
+.ra-var-icon-helmet:before {
+  content: "";
+}
+
+.ra-var-icon-help:before {
+  content: "";
+}
+
+.ra-var-icon-hive-emblem:before {
+  content: "";
+}
+
+.ra-var-icon-hole-ladder:before {
+  content: "";
+}
+
+.ra-var-icon-honeycomb:before {
+  content: "";
+}
+
+.ra-var-icon-hood:before {
+  content: "";
+}
+
+.ra-var-icon-horn-call:before {
+  content: "";
+}
+
+.ra-var-icon-horns:before {
+  content: "";
+}
+
+.ra-var-icon-horseshoe:before {
+  content: "";
+}
+
+.ra-var-icon-hospital-cross:before {
+  content: "";
+}
+
+.ra-var-icon-hot-surface:before {
+  content: "";
+}
+
+.ra-var-icon-hourglass:before {
+  content: "";
+}
+
+.ra-var-icon-house:before {
+  content: "";
+}
+
+.ra-var-icon-hydra-shot:before {
+  content: "";
+}
+
+.ra-var-icon-hydra:before {
+  content: "";
+}
+
+.ra-var-icon-ice-cube:before {
+  content: "";
+}
+
+.ra-var-icon-imperial-crown:before {
+  content: "";
+}
+
+.ra-var-icon-implosion:before {
+  content: "";
+}
+
+.ra-var-icon-incense:before {
+  content: "";
+}
+
+.ra-var-icon-insect-jaws:before {
+  content: "";
+}
+
+.ra-var-icon-interdiction:before {
+  content: "";
+}
+
+.ra-var-icon-jetpack:before {
+  content: "";
+}
+
+.ra-var-icon-jewel-crown:before {
+  content: "";
+}
+
+.ra-var-icon-jigsaw-piece:before {
+  content: "";
+}
+
+.ra-var-icon-kaleidoscope:before {
+  content: "";
+}
+
+.ra-var-icon-kettlebell:before {
+  content: "";
+}
+
+.ra-var-icon-key-basic:before {
+  content: "";
+}
+
+.ra-var-icon-key:before {
+  content: "";
+}
+
+.ra-var-icon-kitchen-knives:before {
+  content: "";
+}
+
+.ra-var-icon-knife-fork:before {
+  content: "";
+}
+
+.ra-var-icon-knife:before {
+  content: "";
+}
+
+.ra-var-icon-knight-helmet:before {
+  content: "";
+}
+
+.ra-var-icon-kunai:before {
+  content: "";
+}
+
+.ra-var-icon-lantern-flame:before {
+  content: "";
+}
+
+.ra-var-icon-large-hammer:before {
+  content: "";
+}
+
+.ra-var-icon-laser-blast:before {
+  content: "";
+}
+
+.ra-var-icon-laser-site:before {
+  content: "";
+}
+
+.ra-var-icon-lava:before {
+  content: "";
+}
+
+.ra-var-icon-leaf:before {
+  content: "";
+}
+
+.ra-var-icon-leo:before {
+  content: "";
+}
+
+.ra-var-icon-level-four-advanced:before {
+  content: "";
+}
+
+.ra-var-icon-level-four:before {
+  content: "";
+}
+
+.ra-var-icon-level-three-advanced:before {
+  content: "";
+}
+
+.ra-var-icon-level-three:before {
+  content: "";
+}
+
+.ra-var-icon-level-two-advanced:before {
+  content: "";
+}
+
+.ra-var-icon-level-two:before {
+  content: "";
+}
+
+.ra-var-icon-lever:before {
+  content: "";
+}
+
+.ra-var-icon-libra:before {
+  content: "";
+}
+
+.ra-var-icon-light-bulb:before {
+  content: "";
+}
+
+.ra-var-icon-lighthouse:before {
+  content: "";
+}
+
+.ra-var-icon-lightning-bolt:before {
+  content: "";
+}
+
+.ra-var-icon-lightning-storm:before {
+  content: "";
+}
+
+.ra-var-icon-lightning-sword:before {
+  content: "";
+}
+
+.ra-var-icon-lightning-trio:before {
+  content: "";
+}
+
+.ra-var-icon-lightning:before {
+  content: "";
+}
+
+.ra-var-icon-lion:before {
+  content: "";
+}
+
+.ra-var-icon-lit-candelabra:before {
+  content: "";
+}
+
+.ra-var-icon-load:before {
+  content: "";
+}
+
+.ra-var-icon-locked-fortress:before {
+  content: "";
+}
+
+.ra-var-icon-love-howl:before {
+  content: "";
+}
+
+.ra-var-icon-maggot:before {
+  content: "";
+}
+
+.ra-var-icon-magnet:before {
+  content: "";
+}
+
+.ra-var-icon-mass-driver:before {
+  content: "";
+}
+
+.ra-var-icon-match:before {
+  content: "";
+}
+
+.ra-var-icon-materials-science:before {
+  content: "";
+}
+
+.ra-var-icon-meat-hook:before {
+  content: "";
+}
+
+.ra-var-icon-meat:before {
+  content: "";
+}
+
+.ra-var-icon-medical-pack:before {
+  content: "";
+}
+
+.ra-var-icon-metal-gate:before {
+  content: "";
+}
+
+.ra-var-icon-microphone:before {
+  content: "";
+}
+
+.ra-var-icon-mine-wagon:before {
+  content: "";
+}
+
+.ra-var-icon-mining-diamonds:before {
+  content: "";
+}
+
+.ra-var-icon-mirror:before {
+  content: "";
+}
+
+.ra-var-icon-monster-skull:before {
+  content: "";
+}
+
+.ra-var-icon-mountains:before {
+  content: "";
+}
+
+.ra-var-icon-moon-sun:before {
+  content: "";
+}
+
+.ra-var-icon-mp5:before {
+  content: "";
+}
+
+.ra-var-icon-muscle-fat:before {
+  content: "";
+}
+
+.ra-var-icon-muscle-up:before {
+  content: "";
+}
+
+.ra-var-icon-musket:before {
+  content: "";
+}
+
+.ra-var-icon-nails:before {
+  content: "";
+}
+
+.ra-var-icon-newspaper:before {
+  content: "";
+}
+
+.ra-var-icon-nodular:before {
+  content: "";
+}
+
+.ra-var-icon-noose:before {
+  content: "";
+}
+
+.ra-var-icon-nuclear:before {
+  content: "";
+}
+
+.ra-var-icon-ocarina:before {
+  content: "";
+}
+
+.ra-var-icon-ocean-emblem:before {
+  content: "";
+}
+
+.ra-var-icon-octopus:before {
+  content: "";
+}
+
+.ra-var-icon-omega:before {
+  content: "";
+}
+
+.ra-var-icon-on-target:before {
+  content: "";
+}
+
+.ra-var-icon-open-chest:before {
+  content: "";
+}
+
+.ra-var-icon-ophiuchus:before {
+  content: "";
+}
+
+.ra-var-icon-orb-wand:before {
+  content: "";
+}
+
+.ra-var-icon-overhead:before {
+  content: "";
+}
+
+.ra-var-icon-overmind:before {
+  content: "";
+}
+
+.ra-var-icon-palm-tree:before {
+  content: "";
+}
+
+.ra-var-icon-pawn:before {
+  content: "";
+}
+
+.ra-var-icon-pawprint:before {
+  content: "";
+}
+
+.ra-var-icon-perspective-dice-five:before {
+  content: "";
+}
+
+.ra-var-icon-perspective-dice-four:before {
+  content: "";
+}
+
+.ra-var-icon-perspective-dice-one:before {
+  content: "";
+}
+
+.ra-var-icon-perspective-dice-random:before {
+  content: "";
+}
+
+.ra-var-icon-perspective-dice-two:before {
+  content: "";
+}
+
+.ra-var-icon-perspective-dice-six:before {
+  content: "";
+}
+
+.ra-var-icon-perspective-dice-three:before {
+  content: "";
+}
+
+.ra-var-icon-pig:before {
+  content: "";
+}
+
+.ra-var-icon-pill:before {
+  content: "";
+}
+
+.ra-var-icon-pills:before {
+  content: "";
+}
+
+.ra-var-icon-pine-tree:before {
+  content: "";
+}
+
+.ra-var-icon-ping-pong:before {
+  content: "";
+}
+
+.ra-var-icon-pisces:before {
+  content: "";
+}
+
+.ra-var-icon-plain-dagger:before {
+  content: "";
+}
+
+.ra-var-icon-player-despair:before {
+  content: "";
+}
+
+.ra-var-icon-player-dodge:before {
+  content: "";
+}
+
+.ra-var-icon-player-king:before {
+  content: "";
+}
+
+.ra-var-icon-player-lift:before {
+  content: "";
+}
+
+.ra-var-icon-player-pain:before {
+  content: "";
+}
+
+.ra-var-icon-player-pyromaniac:before {
+  content: "";
+}
+
+.ra-var-icon-player-shot:before {
+  content: "";
+}
+
+.ra-var-icon-player-teleport:before {
+  content: "";
+}
+
+.ra-var-icon-player-thunder-struck:before {
+  content: "";
+}
+
+.ra-var-icon-player:before {
+  content: "";
+}
+
+.ra-var-icon-podium:before {
+  content: "";
+}
+
+.ra-var-icon-pointy-hat:before {
+  content: "";
+}
+
+.ra-var-icon-poison-cloud:before {
+  content: "";
+}
+
+.ra-var-icon-potion:before {
+  content: "";
+}
+
+.ra-var-icon-psychic-waves:before {
+  content: "";
+}
+
+.ra-var-icon-pyramids:before {
+  content: "";
+}
+
+.ra-var-icon-queen-crown:before {
+  content: "";
+}
+
+.ra-var-icon-quill-ink:before {
+  content: "";
+}
+
+.ra-var-icon-rabbit:before {
+  content: "";
+}
+
+.ra-var-icon-radar-dish:before {
+  content: "";
+}
+
+.ra-var-icon-radial-balance:before {
+  content: "";
+}
+
+.ra-var-icon-radioactive:before {
+  content: "";
+}
+
+.ra-var-icon-raven:before {
+  content: "";
+}
+
+.ra-var-icon-reactor:before {
+  content: "";
+}
+
+.ra-var-icon-recycle:before {
+  content: "";
+}
+
+.ra-var-icon-regeneration:before {
+  content: "";
+}
+
+.ra-var-icon-relic-blade:before {
+  content: "";
+}
+
+.ra-var-icon-repair:before {
+  content: "";
+}
+
+.ra-var-icon-reverse:before {
+  content: "";
+}
+
+.ra-var-icon-revolver:before {
+  content: "";
+}
+
+.ra-var-icon-rifle:before {
+  content: "";
+}
+
+.ra-var-icon-ringing-bell:before {
+  content: "";
+}
+
+.ra-var-icon-roast-chicken:before {
+  content: "";
+}
+
+.ra-var-icon-robot-arm:before {
+  content: "";
+}
+
+.ra-var-icon-round-bottom-flask:before {
+  content: "";
+}
+
+.ra-var-icon-round-shield:before {
+  content: "";
+}
+
+.ra-var-icon-rss:before {
+  content: "";
+}
+
+.ra-var-icon-rune-stone:before {
+  content: "";
+}
+
+.ra-var-icon-sagittarius:before {
+  content: "";
+}
+
+.ra-var-icon-sapphire:before {
+  content: "";
+}
+
+.ra-var-icon-satellite:before {
+  content: "";
+}
+
+.ra-var-icon-save:before {
+  content: "";
+}
+
+.ra-var-icon-scorpio:before {
+  content: "";
+}
+
+.ra-var-icon-scroll-unfurled:before {
+  content: "";
+}
+
+.ra-var-icon-scythe:before {
+  content: "";
+}
+
+.ra-var-icon-sea-serpent:before {
+  content: "";
+}
+
+.ra-var-icon-seagull:before {
+  content: "";
+}
+
+.ra-var-icon-shark:before {
+  content: "";
+}
+
+.ra-var-icon-sheep:before {
+  content: "";
+}
+
+.ra-var-icon-sheriff:before {
+  content: "";
+}
+
+.ra-var-icon-shield:before {
+  content: "";
+}
+
+.ra-var-icon-ship-emblem:before {
+  content: "";
+}
+
+.ra-var-icon-shoe-prints:before {
+  content: "";
+}
+
+.ra-var-icon-shot-through-the-heart:before {
+  content: "";
+}
+
+.ra-var-icon-shotgun-shell:before {
+  content: "";
+}
+
+.ra-var-icon-shovel:before {
+  content: "";
+}
+
+.ra-var-icon-shuriken:before {
+  content: "";
+}
+
+.ra-var-icon-sickle:before {
+  content: "";
+}
+
+.ra-var-icon-sideswipe:before {
+  content: "";
+}
+
+.ra-var-icon-sinking-ship:before {
+  content: "";
+}
+
+.ra-var-icon-site:before {
+  content: "";
+}
+
+.ra-var-icon-skull-trophy:before {
+  content: "";
+}
+
+.ra-var-icon-skull:before {
+  content: "";
+}
+
+.ra-var-icon-slash-ring:before {
+  content: "";
+}
+
+.ra-var-icon-sliced-bread:before {
+  content: "";
+}
+
+.ra-var-icon-small-fire:before {
+  content: "";
+}
+
+.ra-var-icon-snail:before {
+  content: "";
+}
+
+.ra-var-icon-snake:before {
+  content: "";
+}
+
+.ra-var-icon-snorkel:before {
+  content: "";
+}
+
+.ra-var-icon-snowflake:before {
+  content: "";
+}
+
+.ra-var-icon-soccer-ball:before {
+  content: "";
+}
+
+.ra-var-icon-spades-card:before {
+  content: "";
+}
+
+.ra-var-icon-spades:before {
+  content: "";
+}
+
+.ra-var-icon-spawn-node:before {
+  content: "";
+}
+
+.ra-var-icon-spear-head:before {
+  content: "";
+}
+
+.ra-var-icon-speech-bubble:before {
+  content: "";
+}
+
+.ra-var-icon-speech-bubbles:before {
+  content: "";
+}
+
+.ra-var-icon-spider-alt:before {
+  content: "";
+}
+
+.ra-var-icon-spider-face:before {
+  content: "";
+}
+
+.ra-var-icon-spikeball:before {
+  content: "";
+}
+
+.ra-var-icon-spiked-ball:before {
+  content: "";
+}
+
+.ra-var-icon-spiked-bat:before {
+  content: "";
+}
+
+.ra-var-icon-spiked-mace:before {
+  content: "";
+}
+
+.ra-var-icon-spiked-tentacle:before {
+  content: "";
+}
+
+.ra-var-icon-spinning-sword:before {
+  content: "";
+}
+
+.ra-var-icon-spiral-shell:before {
+  content: "";
+}
+
+.ra-var-icon-splash:before {
+  content: "";
+}
+
+.ra-var-icon-spray-can:before {
+  content: "";
+}
+
+.ra-var-icon-sprout-emblem:before {
+  content: "";
+}
+
+.ra-var-icon-sprout:before {
+  content: "";
+}
+
+.ra-var-icon-spy:before {
+  content: "";
+}
+
+.ra-var-icon-stone-pile:before {
+  content: "";
+}
+
+.ra-var-icon-stopwatch:before {
+  content: "";
+}
+
+.ra-var-icon-suckered-tentacle:before {
+  content: "";
+}
+
+.ra-var-icon-suits:before {
+  content: "";
+}
+
+.ra-var-icon-sun-symbol:before {
+  content: "";
+}
+
+.ra-var-icon-sun:before {
+  content: "";
+}
+
+.ra-var-icon-sunbeams:before {
+  content: "";
+}
+
+.ra-var-icon-super-mushroom:before {
+  content: "";
+}
+
+.ra-var-icon-supersonic-arrow:before {
+  content: "";
+}
+
+.ra-var-icon-surveillance-camera:before {
+  content: "";
+}
+
+.ra-var-icon-syringe:before {
+  content: "";
+}
+
+.ra-var-icon-target-arrows:before {
+  content: "";
+}
+
+.ra-var-icon-target-laser:before {
+  content: "";
+}
+
+.ra-var-icon-targeted:before {
+  content: "";
+}
+
+.ra-var-icon-taurus:before {
+  content: "";
+}
+
+.ra-var-icon-telescope:before {
+  content: "";
+}
+
+.ra-var-icon-tentacle:before {
+  content: "";
+}
+
+.ra-var-icon-tesla:before {
+  content: "";
+}
+
+.ra-var-icon-thorn-arrow:before {
+  content: "";
+}
+
+.ra-var-icon-thorny-vine:before {
+  content: "";
+}
+
+.ra-var-icon-three-keys:before {
+  content: "";
+}
+
+.ra-var-icon-tic-tac-toe:before {
+  content: "";
+}
+
+.ra-var-icon-toast:before {
+  content: "";
+}
+
+.ra-var-icon-tombstone:before {
+  content: "";
+}
+
+.ra-var-icon-tooth:before {
+  content: "";
+}
+
+.ra-var-icon-torch:before {
+  content: "";
+}
+
+.ra-var-icon-tornado:before {
+  content: "";
+}
+
+.ra-var-icon-tower:before {
+  content: "";
+}
+
+.ra-var-icon-trail:before {
+  content: "";
+}
+
+.ra-var-icon-trefoil-lily:before {
+  content: "";
+}
+
+.ra-var-icon-trident:before {
+  content: "";
+}
+
+.ra-var-icon-triforce:before {
+  content: "";
+}
+
+.ra-var-icon-trophy:before {
+  content: "";
+}
+
+.ra-var-icon-turd:before {
+  content: "";
+}
+
+.ra-var-icon-two-dragons:before {
+  content: "";
+}
+
+.ra-var-icon-two-hearts:before {
+  content: "";
+}
+
+.ra-var-icon-uncertainty:before {
+  content: "";
+}
+
+.ra-var-icon-underhand:before {
+  content: "";
+}
+
+.ra-var-icon-unplugged:before {
+  content: "";
+}
+
+.ra-var-icon-upgrade:before {
+  content: "";
+}
+
+.ra-var-icon-vase:before {
+  content: "";
+}
+
+.ra-var-icon-venomous-snake:before {
+  content: "";
+}
+
+.ra-var-icon-vest:before {
+  content: "";
+}
+
+.ra-var-icon-vial:before {
+  content: "";
+}
+
+.ra-var-icon-vine-whip:before {
+  content: "";
+}
+
+.ra-var-icon-virgo:before {
+  content: "";
+}
+
+.ra-var-icon-water-drop:before {
+  content: "";
+}
+
+.ra-var-icon-wave-crest:before {
+  content: "";
+}
+
+.ra-var-icon-wifi:before {
+  content: "";
+}
+
+.ra-var-icon-wireless-signal:before {
+  content: "";
+}
+
+.ra-var-icon-wizard-face:before {
+  content: "";
+}
+
+.ra-var-icon-wizard-staff:before {
+  content: "";
+}
+
+.ra-var-icon-wolf-head:before {
+  content: "";
+}
+
+.ra-var-icon-wolf-howl:before {
+  content: "";
+}
+
+.ra-var-icon-wooden-sign:before {
+  content: "";
+}
+
+.ra-var-icon-world:before {
+  content: "";
+}
+
+.ra-var-icon-wrench:before {
+  content: "";
+}
+
+.ra-var-icon-wyvern:before {
+  content: "";
+}
+
+.ra-var-icon-x-mark:before {
+  content: "";
+}
+
+.ra-var-icon-zebra-shield:before {
+  content: "";
+}
+
+.ra-var-icon-zigzag-leaf:before {
+  content: "";
 }
 
 /*# sourceMappingURL=rpg-awesome.css.map */
