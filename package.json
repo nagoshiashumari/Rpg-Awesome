@@ -8,10 +8,10 @@
     "url": "git://github.com/OpenDominion/Rpg-Awesome.git"
   },
   "devDependencies": {
-    "grunt": "~0.4.5",
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "~0.11.0",
     "grunt-contrib-sass": "~0.8.1",
-    "grunt-scss-lint": "~0.3.4",
-    "grunt-contrib-cssmin": "~0.11.0"
+    "grunt-scss-lint": "~0.3.4"
   },
   "scripts": {
     "build": "grunt",
@@ -25,5 +25,7 @@
   "main": "Gruntfile.js",
   "author": "",
   "license": "BSD",
-  "dependencies": {}
+  "dependencies": {
+    "grunt-cli": "^1.3.2"
+  }
 }
