@@ -8,6 +8,36 @@
   }
 }
 
+.#{$ra-css-prefix}-castle {
+  &:before {
+    content: $ra-var-icon-castle; 
+  }
+}
+
+.#{$ra-css-prefix}-pumpkin-lantern {
+  &:before {
+    content: $ra-var-icon-pumpkin-lantern; 
+  }
+}
+
+.#{$ra-css-prefix}-wood-beam {
+  &:before {
+    content: $ra-var-icon-wood-beam; 
+  }
+}
+
+.#{$ra-css-prefix}-brutal-helm {
+  &:before {
+    content: $ra-var-icon-brutal-helm; 
+  }
+}
+
+.#{$ra-css-prefix}-achievement {
+  &:before {
+    content: $ra-var-icon-achievement; 
+  }
+}
+
 .#{$ra-css-prefix}-acid {
   &:before {
     content: $ra-var-icon-acid; 
@@ -476,6 +506,12 @@
   }
 }
 
+.#{$ra-css-prefix}-broadsword {
+  &:before {
+    content: $ra-var-icon-broadsword; 
+  }
+}
+
 .#{$ra-css-prefix}-broken-arrow {
   &:before {
     content: $ra-var-icon-broken-arrow; 
@@ -509,12 +545,6 @@
 .#{$ra-css-prefix}-broken-skull {
   &:before {
     content: $ra-var-icon-broken-skull; 
-  }
-}
-
-.#{$ra-css-prefix}-brutal-helm {
-  &:before {
-    content: $ra-var-icon-brutal-helm; 
   }
 }
 
@@ -2144,9 +2174,9 @@
   }
 }
 
-.#{$ra-css-prefix}-mountains {
+.#{$ra-css-prefix}-montains {
   &:before {
-    content: $ra-var-icon-mountains; 
+    content: $ra-var-icon-montains; 
   }
 }
 
@@ -2312,9 +2342,9 @@
   }
 }
 
-.#{$ra-css-prefix}-perspective-dice-two {
+.#{$ra-css-prefix}-perspective-dice-six-two {
   &:before {
-    content: $ra-var-icon-perspective-dice-two; 
+    content: $ra-var-icon-perspective-dice-six-two; 
   }
 }
 
@@ -2978,12 +3008,6 @@
   }
 }
 
-.#{$ra-css-prefix}-sword {
-  &:before {
-    content: $ra-var-icon-sword; 
-  }
-}
-
 .#{$ra-css-prefix}-syringe {
   &:before {
     content: $ra-var-icon-syringe; 
@@ -3245,12 +3269,6 @@
 .#{$ra-css-prefix}-wolf-howl {
   &:before {
     content: $ra-var-icon-wolf-howl; 
-  }
-}
-
-.#{$ra-css-prefix}-wood-beam {
-  &:before {
-    content: $ra-var-icon-wood-beam; 
   }
 }
 

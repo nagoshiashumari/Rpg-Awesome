@@ -8,8 +8,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'RPGAwesome';
-  src: url("../fonts/rpgawesome-webfont.eot?v=0.1.0");
-  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.1.0") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.1.0") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.1.0") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.1.0#rpg-awesome") format("svg");
+  src: url("../fonts/rpgawesome-webfont.eot?v=0.1.1");
+  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.1.1") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.1.1") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.1.1") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.1.1#rpg-awesome") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -188,6 +188,26 @@
 
 .ra-inverse {
   color: #fff;
+}
+
+.ra-achievement:before {
+  content: "";
+}
+
+.ra-castle:before {
+  content: "";
+}
+
+.ra-pumpkin-lantern:before {
+  content: "";
+}
+
+.ra-wood-beam:before {
+  content: "";
+}
+
+.ra-brutal-helm:before {
+  content: "";
 }
 
 .ra-achievement:before {
@@ -506,6 +526,10 @@
   content: "";
 }
 
+.ra-broadsword:before {
+  content: "";
+}
+
 .ra-broken-arrow:before {
   content: "";
 }
@@ -528,10 +552,6 @@
 
 .ra-broken-skull:before {
   content: "";
-}
-
-.ra-brutal-helm:before {
-  content: "";
 }
 
 .ra-bubbling-potion:before {
@@ -1618,7 +1638,7 @@
   content: "";
 }
 
-.ra-mountains:before {
+.ra-montains:before {
   content: "";
 }
 
@@ -1730,7 +1750,7 @@
   content: "";
 }
 
-.ra-perspective-dice-two:before {
+.ra-perspective-dice-six-two:before {
   content: "";
 }
 
@@ -2174,10 +2194,6 @@
   content: "";
 }
 
-.ra-sword:before {
-  content: "";
-}
-
 .ra-syringe:before {
   content: "";
 }
@@ -2352,10 +2368,6 @@
 
 .ra-wolf-howl:before {
   content: "";
-}
-
-.ra-wood-beam:before {
-  content: "";
 }
 
 .ra-wooden-sign:before {
