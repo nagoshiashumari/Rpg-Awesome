@@ -8,8 +8,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'RPGAwesome';
-  src: url("../fonts/rpgawesome-webfont.eot?v=0.1.1");
-  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.1.1") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.1.1") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.1.1") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.1.1#rpg-awesome") format("svg");
+  src: url("../fonts/rpgawesome-webfont.eot?v=0.0.9");
+  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.9") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.9") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.9") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.9#rpg-awesome") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -190,8 +190,12 @@
   color: #fff;
 }
 
-.ra-achievement:before {
-  content: "";
+.ra-perspective-dice-two:before {
+  content: "";
+}
+
+.ra-sword:before {
+  content: "";
 }
 
 .ra-castle:before {
@@ -524,10 +528,6 @@
 
 .ra-broadhead-arrow:before {
   content: "";
-}
-
-.ra-sword:before {
-  content: "";
 }
 
 .ra-broken-arrow:before {
@@ -1748,10 +1748,6 @@
 
 .ra-perspective-dice-random:before {
   content: "";
-}
-
-.ra-perspective-dice-two:before {
-  content: "";
 }
 
 .ra-perspective-dice-six:before {

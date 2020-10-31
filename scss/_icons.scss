@@ -2,9 +2,15 @@
 // --------------------------
 
 
-.#{$ra-css-prefix}-achievement {
+.#{$ra-css-prefix}-perspective-dice-two {
   &:before {
-    content: $ra-var-icon-achievement; 
+    content: $ra-var-icon-perspective-dice-two; 
+  }
+}
+
+.#{$ra-css-prefix}-sword {
+  &:before {
+    content: $ra-var-icon-sword; 
   }
 }
 
@@ -503,12 +509,6 @@
 .#{$ra-css-prefix}-broadhead-arrow {
   &:before {
     content: $ra-var-icon-broadhead-arrow; 
-  }
-}
-
-.#{$ra-css-prefix}-sword {
-  &:before {
-    content: $ra-var-icon-sword; 
   }
 }
 
@@ -2339,12 +2339,6 @@
 .#{$ra-css-prefix}-perspective-dice-random {
   &:before {
     content: $ra-var-icon-perspective-dice-random; 
-  }
-}
-
-.#{$ra-css-prefix}-perspective-dice-two {
-  &:before {
-    content: $ra-var-icon-perspective-dice-two; 
   }
 }
 
