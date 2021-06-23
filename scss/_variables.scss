@@ -1,12 +1,14 @@
 // Variables
 // --------------------------
 
+@use 'sass:math';
+
 $ra-font-path:        '../fonts' !default;
 $ra-css-prefix:       ra !default;
 $ra-version:          '0.1.0' !default;
 $ra-border-color:     #eee !default;
 $ra-inverse:          #fff !default;
-$ra-li-width:         (30em / 14) !default;
+$ra-li-width:         (math.div(30em, 14)) !default;
 
 $ra-var-icon-acid: '\e900';
 $ra-var-icon-acorn: '\e901';
