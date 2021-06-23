@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+      "number-leading-zero": null,
+      "max-empty-lines": null,
+      "function-name-case": null,
+      "declaration-colon-newline-after": null,
+      "at-rule-empty-line-before": null,
+      "block-closing-brace-empty-line-before": null,
+      "block-closing-brace-space-before": null,
+      "font-family-no-missing-generic-family-keyword": null,
+      "at-rule-no-unknown": null
+  }
+}

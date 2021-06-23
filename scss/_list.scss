@@ -1,6 +1,8 @@
 // List Icons
 // -------------------------
 
+@use 'sass:math';
+
 .#{$ra-css-prefix}-ul {
   list-style-type: none;
   margin-left: $ra-li-width;
@@ -12,11 +14,11 @@
   left: -$ra-li-width;
   position: absolute;
   text-align: center;
-  top: (2em / 14);
+  top: (math.div(2em, 14));
   width: $ra-li-width;
 
   &.#{$ra-css-prefix}-lg {
-    left: -$ra-li-width + (4em / 14);
+    left: -$ra-li-width + (math.div(4em, 14));
   }
 
 }
