@@ -7,7 +7,7 @@
 /* FONT PATH
  * -------------------------- */
 @font-face {
-  font-family: 'RPGAwesome';
+  font-family: "RPGAwesome";
   src: url("../fonts/rpgawesome-webfont.eot?v=0.0.9");
   src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.0.9") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.0.9") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.0.9") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.0.9#rpg-awesome") format("svg");
   font-weight: normal;
@@ -75,8 +75,8 @@
 
 .ra-border {
   border: solid 0.08em #eee;
-  border-radius: .1em;
-  padding: .2em .25em .15em;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
 }
 
 .pull-right {
@@ -88,10 +88,10 @@
 }
 
 .ra.pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 .ra.pull-right {
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
 
 .ra-spin {
@@ -2393,5 +2393,3 @@
 .ra-zigzag-leaf:before {
   content: "";
 }
-
-/*# sourceMappingURL=rpg-awesome.css.map */
