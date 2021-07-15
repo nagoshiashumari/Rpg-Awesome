@@ -9,6 +9,9 @@
       "block-closing-brace-empty-line-before": null,
       "block-closing-brace-space-before": null,
       "font-family-no-missing-generic-family-keyword": null,
-      "at-rule-no-unknown": null
+      "at-rule-no-unknown": null,
+      "block-closing-brace-newline-before": null,
+      "no-eol-whitespace": null,
+      "selector-pseudo-element-colon-notation": null
   }
 }
