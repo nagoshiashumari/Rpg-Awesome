@@ -1,7 +1,4 @@
-// Manually run the following:
-// gem install sass
-// gem update --system
-// gem install scss-lint
+const sass = require('sass');
 
 module.exports = function (grunt) {
   'use strict';
@@ -14,20 +11,28 @@ module.exports = function (grunt) {
         '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
         '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
         ' Licensed <%= props.license %> */\n',
-    // SCSS Lint
+    // Stylelint
     // =========
-    scsslint: {
-      allFiles: [
+    stylelint: {
+      src: [
           'scss/*.scss'
       ],
       options: {
-        config: 'scss/.scss-lint.yml'
+        configFile: 'css/.stylelintrc.json',
+        formatter: 'string',
+        ignoreDisables: false,
+        failOnError: true,
+        outputFile: '',
+        reportNeedlessDisables: false,
+        fix: false,
+        syntax: ''
      }
     },
     // SASS Compile
     // ============
     sass: {
       options: {
+        implementation: sass,
         style: 'expanded',
         sourcemap: 'auto'
       },
@@ -49,12 +54,12 @@ module.exports = function (grunt) {
   });
 
   // These plugins provide necessary tasks
-  grunt.loadNpmTasks('grunt-scss-lint');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-stylelint');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('default', [
-      'scsslint',
+      'stylelint',
       'sass',
       'cssmin'
   ]);
